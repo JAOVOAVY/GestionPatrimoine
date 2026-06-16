@@ -7,7 +7,6 @@ import csv
 st.set_page_config(page_title="Gestion de Patrimoine", layout="wide")
 
 # --- GESTION DYNAMIQUE DES CHEMINS (LOCAL ET WEB) ---
-# os.getcwd() s'adapte automatiquement (dossier local ou serveurs de Streamlit Cloud)
 base_dir = os.getcwd()
 current_file_path = os.path.join(base_dir, "patrimoine.csv")
 image_dir = os.path.join(base_dir, "image")
@@ -23,45 +22,45 @@ cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", 
 # --- FONCTION POUR NETTOYER LES CHEMINS D'IMAGES ---
 def corriger_chemin_image(chemin_csv):
     """
-    Transforme les anciens chemins absolus Windows (ex: /mnt/c/.../image/photo.png)
-    en chemins relatifs épurés (ex: image/photo.png) pour l'affichage web.
+    Nettoie et standardise le chemin pour l'affichage Streamlit.
+    Supprime les résidus de chemins absolus Windows si présents.
     """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
+    # Si le chemin contient déjà 'image/', on extrait juste la partie propre
     if "image/" in chemin_csv:
         nom_image = chemin_csv.split("image/")[-1]
-        return os.path.join("image", nom_image)
+        return f"image/{nom_image}"
     
-    return os.path.join("image", os.path.basename(chemin_csv))
+    # Sinon, on prend juste le nom du fichier et on ajoute le préfixe
+    return f"image/{os.path.basename(chemin_csv)}"
 
 # --- CHARGEMENT ET NETTOYAGE SÉCURISÉ DES DONNÉES ---
 @st.cache_data
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # 1. Lecture avec l'encodage 'latin-1' pour gérer le symbole '°' et les accents
+            # Lecture avec l'encodage 'latin-1' pour gérer le symbole '°' et les accents
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1")
             
-            # 2. Nettoyage des colonnes fantômes générées par Excel (ex: Unnamed: 9)
+            # Nettoyage des colonnes fantômes générées par Excel (ex: Unnamed: 9)
             df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
             
-            # 3. Nettoyage des espaces cachés au début/fin des en-têtes (ex: "Type " devient "Type")
+            # Nettoyage des espaces cachés au début/fin des en-têtes
             df.columns = df.columns.str.strip()
             
-            # 4. SÉCURITÉ ANTI-KEYERROR : Si une colonne manque à l'appel, on la crée vide
+            # Sécurité anti-KeyError
             for col in cols:
                 if col not in df.columns:
                     df[col] = ""
             
-            # 5. On force le DataFrame à n'avoir et à n'afficher que les colonnes définies dans 'cols'
             df = df[cols]
             return df
         except Exception as e:
             st.error(f"Erreur lors de la lecture du fichier CSV : {e}")
             return pd.DataFrame(columns=cols)
     else:
-        # Si le fichier patrimoine.csv est absent, on initialise une structure propre
         return pd.DataFrame(columns=cols)
 
 # Initialisation des variables de session Streamlit
@@ -74,7 +73,6 @@ if "selected_index" not in st.session_state:
 # --- FONCTION DE SAUVEGARDE EN LATIN-1 ---
 def sauvegarder():
     try:
-        # Sauvegarde au format 'latin-1' pour rester compatible avec Excel en français
         st.session_state.data_df.to_csv(current_file_path, sep=";", index=False, encoding="latin-1")
         st.success("💾 Modifications enregistrées avec succès dans `patrimoine.csv` !")
     except Exception as e:
@@ -126,7 +124,6 @@ if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
     index_global = df_affiche.index[index_affiche]
     st.session_state.selected_index = index_global
     
-    # Injection sécurisée des données dans le formulaire
     for col in cols:
         st.session_state[f"input_{col}"] = st.session_state.data_df.at[index_global, col]
 else:
@@ -161,7 +158,7 @@ with col_form:
 
     # Zone de gestion de l'image
     chemin_image_actuel = str(st.session_state.get("input_Image", ""))
-    form_data["Image"] = st.text_input("Chemin de l'image (ex: image/moniteur.png) :", value=chemin_image_actuel)
+    form_data["Image"] = st.text_input("Chemin de l'image (ex: image/moniteur.jpeg) :", value=chemin_image_actuel)
     
     uploaded_file = st.file_uploader("🖼️ Remplacer l'image en téléchargeant un fichier :", type=["png", "jpg", "jpeg"])
     if uploaded_file is not None:
@@ -176,13 +173,16 @@ with col_img_preview:
     if st.session_state.selected_index is not None:
         img_path_brut = st.session_state.data_df.at[st.session_state.selected_index, "Image"]
         img_path_relatif = corriger_chemin_image(img_path_brut)
-        img_path_absolu = os.path.join(base_dir, img_path_relatif) if img_path_relatif else ""
         
-        if img_path_absolu and os.path.exists(img_path_absolu):
-            st.image(img_path_absolu, caption=f"Matricule : {form_data['N° Matricule (Etiquetage)']}", use_container_width=True)
+        if img_path_relatif:
+            # On tente directement d'afficher l'image via son chemin relatif (plus robuste sur le cloud)
+            try:
+                st.image(img_path_relatif, caption=f"Matricule : {form_data['N° Matricule (Etiquetage)']}", use_container_width=True)
+            except Exception as e:
+                st.error(f"Impossible de charger l'image : {img_path_relatif}")
+                st.info("Vérifiez que le fichier existe bien sur GitHub et que son extension (.jpeg/.png) est identique.")
         else:
-            st.warning("⚠️ Aucune image trouvée ou chemin invalide.")
-            st.info(f"Chemin recherché sur le serveur : `{img_path_relatif if img_path_relatif else 'Aucun'}`")
+            st.warning("⚠️ Aucun chemin d'image renseigné pour cet actif.")
     else:
         st.info("💡 Sélectionnez une ligne dans le tableau pour afficher sa photo.")
 
