@@ -37,18 +37,17 @@ def normaliser_nom(texte):
         texte_nettoye = texte_nettoye.replace(corrompu, correct)
         
     texte_nettoye = unicodedata.normalize('NFD', texte_nettoye).encode('ascii', 'ignore').decode('utf-8')
-    # On nettoie les espaces, tirets et on simplifie le double 'm' pour lier commode et comede
     return texte_nettoye.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i").replace("mm", "m")
 
 def calculer_similarite(s1, s2):
-    """ Calcule un score de proximité simple entre deux chaînes de caractères """
+    """ Calcule un score de proximité simple entre deux chaînes """
     set1, set2 = set(s1), set(s2)
     intersection = set1.intersection(set2)
     union = set1.union(set2)
     return len(intersection) / len(union) if union else 0
 
 def corriger_chemin_image(chemin_csv):
-    """ Trouve l'image physique sur GitHub même s'il y a des fautes d'orthographe (ex: comede vs commode) """
+    """ Trouve l'image physique sur GitHub même s'il y a des fautes d'orthographe """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
@@ -59,19 +58,15 @@ def corriger_chemin_image(chemin_csv):
     if os.path.exists(image_dir):
         fichiers_reels = os.listdir(image_dir)
         
-        # 1. Correspondance tolérante sur le nom normalisé (gère mm -> m)
         for fichier in fichiers_reels:
             if normaliser_nom(os.path.splitext(fichier)[0]) == nom_recherche_normalise:
                 return f"image/{fichier}"
         
-        # 2. Correspondance par similarité de caractères (fautes de frappes importantes)
         meilleur_score = 0
         meilleur_fichier = None
         for fichier in fichiers_reels:
             fichier_sans_ext_norm = normaliser_nom(os.path.splitext(fichier)[0])
             score = calculer_similarite(nom_recherche_normalise, fichier_sans_ext_norm)
-            
-            # Si les deux noms partagent plus de 70% de lettres communes, on accepte
             if score > meilleur_score and score > 0.70:
                 meilleur_score = score
                 meilleur_fichier = fichier
@@ -139,19 +134,46 @@ with col_titre:
 
 st.markdown("---")
 
-st.header("🔍 Consultation du Répertoire")
-recherche = st.text_input("🔍 Filtrer par mot-clé (Matricule, Désignation, Localisation...) :")
+st.header("🔍 Consultation & Filtres")
 
+# --- AJOUT DES FILTRES MULTI-COLONNES (Type et Localisation) ---
+col_search, col_type, col_loc = st.columns([0.5, 0.25, 0.25])
+
+with col_search:
+    recherche = st.text_input("🔍 Recherche par mot-clé (Désignation, Matricule...) :", value="")
+
+with col_type:
+    # Récupération dynamique des options uniques pour 'Type'
+    liste_types = ["Tous"] + sorted([t for t in st.session_state.data_df["Type"].unique() if t.strip() != ""])
+    filtre_type = st.selectbox("📁 Filtrer par Type :", options=liste_types)
+
+with col_loc:
+    # Récupération dynamique des options uniques pour 'Localisation'
+    liste_locs = ["Tous"] + sorted([l for l in st.session_state.data_df["Localisation"].unique() if l.strip() != ""])
+    filtre_localisation = st.selectbox("📍 Filtrer par Localisation :", options=liste_locs)
+
+# Application des filtres sur la copie du DataFrame
 df_affiche = st.session_state.data_df.copy()
-if recherche:
-    masque = (
-        df_affiche["Désignation"].str.contains(recherche, case=False, na=False) |
-        df_affiche["Localisation"].str.contains(recherche, case=False, na=False) |
-        df_affiche["Détenteur"].str.contains(recherche, case=False, na=False) |
-        df_affiche["N° Matricule (Etiquetage)"].str.contains(recherche, case=False, na=False)
-    )
-    df_affiche = df_affiche[masque]
 
+# 1. Filtre par défaut (Mot-clé)
+if recherche:
+    masque_recherche = (
+        df_affiche["Désignation"].str.contains(recherche, case=False, na=False) |
+        df_affiche["Détenteur"].str.contains(recherche, case=False, na=False) |
+        df_affiche["N° Matricule (Etiquetage)"].str.contains(recherche, case=False, na=False) |
+        df_affiche["Identification"].str.contains(recherche, case=False, na=False)
+    )
+    df_affiche = df_affiche[masque_recherche]
+
+# 2. Application du filtre 'Type'
+if filtre_type != "Tous":
+    df_affiche = df_affiche[df_affiche["Type"] == filtre_type]
+
+# 3. Application du filtre 'Localisation'
+if filtre_localisation != "Tous":
+    df_affiche = df_affiche[df_affiche["Localisation"] == filtre_localisation]
+
+# Affichage du tableau filtré
 event = st.dataframe(df_affiche, use_container_width=True, hide_index=False, on_select="rerun", selection_mode="single-row")
 
 if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
