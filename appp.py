@@ -136,20 +136,22 @@ st.markdown("---")
 
 st.header("🔍 Consultation & Filtres")
 
-# --- AJOUT DES FILTRES MULTI-COLONNES (Type et Localisation) ---
+# --- ESPACE FILTRES ---
 col_search, col_type, col_loc = st.columns([0.5, 0.25, 0.25])
 
 with col_search:
     recherche = st.text_input("🔍 Recherche par mot-clé (Désignation, Matricule...) :", value="")
 
 with col_type:
-    # Récupération dynamique des options uniques pour 'Type'
-    liste_types = ["Tous"] + sorted([t for t in st.session_state.data_df["Type"].unique() if t.strip() != ""])
+    # CORRECTION ICI : Conversion forcée str(t) pour éviter le bug AttributeError
+    options_type = [str(t).strip() for t in st.session_state.data_df["Type"].unique() if pd.notna(t) and str(t).strip() != ""]
+    liste_types = ["Tous"] + sorted(list(set(options_type)))
     filtre_type = st.selectbox("📁 Filtrer par Type :", options=liste_types)
 
 with col_loc:
-    # Récupération dynamique des options uniques pour 'Localisation'
-    liste_locs = ["Tous"] + sorted([l for l in st.session_state.data_df["Localisation"].unique() if l.strip() != ""])
+    # CORRECTION ICI : Conversion forcée str(l) pour éviter le bug AttributeError
+    options_loc = [str(l).strip() for l in st.session_state.data_df["Localisation"].unique() if pd.notna(l) and str(l).strip() != ""]
+    liste_locs = ["Tous"] + sorted(list(set(options_loc)))
     filtre_localisation = st.selectbox("📍 Filtrer par Localisation :", options=liste_locs)
 
 # Application des filtres sur la copie du DataFrame
