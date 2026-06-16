@@ -19,7 +19,7 @@ if not os.path.exists(image_dir):
 # Liste exacte et ordonnée des colonnes requises par l'application
 cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
 
-# --- FONCTION POUR NETTOYER LES CHEMINS D'IMAGES ---
+# --- FONCTION DE CORRECTION ET DE CONVERSION DES IMAGES ---
 def corriger_chemin_image(chemin_csv):
     """
     Nettoie le chemin du CSV et force l'extension en .jpg 
@@ -28,16 +28,15 @@ def corriger_chemin_image(chemin_csv):
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
-    # 1. On extrait le nom du fichier brut sans le dossier
+    # Extraction du nom brut du fichier (ex: balance de precision TZ.jpeg -> balance de precision TZ.jpeg)
     nom_fichier = os.path.basename(chemin_csv)
     
-    # 2. Sécurité : Si le CSV pointe vers du .jpeg ou .png, on le transforme en .jpg
+    # Remplacement de l'extension pour correspondre aux fichiers .jpg réels du dossier image
     if nom_fichier.lower().endswith(".jpeg"):
         nom_fichier = nom_fichier[:-5] + ".jpg"
     elif nom_fichier.lower().endswith(".png"):
         nom_fichier = nom_fichier[:-4] + ".jpg"
         
-    # 3. On renvoie le chemin propre pour Streamlit
     return f"image/{nom_fichier}"
 
 # --- CHARGEMENT ET NETTOYAGE SÉCURISÉ DES DONNÉES ---
@@ -45,13 +44,13 @@ def corriger_chemin_image(chemin_csv):
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # Lecture avec l'encodage 'latin-1' pour gérer le symbole '°' et les accents
+            # Lecture du fichier CSV avec l'encodage 'latin-1'
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1")
             
-            # Nettoyage des colonnes fantômes générées par Excel (ex: Unnamed: 9)
+            # Nettoyage des colonnes fantômes générées par Excel
             df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
             
-            # Nettoyage des espaces cachés au début/fin des en-têtes
+            # Nettoyage des espaces cachés dans les en-têtes
             df.columns = df.columns.str.strip()
             
             # Sécurité anti-KeyError
@@ -74,7 +73,7 @@ if "data_df" not in st.session_state:
 if "selected_index" not in st.session_state:
     st.session_state.selected_index = None
 
-# --- FONCTION DE SAUVEGARDE EN LATIN-1 ---
+# --- FONCTION DE SAUVEGARDE ---
 def sauvegarder():
     try:
         st.session_state.data_df.to_csv(current_file_path, sep=";", index=False, encoding="latin-1")
@@ -175,20 +174,21 @@ with col_form:
 with col_img_preview:
     st.write("### 🖼️ Aperçu Visuel")
     if st.session_state.selected_index is not None:
+        # On récupère le chemin brut du CSV
         img_path_brut = st.session_state.data_df.at[st.session_state.selected_index, "Image"]
+        # On applique la transformation intelligente (.jpeg -> .jpg)
         img_path_relatif = corriger_chemin_image(img_path_brut)
         
         if img_path_relatif:
-            # On tente directement d'afficher l'image via son chemin relatif (plus robuste sur le cloud)
             try:
                 st.image(img_path_relatif, caption=f"Matricule : {form_data['N° Matricule (Etiquetage)']}", use_container_width=True)
             except Exception as e:
-                st.error(f"Impossible de charger l'image : {img_path_relatif}")
-                st.info("Vérifiez que le fichier existe bien sur GitHub et que son extension (.jpeg/.png) est identique.")
+                st.error("⚠️ Image introuvable ou extension incorrecte.")
+                st.info(f"Fichier recherché sur GitHub : `{img_path_relatif}`")
         else:
             st.warning("⚠️ Aucun chemin d'image renseigné pour cet actif.")
     else:
-        st.info("💡 Sélectionnez une ligne dans le tableau pour afficher sa photo.")
+        st.info("💡 Sélectionnez une ligne dans le tableau pour afficher sa photo et ses informations.")
 
 # --- BARRE DE BOUTONS D'ACTION ---
 st.markdown("### Actions disponibles")
