@@ -18,16 +18,12 @@ if not os.path.exists(image_dir):
 # Liste stricte des colonnes requises dans l'application
 cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
 
-# --- FONCTION DE RECHERCHE D'IMAGES ET NETTOYAGE D'ACCENTS ---
+# --- FONCTION DE NORMALISATION ET RECHERCHE FLOUE AVANCÉE ---
 def normaliser_nom(texte):
-    """ 
-    Enlève les accents, les majuscules, les espaces et corrige de force 
-    les corruptions d'encodage courantes d'Excel (ex: mÃ©ta -> meta).
-    """
+    """ Enlève les accents, majuscules, espaces, doubles lettres et gère les i/y """
     if not isinstance(texte, str):
         return ""
     
-    # Correction manuelle des bugs d'encodage UTF-8 / Latin-1 fréquents
     corrections = {
         "Ã©": "e", "Ã¨": "e", "Ãª": "e", "Ã«": "e", "é": "e", "è": "e", "ê": "e", "ë": "e",
         "Ã ": "a", "Ã¢": "a", "à": "a", "â": "a",
@@ -40,12 +36,19 @@ def normaliser_nom(texte):
     for corrompu, correct in corrections.items():
         texte_nettoye = texte_nettoye.replace(corrompu, correct)
         
-    # Suppression des accents restants, des espaces et des i/y
     texte_nettoye = unicodedata.normalize('NFD', texte_nettoye).encode('ascii', 'ignore').decode('utf-8')
-    return texte_nettoye.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
+    # On nettoie les espaces, tirets et on simplifie le double 'm' pour lier commode et comede
+    return texte_nettoye.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i").replace("mm", "m")
+
+def calculer_similarite(s1, s2):
+    """ Calcule un score de proximité simple entre deux chaînes de caractères """
+    set1, set2 = set(s1), set(s2)
+    intersection = set1.intersection(set2)
+    union = set1.union(set2)
+    return len(intersection) / len(union) if union else 0
 
 def corriger_chemin_image(chemin_csv):
-    """ Trouve l'image physique dans le dossier même si le nom a des accents corrompus """
+    """ Trouve l'image physique sur GitHub même s'il y a des fautes d'orthographe (ex: comede vs commode) """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
@@ -55,15 +58,26 @@ def corriger_chemin_image(chemin_csv):
     
     if os.path.exists(image_dir):
         fichiers_reels = os.listdir(image_dir)
-        # 1. Correspondance tolérante sur le nom normalisé
+        
+        # 1. Correspondance tolérante sur le nom normalisé (gère mm -> m)
         for fichier in fichiers_reels:
             if normaliser_nom(os.path.splitext(fichier)[0]) == nom_recherche_normalise:
                 return f"image/{fichier}"
-        # 2. Recherche floue (si l'un contient l'autre)
+        
+        # 2. Correspondance par similarité de caractères (fautes de frappes importantes)
+        meilleur_score = 0
+        meilleur_fichier = None
         for fichier in fichiers_reels:
             fichier_sans_ext_norm = normaliser_nom(os.path.splitext(fichier)[0])
-            if nom_recherche_normalise in fichier_sans_ext_norm or fichier_sans_ext_norm in nom_recherche_normalise:
-                return f"image/{fichier}"
+            score = calculer_similarite(nom_recherche_normalise, fichier_sans_ext_norm)
+            
+            # Si les deux noms partagent plus de 70% de lettres communes, on accepte
+            if score > meilleur_score and score > 0.70:
+                meilleur_score = score
+                meilleur_fichier = fichier
+                
+        if meilleur_fichier:
+            return f"image/{meilleur_fichier}"
 
     if nom_recherche.lower().endswith(".jpeg"):
         nom_recherche = nom_recherche[:-5] + ".jpg"
