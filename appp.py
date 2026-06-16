@@ -23,7 +23,6 @@ def normaliser_nom(texte):
     """ Enlève les accents, majuscules, espaces et gère les i/y """
     if not isinstance(texte, str):
         return ""
-    # CORRECTION : Utilisation directe sans le paramètre 'text='
     texte = unicodedata.normalize('NFD', texte).encode('ascii', 'ignore').decode('utf-8')
     return texte.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
 
@@ -50,37 +49,44 @@ def corriger_chemin_image(chemin_csv):
         nom_recherche = nom_recherche[:-5] + ".jpg"
     return f"image/{nom_recherche}"
 
-# --- CHARGEMENT ET NETTOYAGE CHIRURGICAL DU CSV ---
+# --- CHARGEMENT ET RECONSTRUCTION STRICTE DU TABLEAU ---
 @st.cache_data
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # Lecture brute du CSV avec séparateur point-virgule
+            # Lecture du CSV avec séparateur point-virgule
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1", on_bad_lines='skip')
             
-            # NETTOYAGE 1 : Nettoyer les en-têtes corrompus par Excel (ex: "Image,," -> "Image")
-            df.columns = df.columns.astype(str).str.strip().str.rstrip(',')
+            # Si le CSV est lu mais vide ou mal structuré, on force la réorganisation
+            if df.shape[1] >= len(cols):
+                # On réassigne de force les en-têtes propres sur les 9 premières colonnes lues
+                nouvelles_colonnes = list(df.columns)
+                for i in range(len(cols)):
+                    nouvelles_colonnes[i] = cols[i]
+                df.columns = nouvelles_colonnes
+            else:
+                # Si le fichier manque de colonnes, on applique la sécurité classique
+                df.columns = df.columns.astype(str).str.strip().str.rstrip(',')
+                df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+                for col in cols:
+                    if col not in df.columns:
+                        df[col] = ""
             
-            # Éliminer les colonnes fantômes sans nom
-            df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
-            
-            # NETTOYAGE 2 : Nettoyer chaque case des virgules de fin de ligne
-            for col in df.columns:
-                df[col] = df[col].astype(str).str.strip().str.rstrip(',')
-                df[col] = df[col].replace("nan", "").replace("None", "")
-            
-            # NETTOYAGE 3 : S'assurer que toutes les colonnes requises existent obligatoirement
+            # Nettoyage complet de chaque cellule
             for col in cols:
-                if col not in df.columns:
+                if col in df.columns:
+                    df[col] = df[col].astype(str).str.strip().str.rstrip(',')
+                    df[col] = df[col].replace("nan", "").replace("None", "")
+                else:
                     df[col] = ""
             
             return df[cols]
         except Exception as e:
-            st.error(f"Erreur lors de l'analyse du fichier CSV : {e}")
+            st.error(f"Erreur lors de la reconstruction du tableau : {e}")
             return pd.DataFrame(columns=cols)
     return pd.DataFrame(columns=cols)
 
-# Initialisation des sessions Streamlit
+# Initialisation des variables globales de session Streamlit
 if "data_df" not in st.session_state:
     st.session_state.data_df = charger_donnees()
 
@@ -90,7 +96,7 @@ if "selected_index" not in st.session_state:
 def sauvegarder():
     try:
         st.session_state.data_df.to_csv(current_file_path, sep=";", index=False, encoding="latin-1")
-        st.success("💾 Modifications sauvegardées !")
+        st.success("💾 Modifications sauvegardées avec succès !")
     except Exception as e:
         st.error(f"Erreur de sauvegarde : {e}")
 
@@ -118,23 +124,27 @@ if recherche:
     )
     df_affiche = df_affiche[masque]
 
-# Affichage du tableau propre
+# Affichage du tableau principal
 event = st.dataframe(df_affiche, use_container_width=True, hide_index=False, on_select="rerun", selection_mode="single-row")
 
+# --- TRANSFERT ULTRA-SÉCURISÉ DES DONNÉES DU TABLEAU VERS LE FORMULAIRE ---
 if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
     index_affiche = event.selection["rows"][0]
     st.session_state.selected_index = df_affiche.index[index_affiche]
+    
+    # Sécurité absolue : on écrit directement les valeurs dans le session_state
     for col in cols:
-        st.session_state[f"input_{col}"] = st.session_state.data_df.at[st.session_state.selected_index, col]
+        valeur_cellule = str(st.session_state.data_df.at[st.session_state.selected_index, col])
+        st.session_state[f"input_{col}"] = valeur_cellule
 else:
     if st.session_state.selected_index is not None:
         st.session_state.selected_index = None
         for col in cols:
-            if f"input_{col}" in st.session_state: st.session_state[f"input_{col}"] = ""
+            st.session_state[f"input_{col}"] = ""
 
 st.markdown("---")
 
-# --- FORMULAIRE ET APERÇU PHOTO ---
+# --- FORMULAIRE D'ÉDITION ET APERÇU PHOTO ---
 st.header("📝 Fiche de Détail")
 col_form, col_img_preview = st.columns([0.6, 0.4])
 
@@ -142,11 +152,12 @@ with col_form:
     form_data = {}
     for col in cols:
         if col != "Image":
+            # Récupération forcée de l'état
             valeur_defaut = str(st.session_state.get(f"input_{col}", ""))
-            form_data[col] = st.text_input(f"{col} :", value=valeur_defaut)
+            form_data[col] = st.text_input(f"{col} :", value=valeur_defaut, key=f"widget_{col}")
     
     chemin_image_actuel = str(st.session_state.get("input_Image", ""))
-    form_data["Image"] = st.text_input("Chemin de l'image (CSV) :", value=chemin_image_actuel)
+    form_data["Image"] = st.text_input("Chemin de l'image (CSV) :", value=chemin_image_actuel, key="widget_Image")
     
     uploaded_file = st.file_uploader("🖼️ Remplacer la photo :", type=["png", "jpg", "jpeg"])
     if uploaded_file is not None:
