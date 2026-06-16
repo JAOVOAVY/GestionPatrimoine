@@ -21,22 +21,32 @@ cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", 
 # --- FONCTION DE CORRECTION DES EXTENSIONS D'IMAGES ---
 def corriger_chemin_image(chemin_csv):
     """
-    Transforme dynamiquement l'extension .jpeg du CSV en .jpg
-    pour correspondre aux fichiers réels stockés sur GitHub.
+    Scanne le dossier 'image' pour trouver le fichier réel correspondant,
+    en ignorant totalement les différences de majuscules/minuscules (casse) 
+    et d'extensions (.jpeg/.jpg).
     """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
-    # Récupérer uniquement le nom du fichier (ex: balance de precision TZ.jpeg)
-    nom_fichier = os.path.basename(chemin_csv).strip()
+    # 1. On extrait le nom de base recherché (ex: balance de precision tz)
+    nom_recherche = os.path.basename(chemin_csv).strip()
+    nom_recherche_sans_ext = os.path.splitext(nom_recherche)[0].lower()
     
-    # Remplacement de l'extension pour correspondre aux fichiers .jpg physiques
-    if nom_fichier.lower().endswith(".jpeg"):
-        nom_fichier = nom_fichier[:-5] + ".jpg"
-    elif nom_fichier.lower().endswith(".png"):
-        nom_fichier = nom_fichier[:-4] + ".jpg"
+    # 2. Si le dossier image existe en local/serveur, on liste ses fichiers réels
+    if os.path.exists(image_dir):
+        fichiers_reels = os.listdir(image_dir)
         
-    return f"image/{nom_fichier}"
+        # On cherche une correspondance parfaite sans tenir compte de la casse
+        for fichier in fichiers_reels:
+            fichier_sans_ext = os.path.splitext(fichier)[0].lower()
+            # On vérifie si le nom correspond (ex: "balance de precision tz" == "balance de precision tz")
+            if fichier_sans_ext == nom_recherche_sans_ext:
+                return f"image/{fichier}"
+                
+    # 3. Sécurité de repli si le dossier est inaccessible ou vide
+    if nom_recherche.lower().endswith(".jpeg"):
+        nom_recherche = nom_recherche[:-5] + ".jpg"
+    return f"image/{nom_recherche}"
 
 # --- CHARGEMENT ET NETTOYAGE DES DONNÉES ---
 @st.cache_data
