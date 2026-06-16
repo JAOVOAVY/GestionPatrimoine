@@ -23,7 +23,8 @@ def normaliser_nom(texte):
     """ Enlève les accents, majuscules, espaces et gère les i/y """
     if not isinstance(texte, str):
         return ""
-    texte = unicodedata.normalize('NFD', text=texte).encode('ascii', 'ignore').decode('utf-8')
+    # CORRECTION : Utilisation directe sans le paramètre 'text='
+    texte = unicodedata.normalize('NFD', texte).encode('ascii', 'ignore').decode('utf-8')
     return texte.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
 
 def corriger_chemin_image(chemin_csv):
