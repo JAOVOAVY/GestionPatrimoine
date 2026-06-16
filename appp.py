@@ -45,7 +45,7 @@ def charger_donnees():
     if os.path.exists(current_file_path):
         try:
             # Lecture du fichier CSV avec l'encodage 'latin-1'
-            df = pd.read_csv(current_file_path, sep=";", encoding="latin-1")
+            df = pd.read_csv(current_file_path, sep=",", encoding="latin-1")
             
             # Nettoyage des colonnes fantômes générées par Excel
             df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
