@@ -15,19 +15,19 @@ logo_path = os.path.join(base_dir, "RAMANANDRAIBE EXPORTATION S.A MAROANTSETRA.p
 if not os.path.exists(image_dir):
     os.makedirs(image_dir)
 
-# Liste stricte des colonnes requises
+# Liste stricte des colonnes requises dans l'application
 cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
 
-# --- FONCTION DE RECHERCHE D'IMAGES INTELLIGENTE ---
+# --- FONCTION DE RECHERCHE D'IMAGES FLOUE ---
 def normaliser_nom(texte):
-    """ Enlève les accents, majuscules et espaces pour comparer les noms de fichiers """
+    """ Enlève les accents, majuscules, espaces et gère les i/y """
     if not isinstance(texte, str):
         return ""
-    texte = unicodedata.normalize('NFD', texte).encode('ascii', 'ignore').decode('utf-8')
+    texte = unicodedata.normalize('NFD', text=texte).encode('ascii', 'ignore').decode('utf-8')
     return texte.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
 
 def corriger_chemin_image(chemin_csv):
-    """ Scanne le dossier réel et trouve la photo même s'il y a des fautes (i vs y, majuscules...) """
+    """ Trouve l'image physique dans le dossier même si le nom diffère légèrement """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
@@ -38,8 +38,7 @@ def corriger_chemin_image(chemin_csv):
     if os.path.exists(image_dir):
         fichiers_reels = os.listdir(image_dir)
         for fichier in fichiers_reels:
-            fichier_sans_ext = os.path.splitext(fichier)[0]
-            if normaliser_nom(fichier_sans_ext) == nom_recherche_normalise:
+            if normaliser_nom(os.path.splitext(fichier)[0]) == nom_recherche_normalise:
                 return f"image/{fichier}"
         for fichier in fichiers_reels:
             fichier_sans_ext_norm = normaliser_nom(os.path.splitext(fichier)[0])
@@ -50,37 +49,37 @@ def corriger_chemin_image(chemin_csv):
         nom_recherche = nom_recherche[:-5] + ".jpg"
     return f"image/{nom_recherche}"
 
-# --- CHARGEMENT ET NETTOYAGE STRICT DU CSV ---
+# --- CHARGEMENT ET NETTOYAGE CHIRURGICAL DU CSV ---
 @st.cache_data
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # Lecture brute du fichier avec encodage adapté
+            # Lecture brute du CSV avec séparateur point-virgule
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1", on_bad_lines='skip')
             
-            # 1. Éliminer les colonnes fantômes d'Excel
-            df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
-            df.columns = df.columns.str.strip()
+            # NETTOYAGE 1 : Nettoyer les en-têtes corrompus par Excel (ex: "Image,," -> "Image")
+            df.columns = df.columns.astype(str).str.strip().str.rstrip(',')
             
-            # 2. Nettoyage ligne par ligne de toutes les cases
+            # Éliminer les colonnes fantômes sans nom
+            df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+            
+            # NETTOYAGE 2 : Nettoyer chaque case des virgules de fin de ligne
             for col in df.columns:
-                df[col] = df[col].astype(str).str.strip()
-                # On nettoie les résidus de doubles virgules en fin de ligne
-                df[col] = df[col].str.rstrip(',')
+                df[col] = df[col].astype(str).str.strip().str.rstrip(',')
                 df[col] = df[col].replace("nan", "").replace("None", "")
             
-            # 3. Sécurité d'injection si une colonne manque
+            # NETTOYAGE 3 : S'assurer que toutes les colonnes requises existent obligatoirement
             for col in cols:
                 if col not in df.columns:
                     df[col] = ""
             
             return df[cols]
         except Exception as e:
-            st.error(f"Erreur lors du nettoyage du fichier CSV : {e}")
+            st.error(f"Erreur lors de l'analyse du fichier CSV : {e}")
             return pd.DataFrame(columns=cols)
     return pd.DataFrame(columns=cols)
 
-# Initialisation des états Streamlit
+# Initialisation des sessions Streamlit
 if "data_df" not in st.session_state:
     st.session_state.data_df = charger_donnees()
 
@@ -90,7 +89,7 @@ if "selected_index" not in st.session_state:
 def sauvegarder():
     try:
         st.session_state.data_df.to_csv(current_file_path, sep=";", index=False, encoding="latin-1")
-        st.success("💾 Fichier `patrimoine.csv` mis à jour avec succès !")
+        st.success("💾 Modifications sauvegardées !")
     except Exception as e:
         st.error(f"Erreur de sauvegarde : {e}")
 
@@ -106,7 +105,7 @@ with col_titre:
 st.markdown("---")
 
 st.header("🔍 Consultation du Répertoire")
-recherche = st.text_input("🔍 Filtrer la liste (Saisir un mot clé) :")
+recherche = st.text_input("🔍 Filtrer par mot-clé (Matricule, Désignation, Localisation...) :")
 
 df_affiche = st.session_state.data_df.copy()
 if recherche:
@@ -118,6 +117,7 @@ if recherche:
     )
     df_affiche = df_affiche[masque]
 
+# Affichage du tableau propre
 event = st.dataframe(df_affiche, use_container_width=True, hide_index=False, on_select="rerun", selection_mode="single-row")
 
 if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
@@ -133,7 +133,7 @@ else:
 
 st.markdown("---")
 
-# --- FORMULAIRE ET CONFIGURATION ---
+# --- FORMULAIRE ET APERÇU PHOTO ---
 st.header("📝 Fiche de Détail")
 col_form, col_img_preview = st.columns([0.6, 0.4])
 
@@ -147,7 +147,7 @@ with col_form:
     chemin_image_actuel = str(st.session_state.get("input_Image", ""))
     form_data["Image"] = st.text_input("Chemin de l'image (CSV) :", value=chemin_image_actuel)
     
-    uploaded_file = st.file_uploader("🖼️ Remplacer la photo par un fichier local :", type=["png", "jpg", "jpeg"])
+    uploaded_file = st.file_uploader("🖼️ Remplacer la photo :", type=["png", "jpg", "jpeg"])
     if uploaded_file is not None:
         nouveau_chemin_local = os.path.join(image_dir, uploaded_file.name)
         with open(nouveau_chemin_local, "wb") as f:
@@ -164,11 +164,11 @@ with col_img_preview:
             st.image(img_path_relatif, caption=f"Matricule : {form_data['N° Matricule (Etiquetage)']}", use_container_width=True)
         elif img_path_relatif:
             st.error(f"⚠️ Image manquante sur GitHub.")
-            st.info(f"Nom recherché : `{img_path_relatif}`")
+            st.info(f"Fichier recherché : `{img_path_relatif}`")
         else:
             st.warning("⚠️ Aucun lien de photo associé.")
     else:
-        st.info("💡 Sélectionnez un actif pour charger sa fiche complète.")
+        st.info("💡 Sélectionnez une ligne pour charger sa fiche complète.")
 
 st.markdown("### Actions")
 col_b1, col_b2 = st.columns(2)
@@ -181,7 +181,7 @@ with col_b1:
             sauvegarder()
             st.rerun()
 with col_b2:
-    if st.button("💾 Mettre à jour l'actif sélectionné", use_container_width=True):
+    if st.button("💾 Mettre à jour la sélection", use_container_width=True):
         if st.session_state.selected_index is not None:
             for col in cols:
                 st.session_state.data_df.at[st.session_state.selected_index, col] = form_data[col]
