@@ -22,19 +22,23 @@ cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", 
 # --- FONCTION POUR NETTOYER LES CHEMINS D'IMAGES ---
 def corriger_chemin_image(chemin_csv):
     """
-    Nettoie et standardise le chemin pour l'affichage Streamlit.
-    Supprime les résidus de chemins absolus Windows si présents.
+    Nettoie le chemin du CSV et force l'extension en .jpg 
+    pour correspondre aux fichiers réels du dossier image.
     """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
-    # Si le chemin contient déjà 'image/', on extrait juste la partie propre
-    if "image/" in chemin_csv:
-        nom_image = chemin_csv.split("image/")[-1]
-        return f"image/{nom_image}"
+    # 1. On extrait le nom du fichier brut sans le dossier
+    nom_fichier = os.path.basename(chemin_csv)
     
-    # Sinon, on prend juste le nom du fichier et on ajoute le préfixe
-    return f"image/{os.path.basename(chemin_csv)}"
+    # 2. Sécurité : Si le CSV pointe vers du .jpeg, on le transforme en .jpg
+    if nom_fichier.lower().endswith(".jpeg"):
+        nom_fichier = nom_fichier SilentlyReplace = nom_fichier[:-5] + ".jpg"
+    elif nom_fichier.lower().endswith(".png"):
+        nom_fichier = nom_fichier SilentlyReplace = nom_fichier[:-4] + ".jpg"
+        
+    # 3. On renvoie le chemin propre pour Streamlit
+    return f"image/{nom_fichier}"
 
 # --- CHARGEMENT ET NETTOYAGE SÉCURISÉ DES DONNÉES ---
 @st.cache_data
