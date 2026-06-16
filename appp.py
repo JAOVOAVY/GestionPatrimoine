@@ -18,16 +18,34 @@ if not os.path.exists(image_dir):
 # Liste stricte des colonnes requises dans l'application
 cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
 
-# --- FONCTION DE RECHERCHE D'IMAGES FLOUE ---
+# --- FONCTION DE RECHERCHE D'IMAGES ET NETTOYAGE D'ACCENTS ---
 def normaliser_nom(texte):
-    """ Enlève les accents, majuscules, espaces et gère les i/y """
+    """ 
+    Enlève les accents, les majuscules, les espaces et corrige de force 
+    les corruptions d'encodage courantes d'Excel (ex: mÃ©ta -> meta).
+    """
     if not isinstance(texte, str):
         return ""
-    texte = unicodedata.normalize('NFD', texte).encode('ascii', 'ignore').decode('utf-8')
-    return texte.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
+    
+    # Correction manuelle des bugs d'encodage UTF-8 / Latin-1 fréquents
+    corrections = {
+        "Ã©": "e", "Ã¨": "e", "Ãª": "e", "Ã«": "e", "é": "e", "è": "e", "ê": "e", "ë": "e",
+        "Ã ": "a", "Ã¢": "a", "à": "a", "â": "a",
+        "Ã´": "o", "ô": "o", "ö": "o",
+        "Ã¹": "u", "û": "u", "ù": "u",
+        "Ã§": "c", "ç": "c",
+    }
+    
+    texte_nettoye = texte.lower()
+    for corrompu, correct in corrections.items():
+        texte_nettoye = texte_nettoye.replace(corrompu, correct)
+        
+    # Suppression des accents restants, des espaces et des i/y
+    texte_nettoye = unicodedata.normalize('NFD', texte_nettoye).encode('ascii', 'ignore').decode('utf-8')
+    return texte_nettoye.lower().replace(" ", "").replace("_", "").replace("-", "").replace("y", "i")
 
 def corriger_chemin_image(chemin_csv):
-    """ Trouve l'image physique dans le dossier même si le nom diffère légèrement """
+    """ Trouve l'image physique dans le dossier même si le nom a des accents corrompus """
     if pd.isna(chemin_csv) or not isinstance(chemin_csv, str) or chemin_csv.strip() == "":
         return ""
     
@@ -37,9 +55,11 @@ def corriger_chemin_image(chemin_csv):
     
     if os.path.exists(image_dir):
         fichiers_reels = os.listdir(image_dir)
+        # 1. Correspondance tolérante sur le nom normalisé
         for fichier in fichiers_reels:
             if normaliser_nom(os.path.splitext(fichier)[0]) == nom_recherche_normalise:
                 return f"image/{fichier}"
+        # 2. Recherche floue (si l'un contient l'autre)
         for fichier in fichiers_reels:
             fichier_sans_ext_norm = normaliser_nom(os.path.splitext(fichier)[0])
             if nom_recherche_normalise in fichier_sans_ext_norm or fichier_sans_ext_norm in nom_recherche_normalise:
@@ -54,25 +74,20 @@ def corriger_chemin_image(chemin_csv):
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # Lecture du CSV avec séparateur point-virgule
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1", on_bad_lines='skip')
             
-            # Si le CSV est lu mais vide ou mal structuré, on force la réorganisation
             if df.shape[1] >= len(cols):
-                # On réassigne de force les en-têtes propres sur les 9 premières colonnes lues
                 nouvelles_colonnes = list(df.columns)
                 for i in range(len(cols)):
                     nouvelles_colonnes[i] = cols[i]
                 df.columns = nouvelles_colonnes
             else:
-                # Si le fichier manque de colonnes, on applique la sécurité classique
                 df.columns = df.columns.astype(str).str.strip().str.rstrip(',')
                 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
                 for col in cols:
                     if col not in df.columns:
                         df[col] = ""
             
-            # Nettoyage complet de chaque cellule
             for col in cols:
                 if col in df.columns:
                     df[col] = df[col].astype(str).str.strip().str.rstrip(',')
@@ -86,7 +101,6 @@ def charger_donnees():
             return pd.DataFrame(columns=cols)
     return pd.DataFrame(columns=cols)
 
-# Initialisation des variables globales de session Streamlit
 if "data_df" not in st.session_state:
     st.session_state.data_df = charger_donnees()
 
@@ -124,15 +138,12 @@ if recherche:
     )
     df_affiche = df_affiche[masque]
 
-# Affichage du tableau principal
 event = st.dataframe(df_affiche, use_container_width=True, hide_index=False, on_select="rerun", selection_mode="single-row")
 
-# --- TRANSFERT ULTRA-SÉCURISÉ DES DONNÉES DU TABLEAU VERS LE FORMULAIRE ---
 if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
     index_affiche = event.selection["rows"][0]
     st.session_state.selected_index = df_affiche.index[index_affiche]
     
-    # Sécurité absolue : on écrit directement les valeurs dans le session_state
     for col in cols:
         valeur_cellule = str(st.session_state.data_df.at[st.session_state.selected_index, col])
         st.session_state[f"input_{col}"] = valeur_cellule
@@ -152,7 +163,6 @@ with col_form:
     form_data = {}
     for col in cols:
         if col != "Image":
-            # Récupération forcée de l'état
             valeur_defaut = str(st.session_state.get(f"input_{col}", ""))
             form_data[col] = st.text_input(f"{col} :", value=valeur_defaut, key=f"widget_{col}")
     
