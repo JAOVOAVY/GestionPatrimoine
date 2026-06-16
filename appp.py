@@ -31,11 +31,11 @@ def corriger_chemin_image(chemin_csv):
     # 1. On extrait le nom du fichier brut sans le dossier
     nom_fichier = os.path.basename(chemin_csv)
     
-    # 2. Sécurité : Si le CSV pointe vers du .jpeg, on le transforme en .jpg
+    # 2. Sécurité : Si le CSV pointe vers du .jpeg ou .png, on le transforme en .jpg
     if nom_fichier.lower().endswith(".jpeg"):
-        nom_fichier = nom_fichier SilentlyReplace = nom_fichier[:-5] + ".jpg"
+        nom_fichier = nom_fichier[:-5] + ".jpg"
     elif nom_fichier.lower().endswith(".png"):
-        nom_fichier = nom_fichier SilentlyReplace = nom_fichier[:-4] + ".jpg"
+        nom_fichier = nom_fichier[:-4] + ".jpg"
         
     # 3. On renvoie le chemin propre pour Streamlit
     return f"image/{nom_fichier}"
