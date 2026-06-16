@@ -17,7 +17,10 @@ logo_path = os.path.join(base_dir, "RAMANANDRAIBE EXPORTATION S.A MAROANTSETRA.p
 if not os.path.exists(image_dir):
     os.makedirs(image_dir)
 
-# --- FONCTION POUR NETTOYER LES CHEMINS D'IMAGES DU CSV ---
+# Liste exacte et ordonnée des colonnes requises par l'application
+cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
+
+# --- FONCTION POUR NETTOYER LES CHEMINS D'IMAGES ---
 def corriger_chemin_image(chemin_csv):
     """
     Transforme les anciens chemins absolus Windows (ex: /mnt/c/.../image/photo.png)
@@ -32,25 +35,34 @@ def corriger_chemin_image(chemin_csv):
     
     return os.path.join("image", os.path.basename(chemin_csv))
 
-# --- CHARGEMENT DES DONNÉES AVEC CORRECTION D'ENCODAGE ---
+# --- CHARGEMENT ET NETTOYAGE SÉCURISÉ DES DONNÉES ---
 @st.cache_data
 def charger_donnees():
     if os.path.exists(current_file_path):
         try:
-            # Utilisation de 'latin-1' pour corriger l'erreur d'encodage du symbole '°'
+            # 1. Lecture avec l'encodage 'latin-1' pour gérer le symbole '°' et les accents
             df = pd.read_csv(current_file_path, sep=";", encoding="latin-1")
-            # Suppression des colonnes vides ou fantômes importées par erreur
+            
+            # 2. Nettoyage des colonnes fantômes générées par Excel (ex: Unnamed: 9)
             df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+            
+            # 3. Nettoyage des espaces cachés au début/fin des en-têtes (ex: "Type " devient "Type")
+            df.columns = df.columns.str.strip()
+            
+            # 4. SÉCURITÉ ANTI-KEYERROR : Si une colonne manque à l'appel, on la crée vide
+            for col in cols:
+                if col not in df.columns:
+                    df[col] = ""
+            
+            # 5. On force le DataFrame à n'avoir et à n'afficher que les colonnes définies dans 'cols'
+            df = df[cols]
             return df
         except Exception as e:
             st.error(f"Erreur lors de la lecture du fichier CSV : {e}")
             return pd.DataFrame(columns=cols)
     else:
-        # Si le fichier n'existe pas sur le serveur, on crée une structure vide
+        # Si le fichier patrimoine.csv est absent, on initialise une structure propre
         return pd.DataFrame(columns=cols)
-
-# Liste exacte des colonnes de votre fichier patrimoine.csv
-cols = ["N° Matricule (Etiquetage)", "Type", "Désignation", "Identification", "Nombre", "Localisation", "Détenteur", "Observations", "Image"]
 
 # Initialisation des variables de session Streamlit
 if "data_df" not in st.session_state:
@@ -62,7 +74,7 @@ if "selected_index" not in st.session_state:
 # --- FONCTION DE SAUVEGARDE EN LATIN-1 ---
 def sauvegarder():
     try:
-        # Sauvegarde au format 'latin-1' pour préserver la compatibilité des caractères
+        # Sauvegarde au format 'latin-1' pour rester compatible avec Excel en français
         st.session_state.data_df.to_csv(current_file_path, sep=";", index=False, encoding="latin-1")
         st.success("💾 Modifications enregistrées avec succès dans `patrimoine.csv` !")
     except Exception as e:
@@ -114,7 +126,7 @@ if event and "rows" in event.selection and len(event.selection["rows"]) > 0:
     index_global = df_affiche.index[index_affiche]
     st.session_state.selected_index = index_global
     
-    # Injection des données de la ligne sélectionnée dans les champs du formulaire
+    # Injection sécurisée des données dans le formulaire
     for col in cols:
         st.session_state[f"input_{col}"] = st.session_state.data_df.at[index_global, col]
 else:
