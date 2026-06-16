@@ -1,693 +1,693 @@
-N° Matricule (Etiquetage);Type;Désignation;Identification;Nombre;Localisation;Détenteur;Observations;Image,,
-MO/001;MO;Balance de précision;Blanc;1;Magasin 4;Grande salle;;image/balance de precision TZ.jpeg,,
-MO/003;MO;Extincteur;Rouge;1;Grande Salle;RE WMN;;image/extincteur 6Kg.jpeg,,
-MO/006;MO;Filtre à eau;PLASTIQUE;5;Magasin 1;RE WMN;;image/filtre eau.jpeg,,
-MO/008;MO;Citerne;BLEU;1;RE Site Nord;RE WMN;;image/cyterne site nord.jpeg,,
-MO/010;MO;TASER;Taser;3;Veranda Sud Bureau RE;Sécurité;;image/pistolet electrique.jpeg,,
-FB/011;FB;Bac à dossier ;GRIS;2;Magasin 1;MAGASINIER;;image/bac a ordure mgs.jpeg,,
-MB/015;MB;Commode;palissandre;1;Mada Airlines;Assistan d'Escal;;image/comede TZ.jpeg,,
-MB/197;MB;Ventilateur mural;blanc;1;Bureau RAL;RAL;;image/ventilateur RAL.jpeg,,
-MB/016;MB;Etagère d'archives;Bois ordinaire;2;Bureau RAL;RAL;;image/etagere RAL.jpeg,,
-MB/018;MB;Table de bureau ;palissandre;1;Bureau RAL;RAL;;image/table burau RAL.jpeg,,
-FB/319;FB;Montre murale;Blanc;1;Bureau RAL;RAL;;image/montre murale RAL.jpeg,,
-MI/132;MI;Power bank;PROLINK;1;Bureau RAL;RAL;;image/power bank132.jpeg,,
-MI/133;MI;Power bank;PROLINK;1;Bureau RAL;RAL;;image/power bank133.jpeg,,
-MI/134;MI;Power bank;PROLINK;1;Bureau RAL;RAL;;image/power bank134.jpeg,,
-MI/135;MI;Power bank;PROLINK;1;Bureau RAL;RAL;;image/power bank135.jpeg,,
-MI/177;MI;CLAVIER;;1;bureau assistant;Assistant Produit;;image/clavier asst produit.jpeg,,
-MI/019;MI;UNITE CENTRALE;;1;bureau assistant;Assistant Produit;;image/unité centrale asst produit.jpeg,,
-MB/409;MB;TABLEAU BLANC PM;;1;bureau assistant;HSE;;image/tableau  asst.jpeg,,
-MB/021;MB;Armoire ;métallique;1;Magasin 1;Assistant;;image/armoire méta noire.jpeg,,
-MB/028;MB;Chaise ;palissandre;1;Mada Airlines;Agent trafic;;image/chaise de burau 030.jpeg,,
-MB/030;MB;Chaise;palissandre;1;Grande Salle;Agent de Trafic;;image/chaise de burau 030.jpeg,,
-MB/037;MB;Table de bureau;palissandre;1;bureau assistant; Assistant PRODUIT;;image/tablebureau asst produit.jpeg,,
-MB/002;MB;Malette;noir;1;Grande Salle;Chef escale;;image/malette noire TZ.jpeg,,
-MB/038;MB;Armoire ;palissandre;1;Grande Salle;Chef escale;;image/armoire TZ.jpeg,,
-MI/143;MI;Smart Phone ;ITEL P37;1;Bureau RAL;RAL;;image/tel itel P37.jpeg,,
-MI/053;MI;TELEPHONE;SAMSON;1;Mada Airlines;GIANNI;;,,
-MI/144;MI;Souris;HP;1;Mada Airlines;Assistant d'escale;;image/souris Resp vente TZ.jpeg,,
-MB/039;MB;Table de bureau;palissandre;1;Grande Salle;Chef escale;;image/table bureau chef escale.jpeg,,
-MB/040;MB;Chaise ;palissandre;3;Grande Salle;Chef escale;;image/chaise de bureau040.jpeg,,
-MB/041;MB;Chaise ;palissandre;1;Grande Salle;Chef escale;;image/chaise de bureau041.jpeg,,
-MB/042;MB;Chaise ;palissandre;1;Certification;Responsable BDD;;,,
-FB/320;FB;Montre murale;Blanc;1;Guerrite;Gardiens;;image/montre murale320.jpeg,,
-MB/047;MB;Comptoir;palissandre;1;Grande Salle;Mada Airlines;;image/contoir GS.jpeg,,
-MB/048;MB;Chaise;cuir;8;Grande Salle;Clients;;image/chaise cuir GS.jpeg,,
-MB/052;MB;Chaise en bois ;palissandre;1;Grande Salle;Superviseur Mad Airlines;;image/chaise de bureau052.jpeg,,
-MI/009;MI;Déchiqueteuse;REXEL;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/déchiqueteuse da.jpeg,,
-MB/049;MB;Coffre fort;NUGUE;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/coffre fort DA.jpeg,,
-MB/050;MB;Table de bureau;palissandre;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/table bureau da.jpeg,,
-MB/051;MB;Chaise ;palissandre;2;Grande Salle;Directeur d'Agence;;image/chaise de burau051.jpeg,,
-MB/071;MB;Mobilier bas;en bois;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/étagère da.jpeg,,
-MB/054;MB;Table informatique;palissandre;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/table info da.jpeg,,
-MO/055;MO; Testeur d'humidité;Aquaboy;1;Bureau Directeur d'Agence;RE WMN;;image/testeur aqua bay.jpeg,,
-MB/056;MB;Chaise roulante;cuir;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/chaise roulant da.jpeg,,
-MB/057;MB;Ventilateur plafond;jaune;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/ventilateur da.jpeg,,
-MI/127;MI;Stabilisateur;;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/stabilisateur da.jpeg,,
-MI/136;MI;Souris sans fil;HP;1;Bureau Directeur d'Agence;DA;;image/souris DA.jpeg,,
-MI/128;MI;Ordi portable (avec souris);Lenovo;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/ordi portable DA.jpeg,,
-MO/406;MO;Testeur d'humidité;Draminski;1;Bureau Directeur d'Agence;RE WMN;;image/testeur dramski.jpeg,,
-MB/059;MB;Ventilateur plafond;blanc;1;Grande Salle;RE WMN;panne;image/ventilateur plafond GS.jpeg,,
-MB/060;MB;Ventilateur plafond;blanc;1;Grande Salle;Air Mad;;image/ventilateur plafond GS.jpeg,,
-MB/062;MB;Ventilateur plafond;blanc;1;Magasin 1;Magasiniers;panne;image/ventilateur plafond GS.jpeg,,
-MB/065;MB;Boîte à idées;en bois;1;Grande Salle;Délégués de personnel;;image/boite idée GS.jpeg,,
-MB/067;MB;Comode;palissandre;1;Certification;Responsable BDD;;image/commode certification.jpeg,,
-FB/412;FB;Montre murale;Blanc;1;Certification;Personnels;;image/montre murale crtification.jpeg,,
-MB/061;MB;Ventilateur mural;blanc;1;Certification;Personnels;;image/ventilateur murale certification.jpeg,,
-MB/070;MB;Tableau blanc;en bois;1;Certification;Personnels;;image/tableau certification.jpeg,,
-MB/073;MB;Armoire ;palissandre;1;Certification;Personnels;;image/armoire certification.jpeg,,
-MB/074;MB;Comptoir;en bois;1;Certification;Personnels;;image/contoir animateurs.jpeg,,
-MB/075;MB;Chaises;en bois;8;Certification;Personnels;;image/chaise de bureau certification.jpeg,,
-MB/076;MB;Table de dureau;en bois;5;Certification;RBDD;;image/table de bureau certification.jpeg,,
-MB/077;MB;Chevalet;en bois;2;Certification;Personnels;;image/chevalier.jpeg,,
-MI/125;MB;Moniteur;HP, DELL, PROLINK;1;Certification;Responsable BDD;;image/moniteur RBDD.jpeg
-MI/126;MB;Imprimante;L3150 EPSON;1;Certification;Responsable BDD;;image/imprimante epson RBDD.jpeg,,
-MI/631;MB;UNITE CENTRALE;;1;Certification;Responsable BDD;;image/unité centrale RBDD.jpeg,,
-MI/632;MB;SOURIS;YELANDAR;1;Certification;Responsable BDD;;image/souris RBDD.jpeg,,
-MI/129;MI;Vidéo Projecteur;Optoma;1;Certification;Certification;;image/vidéo projecteur.jpeg,,
-MI/648;MI;Ordi portable ;LENOVO 3;1;Certification;ERALDO;;image/ordi portable RBDD.jpeg,,
-MI/649;MI;BOX ORANGE;TECNO;Certification;Bureau RAL;RBDD;;image/Box orange techno.jpeg,,
-MI/414;MI;TELEPHONE;REDMI;1;Certification;EDLIN;PERDU;image/télephone REDMI.jpeg,,
-MI/415;MI;TELEPHONE;REDMI;1;Certification;RBDD;;image/télephone REDMI.jpeg,,
-MI/416;MI;TELEPHONE;REDMI;1;Certification;BRUNI;;image/télephone REDMI.jpeg,,
-MI/417;MI;TELEPHONE;REDMI;1;Certification;ERALDO;;image/télephone REDMI.jpeg,,
-MI/418;MI;TELEPHONE;REDMI;1;Certification;PETERA;;image/télephone REDMI.jpeg,,
-MI/080;MI;Moniteur;HP;1;Bureau RAL;RAL;;image/moniteur RAL.jpeg,,
-MI/623;MI;Souris;;1;Bureau RAL;RAL;;image/souris RAL.jpeg,,
-MI/624;MI;clavier;;1;Bureau RAL;RAL;;image/clavier RAL.jpeg,,
-MI/625;MI;Unité central;HP;1;Bureau RAL;RAL;;image/unité centrale RAL.jpeg,,
-MI/627;MI;IMPRIMANTE;EPSON 3218;1;Bureau RAL;RAL;;image/imprimante epson RAL.jpeg,,
-MI/104;MI;Moniteur;EIZO;1;bureau assistant;Assistant Produit;HU;image/moniteur assit p HU.jpeg,,
-MI/626;MI;IMPRIMANTE;CANON 2180;1;bureau assistant;Assistant Produit;HU;image/imprimante canonAssit.jpeg,,
-MI/088;MI;Imprimante ;Epson L380;1;bureau assistant;Assistant Produit;HU;image/imprimante epson L380.jpeg,,
-MO/421;MB;TABLE DE BUREAU;Palissandre;1;bureau assistant;HSE;;image/table de bureau HSE.jpeg,,
-FB/108;MI;Prise multiple;Noir;1;Grande Salle;RE-WMN;HU;image/prise multiple noire GS.jpeg,,
-FB/095;MI;Prise multiple;Bleu marine;1;Grande Salle;Grande salle;Moyen état;image/prise multiple bleu GS.jpeg,,
-MI/089;MI;HUB connexion;TP LINK 16 PORT;1;Grande Salle;Grande salle;;image/routeur GS.jpeg,,
-MI/091;MI;Box orange;HUAWEI;1;Bureau RAL;RAL;;image/box orange RAL.jpeg,,
-MB/064;MI;Commode;palissandre;1;Grande Salle;Sécretaire;;image/commode secretaria.jpeg,,
-MB/029;MI;Table de bureau;melamine;1;Grande Salle;Sécretaire;;image/table bureau secretaria.jpeg,,
-MI/093;MI;Ordi portable;HP;1;Grande Salle;Sécretaire;;image/ordi portable secretaire.jpeg,,
-MI/117;MI;Souris optique;HP;1;Grande Salle;Secrétaire;;image/souris secret.jpeg,,
-MB/044;MI;Imprimante;HP deskjet 2130;1;Grande Salle;SECRETAIRE;HU;image/imprimante hp sercretaira.jpeg,,
-FB/092;MI;Prise multiple;Noire;1;Mada Airlines;Service vente;;image/prise multi mad airl.jpeg,,
-MI/120;MI;Imprimante ;EPSON L3118;1;Mada Airlines;Service vente;;image/imprimanteepsonL3118 TZ.jpeg,,
-MI/096;MI;Moniteur;DELL;1;Mada Airlines;Service vente TZ;;image/moniteur dell RV TZ.jpeg,,
-MI/097;MI;Unité central;HP;1;Mada Airlines;Service vente TZ;;image/unité centrale PH RV TZ.jpeg,,
-MI/098;MI;Clavier;OMEGA;1;Mada Airlines;Resp.Vente;;image/clavier omega RV TZ.jpeg,,
-MI/099;MI;Souris;HP;1;Mada Airlines;Resp.Vente;;image/souris ph RV TZ.jpeg,,
-MB/072;MB;Caissette bleue;métallique;1;Mada Airlines;Chef de vente;;image/caissette bleu TZ.jpeg,,
-MB/043;MB;Table de bureau;mélamine;1;Mada Airlines;Responsable vente;;image/table bureau rv tz.jpeg,,
-MB/420;MB;CHAISES EN BOIS ;Palissandre;2;Mada Airlines;CLIENT TSARADIA;;image/chaise client TZ.jpeg,,
-MB/045;MB;Etagère vitrée;contre plaqué;1;Mada Airlines;Responsable vente;;image/étagere vitré TZ.jpeg,,
-FB/617;FB;PORTE PAPILLON;Noir;1;Mada Airlines;VENTE TZ;;image/cube porte papier noire TZ.jpeg,,
-MI/100;MI;TV ;PHILIPS;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/tv da.jpeg,,
-MI/101;MI;Moniteur;Acer;1;Magasin 1;Magasiniers;HU;,,
-MB/022;MB;Chaise de bureau ;Rouge;1;Bureau comptabilité;Déplacer devant cabine caisse;;image/chaise client caisse.jpeg,,
-MB/014;MB;Ventilateur mural;GRIS;1;Cabine caisse;Caissier;;image/ventilateur murale vista caisse.jpeg,,
-MB/032;MB;Table de bureau;palissandre;1;Cabine caisse;Caissier;;image/table bureau caisse.jpeg,,
-MB/033;MB;Chaise ;palissandre;1;Cabine caisse;Caissier;;image/chaise de burau caisse.jpeg,,
-MB/036;MB;Coffret  bleue;métallique;1;Cabine caisse;Caissier;;image/caissette bleu TZ.jpeg,,
-MB/026;MB;Coffre fort;NUGUE;1;Cabine caisse;Caissier;;image/coffre fort nugue caisse.jpeg,,
-MB/024;MI;HAUT PARLEUR PM;NOIRE;2;Bureau Directeur d'Agence;Directeur d'Agence;;image/speeker M50 DA.jpeg,,
-MI/112;MI;Moniteur;HP;1;Cabine caisse;caissier;Mauvaise état;image/moniteur caisse.jpeg,,
-MI/113;MI;Clavier AZERTY;Prolink;1;Cabine caisse;caissier;;image/clavier caisse.jpeg,,
-MI/118;MI;Unité central;HP;1;Cabine caisse;Caissier;;image/unité centrale ph Caisse.jpeg,,
-MI/114;MI;Souris ;PROLINK;1;Cabine caisse;caissier;;image/souris caisse.jpeg,,
-MI/090;MI;Box telma;ALCATEL ONE TOUCH;1;Bureau comptabilité;COMPTABILITE;HU;image/box telma .jpeg,,
-MB/647;MB;Etagere d'archive en bois ;Palissandre;1;Bureau comptabilité;COMPTABILITE;;image/étagère comptabilité.jpeg,,
-FB/419;FB;Montre murale;;1;Bureau comptabilité;COMPTABILITE;;image/montre murale comptabilité.jpeg,,
-MB/407;MB;TABLEAU BLANC GM;;1;Bureau comptabilité;COMPTABILITE;;image/tableau comptabilité.jpeg,,
-MB/035;MB;Chaise de bureau ;Tissu avec pied métallique;1;Bureau comptabilité;Comptable1;;image/chaise comtable1.jpeg,,
-MB/023;MB;Chaise de bureau tournante;noire;1;Bureau comptabilité;Chef Comptable;;image/chaise roulant chef comptable.jpeg,,
-FB/012;FB;Porte tampon ;NOIR;1;Bureau comptabilité;Comptable;;image/porte tampon .jpeg,,
-FB/013;FB;Porte tampon ;NOIR;1;Bureau comptabilité;Chef comptable;;image/porte tampon .jpeg,,
-MB/034;MB;Chaise roulante;tissu;1;Bureau comptabilité;Comptable 2;;image/chaise comptable2.jpeg,,
-MB/020;MB;Table de bureau ;palissandre;1;Bureau comptabilité;Comptable 2;;image/table bureau comptable 2.jpeg,,
-MI/145;MI;MONITEUR ;HP 21';1;Bureau comptabilité;Comptable 1;;image/moniteur comptable 1.jpeg,,
-MI/146;MI;MONITEUR ;HP 17';1;Bureau comptabilité;Comptable 2;;image/moniteur comptable 2.jpeg,,
-MI/147;MI;UNITE CENTRALE;HP;1;Bureau comptabilité;Chef Comptable;;image/unité centrale chef comptable.jpeg,,
-MI/148;MI;SOURIS;HP;1;Bureau comptabilité;Chef Comptable;;image/souris chef comptable.jpeg,,
-"MI/149;MI;MONITEUR ;""PH 21"""""";1;Bureau comptabilité;Comptable 2;HU;image/moniteur comptable 2.jpeg",,
-MB/017;MB;Table de bureau ;palissandre;1;Bureau comptabilité;Comptable 1;;image/table bureau comptable 1.jpeg,,
-MI/130;MI;Imprimante ;CANON G2420;1;Grande Salle;Secrétaire;;image/imprimante canon secret.jpeg,,
-MI/131;MI;Smart Phone ;ITEL P37;1;Bureau comptabilité;CHEF COMPTABLE;;image/tel itel P37 chef compta.jpeg,,
-MI/081;MI;Unité central;HP;1;Bureau comptabilité;Comptable 1;;image/unité centrale comptable 1.jpeg,,
-MI/082;MI;Clavier azerty;HP;1;Bureau comptabilité;Comptable 1;;image/clavier comptable 1.jpeg,,
-MI/084;MI;Souris;HP;1;Bureau comptabilité;Comptable 1;;image/souris comptable 1.jpeg,,
-MI/085;MI;BLU;SAILOR;1;Bureau comptabilité;Chef comptable;HU;image/blu.jpeg,,
-MI/086;MI;Clavier azerty;OMEGA;1;Bureau comptabilité;Chef comptable;;image/clavier chef comptable.jpeg,,
-MI/087;MI;Unité central;DELL;1;Bureau comptabilité; Comptable 2;;image/unité centrale comptable 2.jpeg,,
-MI/094;MI;Imprimante;HP deskjet 2130;1;Bureau comptabilité;COMPTABILITE;HU;image/imprimante hp 2130.jpeg,,
-MI/102;MI;clavier AZERTY;PROLINK;1;bureau assistant;HSE;;image/clavier HSE.jpeg,,
-MB/031;MB;Chaise ;palissandre;1;bureau assistant;HSE;;image/chaise bureau hse.jpeg,,
-MB/068;MB;Table de bureau ;palissandre;1;Grande Salle;AQDD;;image/table bureau aqdd.jpeg,,
-MI/103;MI;Souris;PROLINK;1;bureau assistant;HSE;;image/souris hse.jpeg,,
-MI/411;MI;MONITEUR;SAMSUN;1;bureau assistant;HSE;;image/moniteur samsug HSE.jpeg,,
-MI/105;MI;Unité central;HP;1;bureau assistant;HSE;;image/unité centrale hse.jpeg,,
-MI/106;MI;Clavier AZERTY;PROLINK;1;Bureau comptabilité;Comptable 2;;image/clavier comptable 2.jpeg,,
-MI/107;MI;Souris;HP;1;Bureau comptabilité;Comptable 2;;image/souris comptable 2.jpeg,,
-FB/109;FB;Prise multiple;;1;Bureau comptabilité;Comptable 1;;image/prise mult comptable1.jpeg,,
-MI/110;MI;Clé USB 64 GO;KIOXIA;1;Bureau comptabilité;Comptable;;image/clé usb certification.jpeg,,
-MB/058;MB;Ventilateur plafond;blanc;1;Bureau comptabilité;RE WMN;;image/ventilateur comptabilité.jpeg,,
-FB/614;FB;PORTE PAPILLON;PLASTIQUE;1;Bureau comptabilité;COMPTABILITE;;image/cube porte papier compt1.jpeg,,
-FB/616;FB;PORTE PAPILLON;METALIQUE;1;Bureau comptabilité;COMPTABILITE;;image/cube porte papier noire TZ.jpeg,,
-FB/618;FB;PORTE PAPILLON;METALIQUE;1;Cabine caisse;Caissier;;image/cube porte papier noire TZ.jpeg,,
-MB/619;MB;TABLE DE BUREAU;PALISSANDRE;1;Bureau comptabilité;Chef Comptable;;image/table bureau chef comptable.jpeg,,
-MI/115;MI;Modem Telma 4G;;1;Bureau comptabilité;Chef Comptable;;image/modem telma.jpeg,,
-MI/116;MI;Modem Telma 4G;;1;Bureau comptabilité;Bureau certification;;image/modem telma.jpeg,,
-MI/119;MI;Imprimante ;CANON G2420;1;Bureau Directeur d'Agence;Directeur d'Agence;;image/imprimante da.jpeg,,
-MI/121;MI;Ordi portable;HP Core i5;1;Mada Airlines;Agent polyvalent;;image/ordi portable mada airlines.jpeg,,
-MI/630;MI;Clavier azerty;;1;Mada Airlines;Assistant d'escal;;image/clavier assit pro.jpeg,,
-MI/122;MI;Ordinateur portable;Lenovo V510;1;Certification;Responsable BDD;;image/ordi portable RBDD.jpeg,,
-MI/123;MI;Ordinateur portable;Dell;1;Certification;Superviseur;HU;,,
-MB/124;MB;Ventilateur;SUPER COOL;1;Magasin 1;Raveloson;mauvais état;image/ventilateur magasin 1.jpeg,,
-FB/011;FB;Bac à dossier ;GRIS;1;Magasin 1;Responsable commerciale;;image/bac dossier magasin1.jpeg,,
-MO/005;MO;Bruleur à gaz ;Acier;2;Magasin 6;RE WMN;;image/bruleur a gaz.jpeg,,
-MO/007;MO;Gilet de sauvetage;ORANGE;12;Magasin 1;RE WMN;;image/gilet de sauvetages.jpeg,,
-MI/137;MI;Smart Phone ;ITEL P37;1;Bureau comptabilité;Chef Comptable;;image/tel itel P37 chef compta.jpeg,,
-MI/139;MI;Smart Phone ;A30 SAMSUNG;1;Bureau RAL;RAL;HU;image/tel samsung HU.jpeg,,
-MI/140;MI;Smart Phone ;ITEL ;1;Certification;ERALDO;HU;image/tel itel HU.jpeg,,
-MI/633;MI;TELEPHONE;INFINIX;1;Bureau Directeur d'Agence;DA;déplacé WANM;,,
-MI/141;MI;Smart Phone ;J7 SAMSUNG;1;Certification;Certification;Perdu;,,
-MI/143;MI;Smart Phone ;ITEL P37;1;Mada Airlines;Chef escale;;,,
-MI/144;MI;Souris;HP;1;Mada Airlines;Assistant d'escale;;image/souris asst escale.jpeg,,
-ML/151;ML;Chaise;en bois;1;Logt chef d'agence;DA;;,,
-ML/152;ML;Placard1;en bois;1;Logt chef d'agence;Directeur d'Agence;;image/placard1 logt da.jpeg,,
-ML/154;ML;Matelas 02 places;vitafoam;2;Logt chef d'agence;Directeur d'Agence;;image/matelas 2place logt da.jpeg,,
-ML/155;ML;Table de nuit ;en bois;1;Logt chef d'agence;Directeur d'Agence;;image/table de nuit logt da.jpeg,,
-ML/156;ML;Moustiquaire;;1;Logt chef d'agence;Directeur d'Agence;;image/moustiquaire logt da.jpeg,,
-ML/157;ML;Ventilateur de chambre;;;Logt chef d'agence;Directeur d'Agence;;,,
-ML/158;ML;Placard en bois;en bois;;Logt chef d'agence;Directeur d'Agence;;,,
-ML/159;ML;Bahut;en bois;1;Logt chef d'agence;Directeur d'Agence;;image/bahut logt da.jpeg,,
-ML/164;ML;Chauffe eau ;ATLANTIC;2;Logt chef d'agence;Directeur d'Agence;;image/chauffe eau logt da.jpeg,,
-ML/165;ML;Electropompe DAB;ELECTRIQUE;1;Logt chef d'agence;Directeur d'Agence;;image/electropompe logt da.jpeg,,
-ML/167;ML;Etagère ;palissandre;1;Logt chef d'agence;Directeur d'Agence;;image/étagère logt da.jpeg,,
-ML/169;ML;Etagère  avec tiroir;en bois;1;Logt chef d'agence;Directeur d'Agence;;image/étagere tiroir logt da.jpeg,,
-ML/171;ML;Makiplast 2000L;PLASTIQUE;1;Logt chef d'agence;Directeur d'Agence;;image/citerne 2000L logt da.jpeg,,
-ML/172;ML;Château d'eau;;1;Logt RAL;RAL;;image/château d'eau logt RAL.jpeg,,
-ML/173;ML;Bahut;palissandre;1;Logt RAL;RAL;;image/bahut logt RAL.jpeg,,
-ML/174;ML;Etagère;en bois;1;Logt chef d'agence;Directeur d'Agence;;image/étagere cuisin logt da.jpeg,,
-ML/176;ML;Extincteur;rouge;1;Logt chef d'agence;Directeur d'Agence;;image/extincteur 6Kg.jpeg,,
-ML/178;ML;MATELA 01 PLACE;;1;Logt Chef Comptable;RAF;;image/matelas 1place logt chef compta.jpeg,,
-ML/179;ML;Armoire ;en bois;1;Logt RAL;RAL;;,,
-ML/180;ML;Lit 2 places;en bois;1;Logt RAL;RAL;;image/Lit 2place logt RAL.jpeg,,
-ML/181;ML;Pompe à eau;;1;Logt RAL;RAL;;image/pompe eau logt RAL.jpeg,,
-ML/183;ML;Table à manger ;en bois;1;Logt Chef Comptable;Chef Comptable;;image/table manger logt chef compt.jpeg,,
-ML/185;ML;Bouteille à gaz;Vitogaz 12kgs;1;Logt Chef Comptable;Chef Comptable;;image/bouteille a gaz logt chef compta.jpeg,,
-ML/186;ML;Réchaud à gaz 02 feux;Home cooking gas stove;1;Logt Chef Comptable;Chef Comptable;;image/rechaud a gaz logt chef compta.jpeg,,
-ML/189;ML;Bouteille à gaz;Vitogaz 12kgs;1;Logt Superviseur;Superviseur;;image/bouteille a gaz logt spv.jpeg,,
-ML/190;ML;Ventilateur vertical;VISTA;1;Logt Superviseur;Superviseur;;image/ventilateur logt spv.jpeg,,
-ML/191;ML;Réchaud à gaz 2 feux;AKITA;1;Logt Superviseur;Superviseur;;image/rechaud a gaz logt spv.jpeg,,
-ML/192;ML;Lampe veilleuse;ELECTRIQUE;1;Logt chef d'agence;Directeur d'Agence;;image/lampe veilleuse logt da.jpeg,,
-ML/193;ML;Mixeur robot;ELECTRIQUE;1;Logt chef d'agence;Directeur d'Agence;;image/robot mixeur logt da.jpeg,,
-ML/194;ML;Cuisinière à gaz;VISTA;1;Logt chef d'agence;Directeur d'Agence;;image/rechaud a gaz logt da.jpeg,,
-ML/195;ML;Chauffe à eau;blanc;1;Magasin 6;REWMN;HU;,,
-ML/196;ML;Réfrigérateur;blanc;1;Magasin 6;REWMN;HU;,,
-MO/198;MO;Machine calibreur Girofle;SITE RE;1;Magasin 4;RE WMN;;image/machine calibreur girofle.jpeg,,
-MO/199;MO;Machine calibreur Café;SITE RE;1;Magasin 6;RE WMN;;image/machine calibreur café .jpeg,,
-MO/200;MO;Marmite en aluminium;Alminium;2;Magasin 3;RE WMN;;image/marmite vanille.jpeg,,
-MB/202;MO;Table de bureau;en bois;2;Magasin 1;RE WMN;;image/table bureau magasin1.jpeg,,
-MO/203;MO;Balance à bascule force 1000;1000KG;1;Magasin 6;RE WMN;HU;,,
-MO/205;MO;Extincteur;GM rouge;1;Magasin 6;RE WMN;;image/extincteur 6Kg.jpeg,,
-MO/207;MO;Casque  moto;ROUGE;1;Guerrite;COURSIER;HU;,,
-MO/208;MO;Bouteille à gaz Aligal;Aligal;2;Magasin 1;RE WMN;;image/bouteille Aligal.jpeg,,
-MO/209;MO;Caisse de stockage vanille;en bois;737;Magasin 2;RE WMN;;image/caissette vanille.jpeg,,
-MO/210;MO;Claies;en bois;1639;Magasin 2;RE WMN;;image/claie vanille.jpeg,,
-MO/211;MO;Paniers en osier;OSIER;0;Magasin 6;RE WMN;;image/panier échaudage.jpeg,,
-MO/212;MO;Baches GM;GM;8;Magasin 6;RE WMN;;image/la bâche GM.jpeg,,
-MO/213;MO;Baches PM;PM;18;Magasin 6;RE WMN;;image/la bâche GM.jpeg,,
-MO/214;MO;Banc en bois vanille;en bois;39;Magasin 6;RE WMN;;image/bancs vanille.jpeg,,
-MO/215;MO;Fardage en bois GM;en bois;7;Veranda Sud Bureau RE;RE WMN;;image/fardage en bois.jpeg,,
-MO/216;MO;Scie ;métallique;3;Magasin 1;RE WMN;;image/la scie a bois.jpeg,,
-MO/217;MO;Pince ;métallique;1;Magasin 1;RE WMN;;image/pince métallique.jpeg,,
-MO/218;MO;Hâche ;métallique;1;Magasin 1;RE WMN;;image/haché .jpeg,,
-MO/219;MO;Bêche;métallique;3;Magasin 1;RE WMN;;image/bêche.jpeg,,
-MO/220;MO;Marteau;Fer;1;Magasin 1;RE WMN;;image/marteau.jpeg,,
-MO/221;MO;Brouette;métallique;1;Site RE;Jardinier;;image/brouette.jpeg,,
-MO/222;MO;Balance électronique Force 1,5 tonne;métallique;2;Magasin 1;RE WMN;;image/balance élect 1tonne.jpeg,
-MO/223;MO;Jauge de mesure vanille;en bois;21;Magasin 1;RE WMN;;image/jauge de mesure.jpeg,,
-MO/224;MO;Ciseau à gazon;métallique;1;Magasin 1;Jardinier;;image/sciseau a gazon.jpeg,,
-MO/226;MO;Tondeuse a gazon;manuelle;1;Magasin Mada Airlines;RE WMN;HU;image/tondeuse techtools ,anuelle.jpeg,
-MO/227;MO;Moto pompe;HONDA;1;Cabine moto pompe;RE WMN;;image/motopompe honda.jpeg,,
-MO/228;MO;Four d'étuvage;électrique;1;Magasin 4;RE WMN;;image/four étuvages .jpeg,,
-MO/229;MO;Chaise de bureau;en bois;3;Magasin 1;RE WMN;;image/chaise bureau magasin.jpeg,,
-MO/230;MO;Débroussaillage à moteur;ELECTRIQUE;1;Magasin 1;RE WMN;;image/débroussalleuse.jpeg,,
-MO/231;MO;Table Vanille GM;en bois;23;Magasin 4;RE WMN;;image/table vanille en bois.jpeg,,
-MO/232;MO;Perceuse;ELECTRIQUE;1;Magasin 1;RE WMN;HU;image/perceuse électrique.jpeg,,
-MO/233;MO;Meule GM;ELECTRIQUE;1;Magasin 1;RE WMN;mauvaise état;image/meule GM.jpeg,,
-MO/234;MO;Meule PM;ELECTRIQUE;1;Magasin 1;RE WMN;HU;image/meule PM.jpeg,,
-MO/235;MO;Etagère;en bois;9;Magasin 1;RE WMN;;image/étagère magasin1.jpeg,,
-MO/236;MB;Etagère en bois ;en bois;3;bureau assistant;RE WMN;;image/étagère assit pro.jpeg,,
-MO/237;MO;Détecteur de metaux;Aimant;14;Magasin 1;RE WMN;;image/détecteur de métaux .jpeg,,
-MO/238;MO;Cable GM en rouleau 150m;Noir;1;Magasin 6;RE WMN;;image/rouleaux de cable.jpeg,,
-MO/239;MO;Extincteur 6KG;rouge;7;Magasin 1;RE WMN;;image/extincteur magasin 6kg.jpeg,,
-MO/241;MO;Extincteur 2KG et 500 ml;rouge;4;Magasin 1;RE WMN;;image/extincteur magasin 2kg.jpeg,,
-MO/242;MO;Groupe électrogène;VISTA;1;Cabine moto pompe;RE WMN;;image/groupe élect vista.jpeg,,
-MO/243;MO;Machine sous gaz;MULTIVAC;1;Magasin 4;RE WMN;;image/machine sous gaz multivac.jpeg,,
-MO/244;MO;Plaque solaire;;1;Toit du bureau;RE WMN;HU;,,
-MO/245;MO;Chargeur batterie ;LEADER;1;Magasin 1;RE WMN;;image/chargeur batterie.jpeg,,
-MO/247;MO;Serre joint;métallique;1;Magasin 1;RE WMN;;image/serre joint.jpeg,,
-MO/248;MO;Palette;EN BOIS;162;Magasin 6;RE WMN;;image/palette en bois.jpeg,,
-MO/249;MO;Caisson pour échaudage vanille GM;EN BOIS;20;Magasin 6;RE WMN;;image/caisson vanille.jpeg,,
-MO/250;MO;Boîte à clé contenant des clés différents dont 01 jeu complet de clé alène;bois;1;Magasin 1;RE WMN;;image/boite a clé bleu.jpeg,,
-MO/251;MO;Boîte matrice;métallique;1;Magasin 1;RE WMN;;image/boîte matrice bleu.jpeg,,
-MO/252;MO;Tournevis;métallique;2;Magasin 1;RE WMN;;image/tournevis .jpeg,,
-MO/253;MO;Guil;métallique;1;Magasin 1;RE WMN;;image/Guil .jpeg,,
-ME/255;ME;Couverture;SOMACO;2080;Magasin 4;RE WMN;;image/couverture vanille somacou.jpeg,,
-MO/256;MO;Etau;metallique;1;Magasin 1;RE WMN;;image/étau .jpeg,,
-MO/257;MO;BATTERIE 24V;24V;2;Magasin 1;RE WMN;HU;image/batterie HU.jpeg,,
-MO/258;MO;Diables métalliques;métallique;8;Magasin Mada Airlines;RE WMN;;image/diable métallique.jpeg,,
-MO/259;MO;Fourche;métallique;3;Magasin 1;RE WMN;;image/fourche.jpeg,,
-MO/260;MO;Pulverisateur;plastique;1;Magasin 1;Mada Airlines;;image/pulvérisateur .jpeg,,
-MO/261;MO;Accroche;plastique;0;Certification;RE WMN;;image/accroche plastique.jpeg,,
-MO/262;MO;Arrosoire;plastique;2;Magasin Mada Airlines;RE WMN;;image/arrosoirs bleu.jpeg,,
-MO/263;MO;Aspirateu d'eau;eléctrique;1;RE Site Nord;RE WMN;HU;,,
-MO/264;MO;Balance 100KG;;1;Magasin Mada Airlines;RE WMN;HU;,,
-MO/265;MO;Balance aiguille 150KG;;4;Magasin Mada Airlines;RE WMN;HU;,,
-MO/266;MO;Balance 300KG;HONEST;0;transferé à des coopératives;Coopératives;;,,
-MO/267;MO;Balance éléctronique 150KG;150KG;2;Magasin 1;RE WMN;;,,
-MO/268;MO;Balance 500KG;;4;Magasin Mada Airlines;RE WMN;HU;,,
-MO/269;MO;Balance 500KG;500KG;1;Magasin 6;RE WMN;HU;,,
-MO/270;MO;Balance électronique MHT Force 60KG;60KG;1;Magasin 1;RE WMN;HU;image/balance élect F60Kg MHT.jpeg,,
-MO/271;MO;Banc 3m ;en bois;12;Reffectoire;RE WMN;;image/banc 3m a bois.jpeg,,
-MO/272;MO;Batterie panneau solaire;;1;Veranda Sud Bureau RE;RE WMN;HU;,,
-MO/273;MO;Boîte témoin batterie;plastique;1;Veranda Sud Bureau RE;RE WMN;HU;,,
-MO/274;MO;Brouette;métallique;2;Magasin Mada Airlines;RE WMN;;,,
-MO/275;MO;Disjoncteur de dérivation;plastique;1;Veranda Sud Bureau RE;RE WMN;;image/disjoncteur de dérivation .jpeg,,
-MO/276;MO;Extincteur;Rouge;1;Magasin 1;RE WMN;;image/extincteur 6Kg.jpeg,,
-MO/277;MO;Extincteur;Rouge PM;1;Toyota 1407AD;RE WMN;;image/extincteur toyota.jpeg,,
-MO/278;MO;Masse  de 100Kg;acier;8;Magasin Mada Airlines;RE WMN;HU;,,
-MO/279;MO;Masse de 10 Kgs;acier;1;Magasin Mada Airlines;RE WMN;HU;,,
-MO/280;MO;Masse de 1kg;acier;1;Magasin Mada Airlines;RE WMN;HU;,,
-MO/281;MO;Masse de 200Kg;acier;4;Magasin Mada Airlines;RE WMN;HU;,,
-MO/282;MO;Masse de 25 Kgs;acier;4;Magasin Mada Airlines;RE WMN;HU;,,
-MO/283;MO;Masse de 50 Kg;acier;6;Magasin Mada Airlines;RE WMN;HU;,,
-MO/284;MO;Masse de 5kgs;acier;2;Magasin Mada Airlines;RE WMN;HU;,,
-MO/285;MO;Megaphone ;plastique;4;Magasin 1;RE WMN;;,,
-MO/286;MO;Decamètre 7,5m;jaune;1;Magasin 1;RE WMN;HU;,
-MO/287;MO;Micro avec câble;noir;0;Magasin 2;RE WMN;;,,
-MP/288;MP;Panneau de signalisation;en bois;7;RE Site Nord;RE WMN;;image/panneau de signalisation métal.jpeg,,
-MO/289;MO;Projecteur avec panneau solaire;LED;1;RE Site Nord;RE WMN;;image/projeteur solaire site nord.jpeg,,
-MO/290;MO;Rallonge de 25m;HONEST NOIR;1;Magasin 1;RE WMN;;image/rallonge 25m magasin.jpeg,,
-MO/291;MO;Rame ;fibre;1;Magasin 1;RE WMN;;image/rame fibre coq.jpeg,,
-MB/292;MB;Tableau d'affichage;EN BOIS;7;Veranda Sud Bureau RE;RE WMN;;image/tableau d'affichage site.jpeg,,
-MO/293;MO;Extincteur;rouge;1;Mercedes 0119 AB;RE WMN;;image/extincteur Mercedes-Benz .jpeg,,
-MO/294;MO;Extincteur;rouge;0;PEUGEOT 504;RE WMN;;,,
-MO/295;MO;Extincteur;rouge 9Kg;3;Veranda Sud Bureau RE;RE WMN;;image/extincteur 9kg.jpeg,,
-MO/296;MO;Extincteur;rouge;1;SADKO 6998 TBL;RE WMN;;image/extincteur sadko.jpeg,,
-MO/297;MO;Extincteur;rouge;1;STOCKAGE CARBURANT;RE WMN;;image/extincteur 6Kg.jpeg,,
-MO/298;MO;Balance bascule force 1000kg;1000kg;2;Magasin 3;RE WMN;;image/balance bascule 1000KG.jpeg,,
-MO/299;MO;Roue de secours;;1;Toyota 1407AD;RE WMN;;,,
-MO/300;MO;Clé de roue;;1;Toyota 1407AD;RE WMN;;image/clé de roue toyota.jpeg,,
-MO/301;MO;Crique;;1;Toyota 1407AD;RE WMN;;image/criquet pyota.jpeg,,
-MO/634;MO;LA BACHE;;1;Toyota 1407AD;RE WMN;;,,
-MO/635;MO;PARASOLEIL;;1;Toyota 1407AD;RE WMN;;image/par soleil toyota.jpeg,,
-MO/636;MO;PAPIER COMPLET;;1;Toyota 1407AD;RE WMN;;,,
-MO/637;MO;TROUSSE DE SECOURS;TROUSSE;1;Toyota 1407AD;RE WMN;;,,
-MO/638;MO;EXTINCTEUR;500ml;1;Toyota 1407AD;RE WMN;;image/extincteur toyota.jpeg,,
-MO/302;MO;Roue de secours;Mercedes 0119 AB;1;Mercedes 0119 AB;RE WMN;;image/roue de secours Mercedes-Benz .jpeg,,
-MO/303;MO;Clé de roue;;1;Mercedes 0119 AB;RE WMN;;image/clé de roue mercedes.jpeg,,
-MO/304;MO;Démonte pneu;;1;Mercedes 0119 AB;RE WMN;;image/démonte pneus mercedes.jpeg,,
-MO/638;MO;PAPIER COMPLET;Mercedes 0119 AB;1;Cabine caisse;RE WMN;;,,
-MO/639;MO;TROUSSE DE SECOURS;TROUSSE;1;Mercedes 0119 AB;RE WMN;;,,
-MO/305;MO;Clé de roue;;0;Peugeot 504;RE WMN;;,,
-MO/306;MO;Auto-Radio 1407 AD;;1;Toyota 1407AD;RE WMN;;image/auto radio toyota.jpeg,,
-MO/307;MO;Roue de secours;;1;SADKO 6998 TBL;RE WMN;;image/roue de secours sadko.jpeg,,
-MO/639;MO;PAPIER COMPLET;;1;SADKO 6998 TBL;RE WMN;;,,
-MO/640;MO;TRUSSE DE SECOURS;TROUSSE;1;SADKO 6998 TBL;RE WMN;;,,
-MO/641;MO;Roue de secours;;1;FORD 1807 TAH;RE WMN;;,,
-MO/642;MO;PARASOLEIL;;1;FORD 1807 TAH;RE WMN;;,,
-MO/643;MO;Crique;;1;FORD 1807 TAH;RE WMN;;,,
-MO/644;MO;CLE DE ROUE+MANIVEL AUGMENTE CRIQUE ET DIMINUT° ROUE DE SECOUR;;1;FORD 1807 TAH;RE WMN;;,,
-MT/308;MT;Pirogue en fibre de verre ;fibre;1;Magasin 1;RE WMN;;image/coq fibre.jpeg,,
-MO/309;MO;Moteur Hors bord HFBF40A;MARINER;1;Magasin 1;RE WMN;;image/moteur mariner.jpeg,,
-MO/310;MO;Batterie 12V 150AH;acide;1;Mercedes 0119 AB;RE WMN;;image/batterie  mercedes.jpeg,,
-MO/311;MO;Moteur Hors bord 9,9Ch;SEAHORSE;1;Magasin 1;RE WMN;;image/moteur seahors.jpeg,
-MO/312;MO;Moteur Hors bord 15 Ch;YAMAHA;1;Magasin 1;RE WMN;;image/moteur yamaha.jpeg,,
-MO/313;MO;Reservoir Hors bord;ROUGE;3;Magasin 1;RE WMN;;image/revervoirs hors bords.jpeg,,
-MO/314;MO;EXTINCTEUR rouge avec chariot;Rouge;0;Magasin 1;Mada Airlines;;image/extincteur 6Kg.jpeg,,
-MO/315;MO;Bouteille à gaz VITOGAZ GM/vanille 39 KG;verte;9;Magasin 1;RE WMN;;image/bouteille vitogaz 49KG.jpeg,,
-MO/316;MO;Bouteille à gaz VITOGAZ 12Kg et 9Kg;verte;2;Magasin 1;RE WMN;;image/bouteille vitogaz 9kg.jpeg,,
-MO/317;MO;Casque  moto;Blanc;1;Certification;Superviseur;HU;,,
-MO/318;MO;Casque  moto;Bleu;1;Site RE;Visiteur;HU;,,
-FB/321;FB;Montre murale;;1;AEROPORT;Mada Airlines;;image/montre murale aéroport.jpeg,,
-FB/322;FB;Montre murale;Noir;1;Guerrite;GARDIEN;;image/montre murale aéroport.jpeg,,
-MB/323;MB;Ventilateur à pied;blanc;1;bureau assistant;Assitant Produit;mauvaise état;image/ventilateur assit.jpeg,,
-MG/348;MG;GOOD LOOK SP;048-067;0;Magasin 2;RE WMN;;,,
-MG/349;MG;GOOD LOOK MENTHOLE;048-068;0;Magasin 2;RE WMN;;,,
-MG/350;MG;MELIA BLONDE;048-410;0;Magasin 2;RE WMN;;,,
-MG/351;MG;NEWS;048-411;0;Magasin 2;RE WMN;;,,
-MG/352;MG;BOSTONE BLEU;048-412;0;Magasin 2;RE WMN;;,,
-MG/353;MG;BOSTONE MENTHOLE;048-411;0;Magasin 2;RE WMN;;,,
-PL/354;PL;GIROFLE (CG3);PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/355;PL;GIROFLE EN VRAC;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/356;PL;GRIFFE DE GIROFLE;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/357;PL;PETIT CLOUS;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/358;PL;POUDRE DE GIROFLE;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/359;PL;CLOUS SAN TETE;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/360;PL;VANILLE VERTE;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/361;PL;VANILLE EN VRAC;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-PL/362;PL;VANILLE PREPARE;PRODUIT LOCAL;0;Magasin 5;RE WMN;;,,
-CB/364;CB;ESSENCE;CARBURANTS;43.5;STOCKAGE CARBURANT;RE WMN;;,,
-CB/365;CB;GAZ-OIL;CARBURANTS;0;STOCKAGE CARBURANT;RE WMN;;,,
-ML/464;ML;FATANA MISITSY;EDES;1;Magasin 1;RE WMN;;image/fatana ades.jpeg,,
-ME/366;ME;SACHET SOUS VIDE;EMBALLAGES;823;Magasin 1;RE WMN;;image/sachet sous vide.jpeg,,
-ME/367;ME;PAPIER PARAPHINE;EMBALLAGES;129,72;Magasin 1;RE WMN;;,
-ME/368;ME;SACS A94;EMBALLAGES;230;Magasin 1;RE WMN;;image/sac A94.jpeg,,
-ME/369;ME;SACS B120;EMBALLAGES;0;Magasin 1;RE WMN;;image/sac B120.jpeg,,
-ME/371;ME;SACS DE COLLECTES PROJET;EMBALLAGES;32;Magasin 1;RE WMN;;image/sac collect Projet1.jpeg,,
-ME/372;ME;SACS DE COLLECTES JR/GM;EMBALLAGES;0;Magasin 1;RE WMN;;image/sac collect Projet2.jpeg,,
-MO/373;MO;Extincteur;Rouge;1;Magasin 2;RE WMN;;image/extincteur 6Kg.jpeg,,
-ME/374;ME;SCELLES DE CONDITIONNEMENT;EMBALLAGES;251;Magasin 1;RE WMN;;,,
-ME/375;ME;SACS DE COLLECTES BANDE ROUGE;EMBALLAGES;0;Magasin 1;RE WMN;;image/sac collect bande rouge.jpeg,,
-ME/646;ME;SACS DE COLLECTES BLANCS;EMBALLAGES;0;Magasin 1;RE WMN;;image/sac collect blanc.jpeg,,
-MO/395;MO;BALANCE 1KG;ELECTRIQUE;1;Magasin 1;RE WMN;;image/balance precision1.jpeg,,
-MO/410;MO;Groupe électrogène;DIESEL;1;ABRI GROUPE;RE-WMN;;image/groupe électrogène diesel.jpeg,,
-MB/413;MB;Tableau d'affichage;Palissandre;1;Magasin 1;Certification;;image/tableau en bois certification.jpeg,,
-ML/421;ML;Chaise à manger;BOIS DUR;5;Logt Chef Comptable;Chef Comptable;;image/chaise logt chef comptable .jpeg,,
-ML/422;ML;SCEAUX 15L;15 PLASTIQUE;2;Logt Chef Comptable;Chef Comptable;;image/seau logt chef comptable .jpeg,,
-ML/424;ML;Lit bateau 02 place;palissandre;1;Logt Chef Comptable;Chef Comptable;;image/lit 2place logt chef comptable .jpeg,,
-ML/618;ML;Lit  01 place;palissandre;1;Logt Chef Comptable;Chef Comptable;;image/lit 1place logt chef comptable .jpeg,,
-ML/426;ML;Poêlon  GM;GM;1;Logt Chef Comptable;Chef Comptable;;image/poêlon logt chef comptable.jpeg,,
-ML/427;ML;SOUPIERE;GM;2;Logt Chef Comptable;Chef Comptable;;image/soupière logt chef comptable .jpeg,,
-ML/428;ML;Cuillère INOX;INOX;29;Logt Chef Comptable;Chef Comptable;;image/cuillère logt chef comptable .jpeg,,
-ML/650;ML;Cuillère à café;INOX;6;Logt Chef Comptable;Chef Comptable;;image/cuillère a café logtchef comptable .jpeg,,
-ML/651;ML;Tasse à café;métallique;12;Logt Chef Comptable;Chef Comptable;;image/tasse a café logt chef comptable .jpeg,,
-ML/653;ML;Rideau;TISSU;6;Logt Chef Comptable;Chef Comptable;;image/rideaux logt chef comptable .jpeg,,
-ML/429;ML;Fourchettes ;INOX;15;Logt Chef Comptable;Chef Comptable;;image/fourchettes logt chef comptable .jpeg,,
-ML/430;ML;VERRE;VERRE;5;Logt Chef Comptable;Chef Comptable;;image/verres logt chef comptable .jpeg,,
-ML/431;ML;CUVETTE GM;GM;2;Logt Chef Comptable;Chef Comptable;;image/cuvettes GMlogt chef comptable .jpeg,,
-ML/432;ML;CUVETTE PM;PM;1;Logt Chef Comptable;Chef Comptable;;image/cuvette PM logt chef comptable .jpeg,,
-ML/433;ML;FATANA MISITSY;PM;1;Logt Chef Comptable;Chef Comptable;;image/fatana logt chef comptable.jpeg,,
-ML/434;ML;ZINGA;1L;2;Logt Chef Comptable;Chef Comptable;;image/zinga logt chef comptable .jpeg,,
-ML/436;ML;COUTEAU DE TABLE;INOX;6;Logt Chef Comptable;Chef Comptable;;image/couteaux de table logt chef comptable .jpeg,,
-ML/435;ML;BOL PM;CERAMIQUE;2;Logt Chef Comptable;Chef Comptable;;image/bols logt chef comptable .jpeg,,
-ML/437;ML;ASSIETTE;CERAMIQUE;5;Logt Chef Comptable;Chef Comptable;;image/assiettes ceram logt chef comptable .jpeg,,
-ML/438;ML;ASSIETTE ARCOPAL;ARCOPAL;5;Logt Chef Comptable;Chef Comptable;;image/assiettes acrop logt chef comptable .jpeg,,
-ML/439;ML;MARMITTE GM;cocotte;1;Logt Chef Comptable;Chef Comptable;;image/marmite GM logt chef comptable .jpeg,,
-ML/440;ML;MARMITTE PM;cocotte;1;Logt Chef Comptable;Chef Comptable;;image/marmite PM logt chef comptable .jpeg,,
-ML/445;ML;COUTEAU;INOX;1;Logt Chef Comptable;Chef Comptable;;image/couteau inox logt chef comptable.jpeg,,
-ML/446;ML;SOUPIERE;inox;1;Logt Chef Comptable;Chef Comptable;;image/soupière inox logt chef comptable.jpeg,,
-ML/447;ML;BOL;CERAMIQUE;1;Logt Chef Comptable;Chef Comptable;;image/bol ceram logt chef comptable.jpeg,,
-ML/439;ML;MARMITE;allu;1;Logt Chef Comptable;Chef Comptable;;image/marmite allu logt chef comptable.jpeg,,
-ML/449;ML;TASSE A CAFE ;CERAMIQUE;5;Logt Chef Comptable;Chef Comptable;;image/tasse a café cerm logt chef comptable.jpeg,,
-ML/450;ML;PORTE-ASSIETTE;PLASTIQUE;1;Logt Chef Comptable;Chef Comptable;;image/porte assiette logt chef comptable.jpeg,,
-ML/451;ML;FER A REPASSE;ELECTRIQUE;1;Logt Chef Comptable;Chef Comptable;;image/fer a repasser logt chef comptable.jpeg,,
-ML/452;ML;VENTILATEUR VERTICALE;ELECTRIQUE;1;Logt Chef Comptable;Chef Comptable;;image/ventilateur logt chef comptable.jpeg,,
-ML/454;ML;PLANCHE A DECOUPER;EN BOIS;1;Logt Chef Comptable;Chef Comptable;;image/planche acouper logt chef comptable.jpeg,,
-ML/455;ML;MARMITE COMPLET(1 poêlon et trois marmites);;1;Logt Superviseur;Superviseur;;,,
-ML/456;ML;FOURCHETTE;INOX;6;Logt Superviseur;Superviseur;;,,
-ML/457;ML;CUILLERE;INOX;6;Logt Superviseur;Superviseur;;,,
-ML/458;ML;ASSIETTE ;CERAMIQUE;6;Logt Superviseur;Superviseur;;,,
-ML/459;ML;TASSE A CAFE ;CERAMIQUE;3;Logt Superviseur;Superviseur;;,,
-ML/460;ML;PORTE-ASSIETTE;PLASTIQUE;1;Logt Superviseur;Superviseur;;,,
-ML/461;ML;FER A REPASSE;eLECTRIQUE;1;Logt Superviseur;Superviseur;;,,
-ML/462;ML;BOULLOIR;ELECTRIQUE;1;Logt Superviseur;Superviseur;;,,
-ML/465;ML;NAPPE DE TABLE;ANTI-TACHE;2;Logt Superviseur;Superviseur;;,,
-ML/466;ML;PLANCHE A DECOUPER;EN BOIS;1;Logt Superviseur;Superviseur;;,,
-ML/467;ML;ECUMOIR COMPLET;INOX;1;Logt Superviseur;Superviseur;;,,
-ML/469;ML;ARMOIRE A DEUX PORTES;PALISSANDRE;1;Logt Superviseur;Superviseur;;,,
-ML/470;ML;LIT DEUX PLACES +MATELAS;VITAFOAM 14cm;1;Logt Superviseur;Superviseur;;,,
-ML/469;ML;ARMOIRE A DEUX PORTES;PALISSANDRE;1;Logt Superviseur;Superviseur;;,,
-ML/471;ML;DRAPS GM;GM;2;Logt chef d'agence;DA;;image/drap PM logt da.jpeg,,
-ML/472;ML;PARAPLUIE 08 MARS;JR;30;Logt chef d'agence;DA;;image/parpluies RAM logt da.jpeg,,
-ML/473;ML;SERVIETTE;EN COTON;2;Logt chef d'agence;DA;;image/serviette coton logt da.jpeg,,
-ML/477;ML;DRAPS PM+HOUSSE;TISSU;5;Logt chef d'agence;DA;;image/drap PM housse logt da.jpeg,,
-ML/478;ML;OREILLETTE;TISSU;2;Logt chef d'agence;DA;;image/oreillettes logt da.jpeg,,
-ML/479;ML;NAPPE DE TABLE;ANTI-TACHE;2;Logt chef d'agence;DA;;image/nappe de table logt da.jpeg,,
-ML/482;ML;PLATEAU;PLASTIQUE;2;Logt chef d'agence;DA;;image/plateau plastique logt da.jpeg,,
-ML/483;ML;PORTE-ASSIETTE;INOX;2;Logt chef d'agence;DA;;image/porte assiettes logt da.jpeg,,
-ML/484;ML;BOCALE;EN VERRE;2;Logt chef d'agence;DA;;image/bocal en verres logt da.jpeg,,
-ML/485;ML;FER A REPASSER;ELCTRIQUE;1;Logt chef d'agence;DA;;image/fer à repasser élect logt da.jpeg,,
-ML/487;ML;PLATEAU A FRUIT;VERRE;2;Logt chef d'agence;DA;;image/plateau a fruitslogt da.jpeg,,
-ML/488;ML;PORTE-SERVIETTE;INOX;2;Logt chef d'agence;DA;;image/porte serviette logt da.jpeg,,
-"ML/489;ML;""BOCALE(SUCRE",SEL;LAIT,"MIEL)"";EN VERRE;4;Logt chef d'agence;DA;;image/bocal pm logt da.jpeg"
-ML/490;ML;BÔL PM;PORCELAINE;17;Logt chef d'agence;DA;;image/bols pm logt da.jpeg,,
-ML/491;ML;ASSIETTE GM;PORCELAINE;14;Logt chef d'agence;DA;;image/assiettes GM logt da.jpeg,,
-ML/493;ML;BÔL A SOUPE;PORCELAINE;2;Logt chef d'agence;DA;;image/bol a soupe logt da.jpeg,,
-ML/494;ML;SALADIER;PORCELAINE;2;Logt chef d'agence;DA;;,,
-ML/495;ML;ASSIETTE PM;PORCELAINE;17;Logt chef d'agence;DA;;image/assiettes PM logt da.jpeg,,
-ML/496;ML;GRILLE DE BROCHETTE;INOX;1;Logt chef d'agence;DA;;,,
-ML/497;ML;ASSIETTE VAPEUR;PLASTIQUE;1;Logt chef d'agence;DA;;image/assiettes a vapeur logt da.jpeg,,
-ML/499;ML;COUTEAU DE TABLE;INOX;18;Logt chef d'agence;DA;;image/couteaux de tables logt da.jpeg,,
-ML/500;ML;CUILLEUR GM;INOX;15;Logt chef d'agence;DA;;image/cuillère GM logt da.jpeg,,
-ML/501;ML;FOURCHETTE;INOX;18;Logt chef d'agence;DA;;image/fourchettes logt da.jpeg,,
-ML/502;ML;CUILLEUR A CAFE;INOX;17;Logt chef d'agence;DA;;image/cuillère à café logt da.jpeg,,
-ML/503;ML;JOG ;EN VERRE;3;Logt chef d'agence;DA;;image/jog logt da.jpeg,,
-ML/504;ML;VIOLE D'ŒUF;;1;Logt chef d'agence;DA;;image/viole d'oeuf logt da.jpeg,,
-ML/505;ML;RAPPE GM/PM;INOX;2;Logt chef d'agence;DA;;image/rappe pm gm logt da.jpeg,,
-ML/506;ML;PASSOIR ;PLASTIQUE;1;Logt chef d'agence;DA;;image/passoire plasti logt da.jpeg,,
-ML/507;ML;TASSE A CAFE;PORCELAINE;20;Logt chef d'agence;DA;;image/tasses a café logt da.jpeg,,
-ML/508;ML;CARTON DE COUTEAU COMPLET;EN CARTON;1;Logt chef d'agence;DA;;image/carton de couteaux logt da.jpeg,,
-ML/509;ML;SOUS ASSIETTE;PLASTIQUE;24;Logt chef d'agence;DA;;image/sous assiettes logt da.jpeg,,
-ML/510;ML;CUVETTE GM;EN PLASTIQUE;4;Logt chef d'agence;DA;;image/cuvettes GM logt da.jpeg,,
-ML/511;ML;PLANCHE A DECOUPER;EN BOIS;2;Logt chef d'agence;DA;;image/planche a découper logt da.jpeg,,
-ML/512;ML;CUVETTE PM;EN PLASTIQUE;5;Logt chef d'agence;DA;;image/cuvettes pm logt da.jpeg,,
-ML/513;ML;SEAU GM;EN PLASTIQUE;3;Logt chef d'agence;DA;;image/sceaux gm logt da.jpeg,,
-ML/516;ML;LA LOUSSE GM;INOX;3;Logt chef d'agence;DA;;image/lousses gm logt da.jpeg,,
-ML/517;ML;PLAT PM;;3;Logt chef d'agence;DA;;image/plat pm logt da.jpeg,,
-ML/518;ML;PELLE AVEC BROSSE;PLASTIQUE;1;Logt chef d'agence;DA;;image/pelle plastique logt da.jpeg,,
-ML/519;ML;COUPE A GLACE;VERRE;18;Logt chef d'agence;DA;;image/coupe a glace logt da.jpeg,,
-ML/525;ML;Matelas 02 PlACBs;VITAFOAM ;2;Logt chef d'agence;DA;;image/matelas 2place logt dr.jpeg,,
-ML/530;ML;Placart+étagere (dans la cuisine);En palissandre;1;Logt chef d'agence;DA;;image/placard étagère logt da.jpeg,,
-ML/531;ML;PORTE RIDEAU;PALISSANDRE;20;Logt chef d'agence;DA;;image/portes rideaux logt da.jpeg,,
-ML/532;ML;RECHEAU ;ELECTRIQUE;1;Logt chef d'agence;DA;HU;image/rechaud élect logt da.jpeg,,
-ML/533;ML;Cafétière;CERAMIQUE;1;Logt chef d'agence;DA;;image/cafetière logt da.jpeg,,
-ML/534;ML;Sous tasse;CERAMIQUE;13;Logt chef d'agence;DA;;image/sous tasses logt da.jpeg,,
-ML/535;ML;Tasse;CERAMIQUE;14;Logt chef d'agence;DA;;image/tasses logt da.jpeg,,
-ML/536;ML;Sucrier;CERAMIQUE;1;Logt chef d'agence;DA;;image/sucrierlogt da.jpeg,,
-ML/537;ML;Pot à lait;CERAMIQUE;1;Logt chef d'agence;DA;;image/pot a lait logt da.jpeg,,
-ML/538;ML;Saucière;CERAMIQUE;1;Logt chef d'agence;DA;;image/sucrière logt da.jpeg,,
-ML/539;ML;Assiète Plate;CERAMIQUE;17;Logt chef d'agence;DA;;image/assiettes plates logt da.jpeg,,
-ML/540;ML;Assiète à dessert;CERAMIQUE;8;Logt chef d'agence;DA;;image/assiettes a désert logt da.jpeg,,
-ML/541;ML;Assiète creuse;CERAMIQUE;8;Logt chef d'agence;DA;;image/assiettes creuses logt da.jpeg,,
-ML/542;ML;Soupière;CERAMIQUE;1;Logt chef d'agence;DA;;image/soupière logt da.jpeg,,
-ML/543;ML;Saladier;CERAMIQUE;1;Logt chef d'agence;DA;;image/saladiers logt da.jpeg,,
-ML/544;ML;Raviers;CERAMIQUE;2;Logt chef d'agence;DA;;image/raviers logt da.jpeg,,
-ML/545;ML;Plat ovale;CERAMIQUE;1;Logt chef d'agence;DA;;image/plats ovales logt da.jpeg,,
-ML/546;ML;Plat rond Grand;CERAMIQUE;2;Logt chef d'agence;DA;;image/plat rond GM logt da.jpeg,,
-ML/547;ML;Plat rond moyenne;CERAMIQUE;1;Logt chef d'agence;DA;;image/plat rond moyen logt da.jpeg,,
-ML/548;ML;Bahut;EN BOIS;1;Logt chef d'agence;DA;;image/bahu en bois logt da.jpeg,,
-ML/554;ML;Table basse en palissandre;EN BOIS;1;Logt chef d'agence;DA;;image/table basse paliss logt da .jpeg,,
-ML/556;ML;Verre;VERRE;17;Logt chef d'agence;DA;;image/verres logt da.jpeg,,
-ML/557;ML;Plateau plastique;PLASTIQUE;2;Logt chef d'agence;DA;;image/plateau plastique logt da.jpeg,,
-ML/558;ML;Plateau inox;INOX;3;Logt chef d'agence;DA;;image/plateau ino logt da.jpeg,,
-ML/559;ML;Verrine;VERRE;14;Logt chef d'agence;DA;;image/verrine logt da.jpeg,,
-ML/560;ML;Placard2;EN BOIS;1;Logt chef d'agence;DA;;image/placard2 logt da.jpeg,,
-ML/561;ML;Makiplast;PLASTIQUE;1;Logt chef d'agence;DA;;image/cyterne da.jpeg,,
-ML/565;ML;Cadre moustiquaire;PALISSANDRE;1;Logt chef d'agence;DA;;image/cadre mustiquaire logt da.jpeg,,
-ML/566;ML;COUTEAU;INOX;2;Logt chef d'agence;DA;;image/couteaux inox logt da.jpeg,,
-ML/568;ML;GOBELET 01L;PLASTIQUE;2;Logt chef d'agence;DA;;image/zinga logt chef comptable .jpeg,,
-ML/569;ML;GOBELET 01L;INOX;1;Logt chef d'agence;DA;;image/gobelet inox logt da.jpeg,,
-ML/570;ML;BOULOIRE;PLASTIQUE;1;Logt chef d'agence;DA;;image/bouloir logt da.jpeg,,
-ML/571;ML;Sucrier;PLASTIQUE;2;Logt chef d'agence;DA;;image/sucrier plast logt da.jpeg,,
-ML/572;ML;PAIRE DE MARMITE;Aluminium;1;Logt chef d'agence;DA;;image/paire marmite logt da.jpeg,,
-ML/573;ML;POELLON;Aluminium;1;Logt chef d'agence;DA;;image/poelon logt da.jpeg,,
-ML/574;ML;BIDON DE STOCKAGE RIZ;PLASTIQUE;1;Logt chef d'agence;DA;;,,
-ML/575;ML;CARTON DE COUTEAU COMPLET;Carton;1;Logt chef d'agence;DA;;,,
-ML/576;ML;PAUSE MARMITE;METALIQUE;4;Logt chef d'agence;DA;;image/pause marmite logt da.jpeg,,
-ML/580;ML;PAQUET POT YAOURT;PLASTIQUE;1;Logt chef d'agence;DA;;image/paquet pot yaourt logt da.jpeg,,
-ML/582;ML;BOUTEILLE GAZ 12KG;VITOGAZ;1;Logt chef d'agence;DA;;image/bouteillea gaz logt da.jpeg,,
-ML/583;ML;BOITE (CONGELATEUR);PLASTIQUE;3;Logt chef d'agence;DA;;image/boite plast congelateur logt da.jpeg,,
-ML/585;ML;COUVERT COMPLET;INOX;2;Logt chef d'agence;DA;;image/couvert complet logt da.jpeg,,
-ML/586;ML;RALLONGE;PLASTIQUE;1;Logt chef d'agence;DA;;image/rallonge logt da.jpeg,,
-ML/587;ML;CUVETTE GM;PLASTIQUE;3;Logt AQDD;Adjoint produit;;image/bouteille a gaz logt aqdd.jpeg,,
-ML/588;ML;SEAU GM;PLASTIQUE;3;Logt AQDD;Adjoint produit;;image/sceaux gm logt da.jpeg,,
-ML/589;ML;KOPY 1,5L;PLASTIQUE;3;Logt AQDD;Adjoint produit;;image/zinga logt chef comptable .jpeg,
-ML/594;ML;COUTEAU PM;semi plastique;3;Logt comptable;COMPTABLE;;image/couteaux PM logt comptable.jpeg,,
-ML/595;ML;POELLON;Aluminium;1;Logt comptable;COMPTABLE;;image/poelon logt comptable.jpeg,,
-ML/596;ML;EPLUCHEUR;PLASTIQUE;1;Logt comptable;COMPTABLE;;,,
-ML/597;ML;MARMITE;INOX;2;Logt comptable;COMPTABLE;;image/marmites logt comptable.jpeg,,
-ML/598;ML;CUILLEURE;INOX;6;Logt comptable;COMPTABLE;;,,
-ML/599;ML;VERRE;VERRE;1;Logt comptable;COMPTABLE;;image/verres logt comptable.jpeg,,
-ML/600;ML;SOUPIERE;;3;Logt comptable;COMPTABLE;;image/soupière logt comptable.jpeg,,
-ML/601;ML;JOG ;VERRE;1;Logt comptable;COMPTABLE;;,,
-ML/602;ML;PORTE ASSIETTE;INOX;1;Logt comptable;COMPTABLE;;image/porte assiettes logt comptable.jpeg,,
-ML/603;ML;BOCAL;PLASTIQUE;2;Logt comptable;COMPTABLE;;image/bocal plast logt comptable.jpeg,,
-;ML;BOITE SUCRIERE;PLASTIQUE;2;Logt comptable;COMPTABLE;;image/sucriere logt comptable.jpeg,,
-ML/604;ML;LOUCHE;INOX;1;Logt comptable;COMPTABLE;;image/louche logt comptable.jpeg,,
-ML/605;ML;TASSE COMPLET;CERAMIQUE;5;Logt comptable;COMPTABLE;;image/tasses logt comptable.jpeg,,
-ML/606;ML;FILTRE EAU;PLASTIQUE;1;Logt comptable;COMPTABLE;;image/filtre a eau logt comptable.jpeg,,
-ML/607;ML;BOUILOIRE;INOX;1;Logt comptable;COMPTABLE;;image/bouloir inox logt comptable.jpeg,,
-ML/608;ML;RICE COOKER 1,8L;VISTA;1;Logt comptable;COMPTABLE;;image/rice cocker logt comptable.jpeg,
-ML/609;ML;COUTEAU MM;RAMBO;1;Logt comptable;COMPTABLE;;image/couteau logt comptable.jpeg,,
-ML/610;ML;Matela 01 place 12cm;VITAFOAM 3;4;Magasin 1;RE-WMN;;image/matelas collecte.jpeg,,
-ML/611;ML;Matela 02 place 14cm;;1;Magasin 1;RE-WMN;;image/matelas collecte.jpeg,,
-ML/612;ML;Matela 01 place 14cm;VITAFOAM;1;Magasin 1;RE-WMN;;image/matelas collecte.jpeg,,
-ML/613;ML;Matela 01 place 16cm;;1;Magasin 1;RE-WMN;;image/matelas collecte.jpeg,,
-MB/622;MB;CHAISE ROULANTE;CUIRE;1;Grande Salle;SECRETAIRE;HU;,,
-ML/652;ML;ARMOIRE;palissandre;1;Logt Chef Comptable;Chef Comptable;;image/armoire logt chef comptable .jpeg,,
-FB/660;FB;PRISE MULTIPLE;NOIRE ET BLANC;1;Bureau comptabilité;Vente MG;;image/prise mult 662.jpeg,,
-FB/661;FB;PRISE MULTIPLE; BLANC;1;Bureau comptabilité;Comptable;;image/prise multi assit pro.jpeg,,
-FB/662;FB;PRISE MULTIPLE;NOIRE ET BLANC;1;Cabine caisse;Caissier;;image/prise mutip caisse.jpeg,,
-FB/663;FB;PORTE PAPILLON;BLEU;1;Bureau comptabilité;Chef Comptable;;image/cube porte papier compt1.jpeg,,
-MB/664;MB;Ventilateur mural;blanc;1;Mada Airlines;VENTE TZ;;image/ventilateur rv tz.jpeg,,
-MB/665;MB;Ventilateur mural;Noire;1;Bureau comptabilité;Comptable;;image/ventilateur comptable 1.jpeg,,
-MI/666;MI;Routeur réseau STARLINK;STARLINK;1;Site RE;RE/WMN;;image/routeur starlink.jpeg,,
-MI/667;MI;Répetiteur Wifi;Blanc;1;bureau assistant;RE/WMN;;image/répétiteur wifi.jpeg,,
-MI/668;MI;Ordinateur portable;Lenovo;1;Grande Salle;AQDD;;image/ordi portable aqdd.jpeg,,
-MB/669;MB;Ventilateur verticale;VISTA;1;Certification;Personnels;;image/ventilateur AQDD.jpeg,,
-MO/670;MO;Casque  moto;Noir;1;Bureau RAL;RAL;;image/casque moto RAL.jpeg,,
-MO/671;MO;Casque  moto;Noir;1;Certification;AQDD;;image/casque moto aqdd.jpeg,,
-MO/672;MO;Casque  moto;Noir;1;Bureau Directeur d'Agence;DA;;image/casque moto da.jpeg,,
-MO/673;MO;Casque  moto;Bleu;1;Cabine caisse;Mora;;image/casque moto caisse.jpeg,,
-MO/674;MO;Casque  moto;Grena;1;Certification;Francky;HU;,,
-MO/675;MO;Casque  moto;Grena;1;Certification;Jacques;HU;,,
-MO/676;MO;Casque  moto;Grena;1;Certification;Bruni;HU;,,
-MO/677;MO;Casque  moto;Grena;1;Certification;Edlin;HU;,,
-MO/678;MO;Casque  moto;Grena;1;Certification;Seheno;HU;,,
-MO/679;MO;Casque  moto;Grena;1;Certification;Petera;HU;,,
-ML/680;ML;MOUSTIQUEUR;TISSU;2;Logt Chef Comptable;Chef Comptable;;image/moustiquaire logt chef comptable.jpeg,,
-ML/681;ML;DRAPS PM+HOUSSE;TISSU;3;Logt Chef Comptable;Chef Comptable;;image/drap housse logt chef comptable.jpeg,,
-ML/682;ML;OREILLETTE;TISSU;2;Logt Chef Comptable;Chef Comptable;;image/oreillettes logt chef comptable.jpeg,,
-ML/683;ML;Mixeur robot;eléctrique;1;Logt Chef Comptable;Chef Comptable;;image/robot mixeur logt chef comptable.jpeg,,
-MP/684;MP;Terrain campagne MANOHISOA III;SITE RE;1;Site RE;RE WMN;;image/Terrain campagne MANOHISOA III.jpeg,,
-MP/685;MP;Terrain MANOHISOA IV;EXTERNE;1;Ankiakalava I;RAL;;image/Terrain MANOHISOA IV.jpeg,,
-MP/686;MP;Bâtiment (Bureau, Magasins PL/MG,LOGT DA);SITE RE;3;Site RE;RE WMN;;image/batiment grande.jpeg
-MP/687;MP;Bâtiment Bureau RAL;SITE RE;1;Site RE;Gardiens;;image/batiment bureau RAL.jpeg,,
-MP/688;MP;Bâtiment Logement du  RAL;EXTERNE;1;Ankiakalava I;RAL;;image/maison logt RAL.jpeg,,
-MP/689;MP;Château d'eau;SITE RE;1;RE Site Nord;RE WMN;;image/chateau eau site nord.jpeg,,
-MP/690;MP;Maison moteur;SITE RE;1;RE Site sud;RE WMN;;image/abri groupe.jpeg,,
-MP/691;MP;WC et Pissoire;SITE RE;1;RE Site sud;RE WMN;;image/douce personnel.jpeg,,
-MP/692;MP;Echaudoire;SITE RE;2;RE Site Nord;RE WMN;;image/échaudoir.jpeg,,
-MP/693;MP;Douche et WC Ouvriers vanille;SITE RE;1;RE Site Nord;RE WMN;;image/douce wc ouvriers.jpeg,,
-MP/694;MP;Chateau D'eau;SITE RE;1;Logt chef d'agence;DA;;image/château d'eau logt.jpeg,,
-MP/695;MP;Bac a ordure;SITE RE;1;RE Site Nord;RE WMN;;image/bac ordure ciment.jpeg,,
-MP/696;MP;WC et Pissoir;SITE RE;1;Grande Salle;RE WMN;;image/wc pissoir grande salle.jpeg,,
-MP/697;MP;Abri camion;SITE RE;1;Site RE;RE WMN;;image/abri camion.jpeg,,
-MP/698;MP;Lave main et lave pieds;SITE RE;2;RE Site Nord;RE WMN;;image/lave main site nord.jpeg,,
-MP/699;MP;Lave main;SITE RE;1;RE Site sud;RE WMN;;image/lave main site sud.jpeg,,
-MP/700;MP;ABRI CANNOE;SITE RE;1;RE Site sud;RE WMN;;image/abri canoë.jpeg,,
-MP/701;MP;BASSIN D'EAU ;SITE RE;1;RE Site sud;RE WMN;;image/bassin d'eau.jpeg,,
-MP/702;MP;CABINE CAISSE;SITE RE;1;Grande Salle;caissiere;;image/cabine caisse.jpeg,,
-MP/703;MP;CABINE DE BOUTEILLE A GAZ;SITE RE;1;RE Site Nord;RE WMN;;image/cabine bouteille gaz.jpeg,,
-MP/704;MP;CABINE MOTO POMPE;SITE RE;1;RE Site sud;RE WMN;;image/cabine motopompe.jpeg,,
-MP/705;MP;CABINE STOCKAGE CARBURANT;SITE RE;1;RE Site sud;RE WMN;;image/dépôt carburant.jpeg,,
-MT/706;MT;CAMIONNETTE TOYOTA ;MATRICULE N°1407 AD;1;Site RE;ERIXON;;image/toyota.jpeg,,
-MT/707;MT;CAMION MERCEDES BENZ;MATRICULE N°0119 AB;1;Site RE;MONY EDDY;;image/merceded.jpeg,,
-MT/708;MT;CAMIONNETTE PEUGEOT 504;MATRICULE N° 8907 AB;0;Site RE;LISSE;;,,
-MT/709;MT;MOTOCYCLETTE  HONDA XR 125 AVEC CASQUE;MATRICULE N°9707 TAE;1;Site RE;FRANCKI;;image/moto francki.jpeg,,
-MT/710;MT;MOTOCYCLETTE HONDA ACB 125 noire AVEC CASQUE;MATRICULE N°9165 WWT;1;Site RE;BRUNI;;image/moto bruni.jpeg,,
-MT/711;MT;MOTOCYCLETTE HONDA XR 125 AVEC CASQUE;MATRICULE N°42755 WWT;1;Site RE;JACQUE;;image/moto jacques.jpeg,,
-MT/712;MT;MOTOCYCLETTE HONDA XR-125;MATRICULE N°42756 WWT;1;Site RE;AQDD;;image/moto aqdd.jpeg,,
-MT/713;MT;MOTOCYCLETTE HONDA XR-125 rouge AVEC CASQUE;MATRICULE N°37697 WWT;1;Site RE;EDLIN;;image/moto edlin.jpeg,,
-MT/714;MT;CANOE METALLIQUE;ROUGE;1;Abri canoe;RE WMN;;image/canoë 1.jpeg,,
-MT/715;MT;CANNOE METALLIQUE avec cerseau;ROUGE;1;Abri canoe;RE WMN;;image/canoë 2.jpeg,,
-MT/716;MT;MOTOCYCLETTE  HONDA ACB CB-125 noire AVEC CASQUE;MATRICULE N°9307 TBG;1;Site RE;Coursier;;image/moto courser .jpeg,,
-MT/717;MT;MOTOCYCLETTE  HONDA ACB  TUF rouge AVEC CASQUE;MATRICULE N°37696WWT;1;Site RE;SEHENO;;image/moto seheno.jpeg,,
-MT/718;MT;MOTOCYCLETTE HONDA ACB 125  bleu AVEC CASQUE;MATRICULE N°7691WWT;1;Site RE;VERO;;image/moto spvr.jpeg,,
-MT/719;MT;MOTOCYCLETTE  HONDA ACB 125 rouge AVEC CASQUE;MATRICULE  N°7692 WWT;1;Site RE;REWMN;;image/moto eraldo.jpeg,,
-MT/720;MT;MOTOCYCLETTE  HONDA ACB 125 rouge AVEC CASQUE;MATRICULE  N°7693 WWT;1;Site RE;PETERA;;image/moto petera.jpeg,,
-MT/721;MT;MOTOCYCLETTE HONDA XR MIJAJY;;1;Site RE;RE WMN;;image/moto xr mikajy.jpeg,,
-MT/722;MT;MOTOCYCLETTE  HONDA bleu(MIKAJY);MATRICULE  N°42757 WWT;1;Site RE;RE WMN;;image/moto 42757.jpeg,,
-MT/723;MT;MOTOCYCLETTE  HONDA bleu(MIKAJY);MATRICULE  N°42759 WWT;1;Site RE;RE WMN;;image/moto 42759.jpeg,,
-MT/724;MT;MOTOCYCLETTE  HONDA XR-200;ROUGE;1;Site RE;RE WMN;;image/moto xr rouge.jpeg,,
-MT/725;MT;CAMIONNETTE 4X4 FORD Blanche;MATRICULE N° 1807 TAH;1;Site RE;MONY EDDY;;image/ford.jpeg,,
-MT/726;MT;SADKO;MATRICULE N° 6998 TBL;1;Site RE;ERIXON;;image/sadko.jpeg,,
-MO/727;MO;Pompe à graisse;Météllique;1;Magasin 1;RE WMN;;image/pompe a graisse.jpeg,,
-MO/728;MO;Lampe de poche;Noire;3;Guerrite;GARDIEN;;image/lampe de poche.jpeg,,
-MO/730;MO;Thermos;bleU;1;Guerrite;GARDIEN;;image/thermos.jpeg,,
-MO/731;MO;Thermomètre;VERRE;2;Magasin 1;RE WMN;;image/thermomètre .jpeg,,
-MO/732;MO;Fus Plastique  lave main;PLASTIQUE;3;Magasin 1;Ouvriers;;image/fus lave main.jpeg,,
-ML/733;ML;Sallon complet 3chaise et 1 tablette;palissandre;1;Logt Chef Comptable;Chef Comptable;;image/meuble logt chef compta.jpeg,,
-MO/734;MO;Clés mix (Un10-deux12-deux13-deux14-deux17-deux19-Un24-Un30);INOX;13;Magasin 1;RE WMN;;image/clés mix complet.jpeg,,
-MO/735;MO;Clés pipe (Un8-Un10-Un12-Un13-Un14-Un17-dUn19-Un22-Un24);INOX;9;Magasin 1;RE WMN;;image/clés pipes complet.jpeg,,
-MO/736;MO;Pince standar;Orange;1;Magasin 1;RE WMN;;image/pince standard orange.jpeg,,
-MO/737;MO;Pince Etau;INOX;1;Magasin 1;RE WMN;;image/pince étaux.jpeg,,
-MO/738;MO;Pince serre eclip;Météllique;1;Magasin 1;RE WMN;;image/pince serre éclipse .jpeg,,
-MO/739;MO;Masse;Météllique;1;Magasin 1;RE WMN;;image/la masse.jpeg,,
-MO/740;MO;Fer à souder ;GM;1;Magasin 1;RE WMN;;image/fer a soude GM.jpeg,,
-MO/741;MO;Clés en Cartouche de Douille;INOX;12;Magasin 1;RE WMN;;image/clés doux.jpeg,,
-MO/742;MO;Fausse septique;PLASTIQUE;1;Magasin 6;RE WMN;;image/fausse septique noire.jpeg,,
-FB/743;FB;Montre murale;blanc;1;Grande Salle;Personnels;;image/montre murale GS.jpeg,,
-MO/744;MO;Caisse porte vanille;Bois;1;Magasin 6;RE WMN;;image/caisse porte vanille.jpeg,,
-MB/745;MB;PORTE RIDEAU+RIDEAU;Bois;1;Bureau comptabilité;RE WMN;;image/porte rideau.jpeg,,
-MB/746;MB;PORTE RIDEAU+RIDEAU;Bois;2;Bureau Directeur d'Agence;RE WMN;;image/porte rideau.jpeg,,
-MB/747;MB;PORTE RIDEAU+RIDEAU;Bois;4;Grande Salle;RE WMN;;image/porte rideau.jpeg,,
-MI/748;MI;Disque dur Extene;Noir;1;Bureau comptabilité;COMPTABILITE;;image/rack de disque dur.jpeg,,
-MI/749;MI;Capteur Wifi;Noir;2;bureau assistant;HSE/Assistant  Produit/RAL;;image/capteur wifi.jpeg,,
-MO/750;MO;Blouse Noire +7calottes;TISSU;11;Magasin 1;Ouvriers;;image/blouse noire.jpeg,,
-MO/751;MO;Blouse Blanche;TISSU;23;Magasin 1;Ouvriers;;image/blouse blanche.jpeg,,
-MO/752;MO;Tablier Homme;TISSU;76;Magasin 1;Ouvriers;;,,
-MO/753;MO;Tablier Femme;TISSU;303;Magasin 1;Ouvriers;;,,
-MO/754;MO;Tablier vert;TISSU;62;Magasin 1;Ouvriers;;,,
-MO/755;MO;Tabblier Bleu;TISSU;130;Magasin 1;Ouvriers;;,,
-MO/756;MO;Calotte vert;TISSU;66;Magasin 1;Ouvriers;;,,
-MO/757;MO;Kapa;Scoobidou;41;Magasin 1;Ouvriers;;image/savate de pied.jpeg,,
-MO758;MO;Crock;PLASTIQUE;6;Magasin 1;Ouvriers;;image/crocks.jpeg,,
-MO/759;MO;Botte;PLASTIQUE;22;Magasin 1;Ouvriers;;image/botte de chantier noir.jpeg,,
-MO/760;MO;Calotte Bleu;TISSU;357;Magasin 1;Ouvriers;;,,
-MO/761;MO;Blouse Bleu;TISSU;44;Magasin 1;Ouvriers;;,,
-MO/762;MO;Ciseaux PM;INOX;30;Magasin 1;Ouvriers;;image/ciseau PM.jpeg,,
-MO/763;MO;Fil à coudre;Blanc;20;Magasin 1;RE WMN;;image/fil a coudre.jpeg,,
-MO/764;MO;Machine à coudre;Gris;4;Magasin 1;RE WMN;;image/machine a coudre gris.jpeg,,
-MB/765;MB;Chaise de Bureau;Bois;2;bureau assistant;Assitant Produit&Logistique;;image/chaise de bureau assit.jpeg,,
-FB/766;FB;PRISE MULTIPLE;blanc;2;bureau assistant;Assistant Produit;;image/prise mult blanc .jpeg,,
-MI/767;MI;POWER BANK 50000mAh;BAGULE;1;Certification;AQDD;;image/power bank bagule.jpeg,,
-MI/768;MI;POWER BANK 50000mAh;BAGULE;1;Certification;Edlin;;image/power bank bagule.jpeg,,
-MI/769;MI;POWER BANK 50000mAh;BAGULE;1;Certification;Bruni;;image/power bank bagule.jpeg,,
-MO/770;MO;Paire de Rideau blanc;TISSU;12;Magasin 1;RE WMN;;image/paire de rideau blanc.jpeg,,
-MO/771;MO;Filtre à eau;PLASTIQUE;1;Grande Salle;Personnels;;image/filtre eau GS.jpeg,,
-MO/772;MO;Filtre à eau;PLASTIQUE;1;Bureau RAL;Personnels;;image/filtre a eau.jpeg,,
-MO/773;MO;Filtre à eau;PLASTIQUE;1;Certification;Personnels;;image/filtre a eau1.jpeg,,
-FB/774;FB;PRISE MULTIPLE;PLASTIQUE;1;Grande Salle;AQDD;;image/rallonge noire blanc.jpeg,,
-MO/775;MO;Pistolet à peindre;PLASTIQUE;1;Magasin 1;REWMN;;image/pistolet a peindre.jpeg,,
-MB/776;MB;Chaise de Bureau;Noire;1;Grande Salle;AQDD;;image/chaise roulante AQDD.jpeg,,
-MP/777;MP;Panneau de signalisation;métallique;9;RE Site sud;RE WMN;;image/panneau de signalisation métal.jpeg,,
-MP/778;MP;Poubelles plastiques;Bidon jaune;5;RE Site Nord;RE WMN;;image/poubelle bidon jaune.jpeg,,
-MP/779;MP;Poubelles plastiques;Bidon jaune;3;RE Site sud;RE WMN;;image/poubelle bidon jaune.jpeg,,
-FB/780;FB;Clé USB 32 GO;KIOXIA;1;Mada Airlines;Mr Fredéric;;image/clé usb TZ.jpeg,,
-MO/781;MO;EXTINCTEUR;6Kg ROUGE;1;AEROPORT;Mada Airlines;;image/extincteur 6Kg.jpeg,,
-MO/782;MO;EXTINCTEUR;500ml ROUGE;1;FORD 1807 TAH;ALAIN;;image/extincteur 2Kg.jpeg,,
-MO/783;MO;TROUSSE DE SECOURS;TROUSSE;1;FORD 1807 TAH;ALAIN;;,,
-MO/784;MO;PAPIER COMPLET;PAPIER;1;FORD 1807 TAH;ALAIN;;,,
-MO/785;MO;Blouse vert;TISSU;15;Magasin 1;Ouvriers;;,,
-MI/786;MI;Tablette android;ANDROID;1;Certification;VERO;;image/tablette android.jpeg,,
-MI/787;MI;Tablette android;ANDROID;1;Certification;FRANCKI;;image/tablette android.jpeg,,
-MI/788;MI;Tablette android;ANDROID;1;Certification;SEHENO;;image/tablette android.jpeg,,
-MO/790;MO;Pompe éléctrique;RIFLEX;1;RE Site sud;RE WMN;HU;image/supresseur ouvriers.jpeg,,
-MO/790;MO;Supresseur éléctrique;Brassimpeller;1;Magasin 1;RE WMN;;image/supresseur orange.jpeg,,
-ML/791;ML;Table à manger +2 tabourets;Bois;1;Magasin 1;Vérificateur vanille;;,,
-MI/792;MI;Télépone android:0320777407;Redmi;1;Grande Salle;AQDD;;image/tele redmi QADD.jpeg,,
-MO/793;MO;Marmite N°60;Cocotte;1;Magasin 1;RE WMN;;image/marmite 60.jpeg,,
-MI/794;MI;Telephon touche Yas:0340279537;Yas;1;Guerrite;gardiens;;image/telephone touch yas.jpeg,,
-MO/795;MO;Supresseur éléctrique;ELECTRIQUE;1;Site RE;REWMN;;image/supresseur bleu.jpeg,,
-MI/796;MI;Tablette android;ANDROID;1;Certification;BRUNI;;image/tablette android.jpeg,,
-MI/797;MI;Tablette android;ANDROID;1;Certification;EDLIN;;image/tablette android.jpeg,,
-MI/798;MI;Tablette android;ANDROID;1;Certification;jACQUE;;image/tablette android.jpeg,,
-MI/799;MI;Tablette android;ANDROID;1;Certification;PETERA;;image/tablette android.jpeg,,
-MI/780;MI;Clavier flexible ;clavier;1;Certification;RBDD;;image/clavier flexible.jpeg,,
-MI/781;MI;Imprimante EPSON l3250 ;EPSON L3250;1;Bureau comptabilité;Comptabilite;;image/imprimante ipson compta.jpeg,,
-MB/782;MB;Ventilateur mural;TRUST;1;Certification;Personnels;;image/ventilateur RAL.jpeg,,
-MI/783;MI;Telephon touche Yas:0341798955;Yas;1;Mada Airlines;Mesmin;;image/telephone touch yas.jpeg,,
-FB/784;FB;Perforateur;Bleu;1;Grande Salle;Mathilda;;image/perforateur bleu.jpeg,,
-MI/785;MI;Telephone touche Yas:0340326880;Yas;1;Guerrite;Gardiens;;image/telephone touch yas.jpeg,,
-MO/786;MO;Table vanille;INOX;4;Magasin 5;REWMN;;image/table vanille inoxidable.jpeg,,
-MI/787;MI;Moniteur;HP;1;bureau assistant;Assistant Produit;;image/moniteur asst produit.jpeg,,
-MO/788;MO;Balance F150kg;Eletronique;1;Magasin 5;REWMN;;image/balance élect150KG.jpeg,,
-FB/789;FB;PRISE MULTIPLE;Blanc/Noir;1;Grande Salle;SECRETAIRE;;image/rallonge noire blanc.jpeg,,
-MO/790;MO;Banc vanille;palissandre;8;Magasin 5;REWMN;;image/banc vanille pallissandre.jpeg,,
-ML/791;ML;Bac à linge;PLASTIQUE;2;Logt chef d'agence;Directeur d'Agence;;image/bac alinge bleu.jpeg,,
-MO/792;MO;Casque  moto;Noir;1;Certification;EDLIN;;image/casque moto noir.jpeg,,
-MO/793;MO;Casque  moto;Noir;1;Certification;PETERA;;image/casque moto noir.jpeg,,
-MO/794;MO;Casque  moto;Noir;1;Certification;Bruni;;image/casque moto noir.jpeg,,
-MO/795;MO;Casque  moto;Noir;1;Certification;SEHENO;;image/casque moto noir.jpeg,,
-MO/796;MO;Casque  moto;Noir;1;Certification;FRANCKI;;image/casque moto noir.jpeg,,
-MO/797;MO;Casque  moto;Noir;1;Certification;JACQUES;;image/casque moto noir.jpeg,,
-MO/798;MO;Casque  moto;Blanc;1;Certification;VERO;;image/casque moto blanc spv.jpeg,,
-MO/799;MO;TROUSSE DE SECOURS;ROUGE;6;Magasin 1;REWMN;;,,
-MB/800;MB;Ventilateur Verticale;VISTAT;1;Grande Salle;AQDD;;image/ventilateur AQDD.jpeg,,
-MB/801;MB;Ventilateur Verticale;AKITA;1;AEROPORT;REWMN;;image/ventilateur TZ.jpeg,,
-MI/802;MI;Onduleur;PROLINK;1;Grande Salle;Responsable vente;;image/onduleur prolink.jpeg,,
-MI/803;MI;Onduleur;PROLINK;1;Bureau comptabilité;Chef Comptable;;image/onduleur prolink.jpeg,,
-MI/804;MI;Onduleur;ANC;1;bureau assistant;Assistant Produit;;image/onduleur assit produit.jpeg,,
-MI/805;MI;Onduleur;PROLINK;1;Bureau comptabilité;Comptable 1;;image/onduleur prolink.jpeg,,
-MI/806;MI;Moniteur;OXEO;1;Bureau comptabilité;Chef Comptable;;image/moniteur oxeo.jpeg,,
-FB/807;FB;RALLONGE;PLASTIQUE;1;Certification;RBDD;;image/rallonge noire blanc.jpeg,,
-MO/808;MO;TONFA;Bois;6;Guerrite;GARDIENS;;image/TONFA.jpeg,,
-MO/809;MO;CHAISE ANGLAISE;CERAMIQUE;1;Magasin 1;WMN;;image/chaise anglaise.jpeg,,
-MI/810;MI;CLE USB 64Go;KIOXIA;1;Certification;RBDD;NEUF;image/clé usb certification.jpeg,,
-MB/811;MB;Chaise de bureau;Bois;3;Bureau Directeur d'Agence;Directeur d'Agence;OK;image/chaise bureau da.jpeg,,
-MP/812;MP;Guérite;Bois;1;Site RE;WMN;OK;image/guérite.jpeg,,
-MP/813;MP;Batiment magasin 1;béton;1;Site RE;WMN;OK;image/magasin1.jpeg,,
+﻿N° Matricule (Étiquetage);Type;Désignation;Identification;Nombre;Localisation;Détenteur;Observations;Image
+MO/001;MO;Balance de précision;Blanc;1;Magasin 4;Grande salle;;image/balance de precision tz.jpeg
+MO/003;MO;Extincteur;Rouge;1;Grande salle;Re wmn;;image/extincteur 6kg.jpeg
+MO/006;MO;Filtre à eau;Plastique;5;Magasin 1;Re wmn;;image/filtre eau.jpeg
+MO/008;MO;Citerne;Bleu;1;Re site nord;Re wmn;;image/citerne site nord.jpeg
+MO/010;MO;Taser;Taser;3;Veranda sud bureau re;Sécurité;;image/pistolet electrique.jpeg
+FB/011;FB;Bac à dossiers;Gris;2;Magasin 1;Magasinier;;image/bac a ordure mgs.jpeg
+MB/015;MB;Commode;Palissandre;1;Mada airlines;Assistant d'escale;;image/commode tz.jpeg
+MB/197;MB;Ventilateur mural;Blanc;1;Bureau ral;Ral;;image/ventilateur ral.jpeg
+MB/016;MB;Etagère d'archives;Bois ordinaire;2;Bureau ral;Ral;;image/etagere ral.jpeg
+MB/018;MB;Table de bureau;Palissandre;1;Bureau ral;Ral;;image/table burau ral.jpeg
+FB/319;FB;Montre murale;Blanc;1;Bureau ral;Ral;;image/montre murale ral.jpeg
+MI/132;MI;Power bank;Prolink;1;Bureau ral;Ral;;image/power bank132.jpeg
+MI/133;MI;Power bank;Prolink;1;Bureau ral;Ral;;image/power bank133.jpeg
+MI/134;MI;Power bank;Prolink;1;Bureau ral;Ral;;image/power bank134.jpeg
+MI/135;MI;Power bank;Prolink;1;Bureau ral;Ral;;image/power bank135.jpeg
+MI/177;MI;Clavier;Nan;1;Bureau assistant;Assistant produit;;image/clavier asst produit.jpeg
+MI/019;MI;Unite centrale;Nan;1;Bureau assistant;Assistant produit;;image/unité centrale asst produit.jpeg
+MB/409;MB;Tableau blanc pm;Nan;1;Bureau assistant;Hse;;image/tableau  asst.jpeg
+MB/021;MB;Armoire;Métallique;1;Magasin 1;Assistant;;image/armoire méta noire.jpeg
+MB/028;MB;Chaise;Palissandre;1;Mada airlines;Agent trafic;;image/chaise de burau 030.jpeg
+MB/030;MB;Chaise;Palissandre;1;Grande salle;Agent de trafic;;image/chaise de burau 030.jpeg
+MB/037;MB;Table de bureau;Palissandre;1;Bureau assistant;Assistant produit;;image/tablebureau asst produit.jpeg
+MB/002;MB;Malette;Noir;1;Grande salle;Chef escale;;image/malette noire tz.jpeg
+MB/038;MB;Armoire;Palissandre;1;Grande salle;Chef escale;;image/armoire tz.jpeg
+MI/143;MI;Smart phone;Itel p37;1;Bureau ral;Ral;;image/tel itel p37.jpeg
+MI/053;MI;Telephone;Samson;1;Mada airlines;Gianni;;
+MI/144;MI;Souris;Hp;1;Mada airlines;Assistant d'escale;;image/souris resp vente tz.jpeg
+MB/039;MB;Table de bureau;Palissandre;1;Grande salle;Chef escale;;image/table bureau chef escale.jpeg
+MB/040;MB;Chaise;Palissandre;3;Grande salle;Chef escale;;image/chaise de bureau040.jpeg
+MB/041;MB;Chaise;Palissandre;1;Grande salle;Chef escale;;image/chaise de bureau041.jpeg
+MB/042;MB;Chaise;Palissandre;1;Certification;Responsable bdd;;
+FB/320;FB;Montre murale;Blanc;1;Guerrite;Gardiens;;image/montre murale320.jpeg
+MB/047;MB;Comptoir;Palissandre;1;Grande salle;Mada airlines;;image/contoir gs.jpeg
+MB/048;MB;Chaise;Cuir;8;Grande salle;Clients;;image/chaise cuir gs.jpeg
+MB/052;MB;Chaise en bois;Palissandre;1;Grande salle;Superviseur mad airlines;;image/chaise de bureau052.jpeg
+MI/009;MI;Déchiqueteuse;Rexel;1;Bureau directeur d'agence;Directeur d'agence;;image/déchiqueteuse da.jpeg
+MB/049;MB;Coffre fort;Nugue;1;Bureau directeur d'agence;Directeur d'agence;;image/coffre fort da.jpeg
+MB/050;MB;Table de bureau;Palissandre;1;Bureau directeur d'agence;Directeur d'agence;;image/table bureau da.jpeg
+MB/051;MB;Chaise;Palissandre;2;Grande salle;Directeur d'agence;;image/chaise de burau051.jpeg
+MB/071;MB;Mobilier bas;En bois;1;Bureau directeur d'agence;Directeur d'agence;;image/étagère da.jpeg
+MB/054;MB;Table informatique;Palissandre;1;Bureau directeur d'agence;Directeur d'agence;;image/table info da.jpeg
+MO/055;MO;Testeur d'humidité;Aquaboy;1;Bureau directeur d'agence;Re wmn;;image/testeur aqua bay.jpeg
+MB/056;MB;Chaise roulante;Cuir;1;Bureau directeur d'agence;Directeur d'agence;;image/chaise roulant da.jpeg
+MB/057;MB;Ventilateur plafond;Jaune;1;Bureau directeur d'agence;Directeur d'agence;;image/ventilateur da.jpeg
+MI/127;MI;Stabilisateur;Nan;1;Bureau directeur d'agence;Directeur d'agence;;image/stabilisateur da.jpeg
+MI/136;MI;Souris sans fil;Hp;1;Bureau directeur d'agence;Da;;image/souris da.jpeg
+MI/128;MI;Ordi portable (avec souris);Lenovo;1;Bureau directeur d'agence;Directeur d'agence;;image/ordi portable da.jpeg
+MO/406;MO;Testeur d'humidité;Draminski;1;Bureau directeur d'agence;Re wmn;;image/testeur dramski.jpeg
+MB/059;MB;Ventilateur plafond;Blanc;1;Grande salle;Re wmn;panne;image/ventilateur plafond gs.jpeg
+MB/060;MB;Ventilateur plafond;Blanc;1;Grande salle;Air mad;;image/ventilateur plafond gs.jpeg
+MB/062;MB;Ventilateur plafond;Blanc;1;Magasin 1;Magasiniers;panne;image/ventilateur plafond gs.jpeg
+MB/065;MB;Boîte à idées;En bois;1;Grande salle;Délégués de personnel;;image/boite idée gs.jpeg
+MB/067;MB;Comode;Palissandre;1;Certification;Responsable bdd;;image/commode certification.jpeg
+FB/412;FB;Montre murale;Blanc;1;Certification;Personnels;;image/montre murale crtification.jpeg
+MB/061;MB;Ventilateur mural;Blanc;1;Certification;Personnels;;image/ventilateur murale certification.jpeg
+MB/070;MB;Tableau blanc;En bois;1;Certification;Personnels;;image/tableau certification.jpeg
+MB/073;MB;Armoire;Palissandre;1;Certification;Personnels;;image/armoire certification.jpeg
+MB/074;MB;Comptoir;En bois;1;Certification;Personnels;;image/contoir animateurs.jpeg
+MB/075;MB;Chaises;En bois;8;Certification;Personnels;;image/chaise de bureau certification.jpeg
+MB/076;MB;Table de dureau;En bois;5;Certification;Rbdd;;image/table de bureau certification.jpeg
+MB/077;MB;Chevalet;En bois;2;Certification;Personnels;;image/chevalier.jpeg
+MI/125;MB;Moniteur;Hp, dell, prolink;1;Certification;Responsable bdd;;image/moniteur rbdd.jpeg
+MI/126;MB;Imprimante;L3150 epson;1;Certification;Responsable bdd;;image/imprimante epson rbdd.jpeg
+MI/631;MB;Unite centrale;Nan;1;Certification;Responsable bdd;;image/unité centrale rbdd.jpeg
+MI/632;MB;Souris;Yelandar;1;Certification;Responsable bdd;;image/souris rbdd.jpeg
+MI/129;MI;Vidéo projecteur;Optoma;1;Certification;Certification;;image/vidéo projecteur.jpeg
+MI/648;MI;Ordi portable;Lenovo 3;1;Certification;Eraldo;;image/ordi portable rbdd.jpeg
+MI/649;MI;Box orange;Tecno;Certification;Bureau ral;Rbdd;;image/box orange techno.jpeg
+MI/414;MI;Telephone;Redmi;1;Certification;Edlin;perdu;image/télephone redmi.jpeg
+MI/415;MI;Telephone;Redmi;1;Certification;Rbdd;;image/télephone redmi.jpeg
+MI/416;MI;Telephone;Redmi;1;Certification;Bruni;;image/télephone redmi.jpeg
+MI/417;MI;Telephone;Redmi;1;Certification;Eraldo;;image/télephone redmi.jpeg
+MI/418;MI;Telephone;Redmi;1;Certification;Petera;;image/télephone redmi.jpeg
+MI/080;MI;Moniteur;Hp;1;Bureau ral;Ral;;image/moniteur ral.jpeg
+MI/623;MI;Souris;Nan;1;Bureau ral;Ral;;image/souris ral.jpeg
+MI/624;MI;Clavier;Nan;1;Bureau ral;Ral;;image/clavier ral.jpeg
+MI/625;MI;Unité central;Hp;1;Bureau ral;Ral;;image/unité centrale ral.jpeg
+MI/627;MI;Imprimante;Epson 3218;1;Bureau ral;Ral;;image/imprimante epson ral.jpeg
+MI/104;MI;Moniteur;Eizo;1;Bureau assistant;Assistant produit;hu;image/moniteur assit p hu.jpeg
+MI/626;MI;Imprimante;Canon 2180;1;Bureau assistant;Assistant produit;hu;image/imprimante canonassit.jpeg
+MI/088;MI;Imprimante;Epson l380;1;Bureau assistant;Assistant produit;hu;image/imprimante epson l380.jpeg
+MO/421;MB;Table de bureau;Palissandre;1;Bureau assistant;Hse;;image/table de bureau hse.jpeg
+FB/108;MI;Prise multiple;Noir;1;Grande salle;Re-wmn;hu;image/prise multiple noire gs.jpeg
+FB/095;MI;Prise multiple;Bleu marine;1;Grande salle;Grande salle;moyen état;image/prise multiple bleu gs.jpeg
+MI/089;MI;Hub connexion;Tp link 16 port;1;Grande salle;Grande salle;;image/routeur gs.jpeg
+MI/091;MI;Box orange;Huawei;1;Bureau ral;Ral;;image/box orange ral.jpeg
+MB/064;MI;Commode;Palissandre;1;Grande salle;Sécretaire;;image/commode secretaria.jpeg
+MB/029;MI;Table de bureau;Melamine;1;Grande salle;Sécretaire;;image/table bureau secretaria.jpeg
+MI/093;MI;Ordi portable;Hp;1;Grande salle;Sécretaire;;image/ordi portable secretaire.jpeg
+MI/117;MI;Souris optique;Hp;1;Grande salle;Secrétaire;;image/souris secret.jpeg
+MB/044;MI;Imprimante;Hp deskjet 2130;1;Grande salle;Secretaire;hu;image/imprimante hp sercretaira.jpeg
+FB/092;MI;Prise multiple;Noire;1;Mada airlines;Service vente;;image/prise multi mad airl.jpeg
+MI/120;MI;Imprimante;Epson l3118;1;Mada airlines;Service vente;;image/imprimanteepsonl3118 tz.jpeg
+MI/096;MI;Moniteur;Dell;1;Mada airlines;Service vente tz;;image/moniteur dell rv tz.jpeg
+MI/097;MI;Unité central;Hp;1;Mada airlines;Service vente tz;;image/unité centrale ph rv tz.jpeg
+MI/098;MI;Clavier;Omega;1;Mada airlines;Resp.vente;;image/clavier omega rv tz.jpeg
+MI/099;MI;Souris;Hp;1;Mada airlines;Resp.vente;;image/souris ph rv tz.jpeg
+MB/072;MB;Caissette bleue;Métallique;1;Mada airlines;Chef de vente;;image/caissette bleu tz.jpeg
+MB/043;MB;Table de bureau;Mélamine;1;Mada airlines;Responsable vente;;image/table bureau rv tz.jpeg
+MB/420;MB;Chaises en bois;Palissandre;2;Mada airlines;Client tsaradia;;image/chaise client tz.jpeg
+MB/045;MB;Etagère vitrée;Contre plaqué;1;Mada airlines;Responsable vente;;image/étagere vitré tz.jpeg
+FB/617;FB;Porte papillon;Noir;1;Mada airlines;Vente tz;;image/cube porte papier noire tz.jpeg
+MI/100;MI;Tv;Philips;1;Bureau directeur d'agence;Directeur d'agence;;image/tv da.jpeg
+MI/101;MI;Moniteur;Acer;1;Magasin 1;Magasiniers;hu;
+MB/022;MB;Chaise de bureau;Rouge;1;Bureau comptabilité;Déplacer devant cabine caisse;;image/chaise client caisse.jpeg
+MB/014;MB;Ventilateur mural;Gris;1;Cabine caisse;Caissier;;image/ventilateur murale vista caisse.jpeg
+MB/032;MB;Table de bureau;Palissandre;1;Cabine caisse;Caissier;;image/table bureau caisse.jpeg
+MB/033;MB;Chaise;Palissandre;1;Cabine caisse;Caissier;;image/chaise de burau caisse.jpeg
+MB/036;MB;Coffret  bleue;Métallique;1;Cabine caisse;Caissier;;image/caissette bleu tz.jpeg
+MB/026;MB;Coffre fort;Nugue;1;Cabine caisse;Caissier;;image/coffre fort nugue caisse.jpeg
+MB/024;MI;Haut parleur pm;Noire;2;Bureau directeur d'agence;Directeur d'agence;;image/speeker m50 da.jpeg
+MI/112;MI;Moniteur;Hp;1;Cabine caisse;Caissier;mauvaise état;image/moniteur caisse.jpeg
+MI/113;MI;Clavier azerty;Prolink;1;Cabine caisse;Caissier;;image/clavier caisse.jpeg
+MI/118;MI;Unité central;Hp;1;Cabine caisse;Caissier;;image/unité centrale ph caisse.jpeg
+MI/114;MI;Souris;Prolink;1;Cabine caisse;Caissier;;image/souris caisse.jpeg
+MI/090;MI;Box telma;Alcatel one touch;1;Bureau comptabilité;Comptabilite;hu;image/box telma .jpeg
+MB/647;MB;Etagere d'archive en bois;Palissandre;1;Bureau comptabilité;Comptabilite;;image/étagère comptabilité.jpeg
+FB/419;FB;Montre murale;Nan;1;Bureau comptabilité;Comptabilite;;image/montre murale comptabilité.jpeg
+MB/407;MB;Tableau blanc gm;Nan;1;Bureau comptabilité;Comptabilite;;image/tableau comptabilité.jpeg
+MB/035;MB;Chaise de bureau;Tissu avec pied métallique;1;Bureau comptabilité;Comptable1;;image/chaise comtable1.jpeg
+MB/023;MB;Chaise de bureau tournante;Noire;1;Bureau comptabilité;Chef comptable;;image/chaise roulant chef comptable.jpeg
+FB/012;FB;Porte tampon;Noir;1;Bureau comptabilité;Comptable;;image/porte tampon .jpeg
+FB/013;FB;Porte tampon;Noir;1;Bureau comptabilité;Chef comptable;;image/porte tampon .jpeg
+MB/034;MB;Chaise roulante;Tissu;1;Bureau comptabilité;Comptable 2;;image/chaise comptable2.jpeg
+MB/020;MB;Table de bureau;Palissandre;1;Bureau comptabilité;Comptable 2;;image/table bureau comptable 2.jpeg
+MI/145;MI;Moniteur;Hp 21';1;Bureau comptabilité;Comptable 1;;image/moniteur comptable 1.jpeg
+MI/146;MI;Moniteur;Hp 17';1;Bureau comptabilité;Comptable 2;;image/moniteur comptable 2.jpeg
+MI/147;MI;Unite centrale;Hp;1;Bureau comptabilité;Chef comptable;;image/unité centrale chef comptable.jpeg
+MI/148;MI;Souris;Hp;1;Bureau comptabilité;Chef comptable;;image/souris chef comptable.jpeg
+"MI/149;MI;MONITEUR ;""PH 21"""""";1;Bureau comptabilité;Comptable 2;HU;image/moniteur comptable 2.jpeg,,";;Nan;Nan;;Nan;Nan;;
+MB/017;MB;Table de bureau;Palissandre;1;Bureau comptabilité;Comptable 1;;image/table bureau comptable 1.jpeg
+MI/130;MI;Imprimante;Canon g2420;1;Grande salle;Secrétaire;;image/imprimante canon secret.jpeg
+MI/131;MI;Smart phone;Itel p37;1;Bureau comptabilité;Chef comptable;;image/tel itel p37 chef compta.jpeg
+MI/081;MI;Unité central;Hp;1;Bureau comptabilité;Comptable 1;;image/unité centrale comptable 1.jpeg
+MI/082;MI;Clavier azerty;Hp;1;Bureau comptabilité;Comptable 1;;image/clavier comptable 1.jpeg
+MI/084;MI;Souris;Hp;1;Bureau comptabilité;Comptable 1;;image/souris comptable 1.jpeg
+MI/085;MI;Blu;Sailor;1;Bureau comptabilité;Chef comptable;hu;image/blu.jpeg
+MI/086;MI;Clavier azerty;Omega;1;Bureau comptabilité;Chef comptable;;image/clavier chef comptable.jpeg
+MI/087;MI;Unité central;Dell;1;Bureau comptabilité;Comptable 2;;image/unité centrale comptable 2.jpeg
+MI/094;MI;Imprimante;Hp deskjet 2130;1;Bureau comptabilité;Comptabilite;hu;image/imprimante hp 2130.jpeg
+MI/102;MI;Clavier azerty;Prolink;1;Bureau assistant;Hse;;image/clavier hse.jpeg
+MB/031;MB;Chaise;Palissandre;1;Bureau assistant;Hse;;image/chaise bureau hse.jpeg
+MB/068;MB;Table de bureau;Palissandre;1;Grande salle;Aqdd;;image/table bureau aqdd.jpeg
+MI/103;MI;Souris;Prolink;1;Bureau assistant;Hse;;image/souris hse.jpeg
+MI/411;MI;Moniteur;Samsun;1;Bureau assistant;Hse;;image/moniteur samsug hse.jpeg
+MI/105;MI;Unité central;Hp;1;Bureau assistant;Hse;;image/unité centrale hse.jpeg
+MI/106;MI;Clavier azerty;Prolink;1;Bureau comptabilité;Comptable 2;;image/clavier comptable 2.jpeg
+MI/107;MI;Souris;Hp;1;Bureau comptabilité;Comptable 2;;image/souris comptable 2.jpeg
+FB/109;FB;Prise multiple;Nan;1;Bureau comptabilité;Comptable 1;;image/prise mult comptable1.jpeg
+MI/110;MI;Clé usb 64 go;Kioxia;1;Bureau comptabilité;Comptable;;image/clé usb certification.jpeg
+MB/058;MB;Ventilateur plafond;Blanc;1;Bureau comptabilité;Re wmn;;image/ventilateur comptabilité.jpeg
+FB/614;FB;Porte papillon;Plastique;1;Bureau comptabilité;Comptabilite;;image/cube porte papier compt1.jpeg
+FB/616;FB;Porte papillon;Metalique;1;Bureau comptabilité;Comptabilite;;image/cube porte papier noire tz.jpeg
+FB/618;FB;Porte papillon;Metalique;1;Cabine caisse;Caissier;;image/cube porte papier noire tz.jpeg
+MB/619;MB;Table de bureau;Palissandre;1;Bureau comptabilité;Chef comptable;;image/table bureau chef comptable.jpeg
+MI/115;MI;Modem telma 4g;Nan;1;Bureau comptabilité;Chef comptable;;image/modem telma.jpeg
+MI/116;MI;Modem telma 4g;Nan;1;Bureau comptabilité;Bureau certification;;image/modem telma.jpeg
+MI/119;MI;Imprimante;Canon g2420;1;Bureau directeur d'agence;Directeur d'agence;;image/imprimante da.jpeg
+MI/121;MI;Ordi portable;Hp core i5;1;Mada airlines;Agent polyvalent;;image/ordi portable mada airlines.jpeg
+MI/630;MI;Clavier azerty;Nan;1;Mada airlines;Assistant d'escal;;image/clavier assit pro.jpeg
+MI/122;MI;Ordinateur portable;Lenovo v510;1;Certification;Responsable bdd;;image/ordi portable rbdd.jpeg
+MI/123;MI;Ordinateur portable;Dell;1;Certification;Superviseur;hu;
+MB/124;MB;Ventilateur;Super cool;1;Magasin 1;Raveloson;mauvais état;image/ventilateur magasin 1.jpeg
+FB/011;FB;Bac à dossiers;Gris;1;Magasin 1;Responsable commerciale;;image/bac dossier magasin1.jpeg
+MO/005;MO;Bruleur à gaz;Acier;2;Magasin 6;Re wmn;;image/bruleur a gaz.jpeg
+MO/007;MO;Gilet de sauvetage;Orange;12;Magasin 1;Re wmn;;image/gilet de sauvetages.jpeg
+MI/137;MI;Smart phone;Itel p37;1;Bureau comptabilité;Chef comptable;;image/tel itel p37 chef compta.jpeg
+MI/139;MI;Smart phone;A30 samsung;1;Bureau ral;Ral;hu;image/tel samsung hu.jpeg
+MI/140;MI;Smart phone;Itel;1;Certification;Eraldo;hu;image/tel itel hu.jpeg
+MI/633;MI;Telephone;Infinix;1;Bureau directeur d'agence;Da;déplacé wanm;
+MI/141;MI;Smart phone;J7 samsung;1;Certification;Certification;perdu;
+MI/143;MI;Smart phone;Itel p37;1;Mada airlines;Chef escale;;
+MI/144;MI;Souris;Hp;1;Mada airlines;Assistant d'escale;;image/souris asst escale.jpeg
+ML/151;ML;Chaise;En bois;1;Logt chef d'agence;Da;;
+ML/152;ML;Placard1;En bois;1;Logt chef d'agence;Directeur d'agence;;image/placard1 logt da.jpeg
+ML/154;ML;Matelas 02 places;Vitafoam;2;Logt chef d'agence;Directeur d'agence;;image/matelas 2place logt da.jpeg
+ML/155;ML;Table de nuit;En bois;1;Logt chef d'agence;Directeur d'agence;;image/table de nuit logt da.jpeg
+ML/156;ML;Moustiquaire;Nan;1;Logt chef d'agence;Directeur d'agence;;image/moustiquaire logt da.jpeg
+ML/157;ML;Ventilateur de chambre;Nan;;Logt chef d'agence;Directeur d'agence;;
+ML/158;ML;Placard en bois;En bois;;Logt chef d'agence;Directeur d'agence;;
+ML/159;ML;Bahut;En bois;1;Logt chef d'agence;Directeur d'agence;;image/bahut logt da.jpeg
+ML/164;ML;Chauffe eau;Atlantic;2;Logt chef d'agence;Directeur d'agence;;image/chauffe eau logt da.jpeg
+ML/165;ML;Electropompe dab;Electrique;1;Logt chef d'agence;Directeur d'agence;;image/electropompe logt da.jpeg
+ML/167;ML;Etagère;Palissandre;1;Logt chef d'agence;Directeur d'agence;;image/étagère logt da.jpeg
+ML/169;ML;Etagère  avec tiroir;En bois;1;Logt chef d'agence;Directeur d'agence;;image/étagere tiroir logt da.jpeg
+ML/171;ML;Makiplast 2000l;Plastique;1;Logt chef d'agence;Directeur d'agence;;image/citerne 2000l logt da.jpeg
+ML/172;ML;Château d'eau;Nan;1;Logt ral;Ral;;image/château d'eau logt ral.jpeg
+ML/173;ML;Bahut;Palissandre;1;Logt ral;Ral;;image/bahut logt ral.jpeg
+ML/174;ML;Etagère;En bois;1;Logt chef d'agence;Directeur d'agence;;image/étagere cuisin logt da.jpeg
+ML/176;ML;Extincteur;Rouge;1;Logt chef d'agence;Directeur d'agence;;image/extincteur 6kg.jpeg
+ML/178;ML;Matela 01 place;Nan;1;Logt chef comptable;Raf;;image/matelas 1place logt chef compta.jpeg
+ML/179;ML;Armoire;En bois;1;Logt ral;Ral;;
+ML/180;ML;Lit 2 places;En bois;1;Logt ral;Ral;;image/lit 2place logt ral.jpeg
+ML/181;ML;Pompe à eau;Nan;1;Logt ral;Ral;;image/pompe eau logt ral.jpeg
+ML/183;ML;Table à manger;En bois;1;Logt chef comptable;Chef comptable;;image/table manger logt chef compt.jpeg
+ML/185;ML;Bouteille à gaz;Vitogaz 12kgs;1;Logt chef comptable;Chef comptable;;image/bouteille a gaz logt chef compta.jpeg
+ML/186;ML;Réchaud à gaz 02 feux;Home cooking gas stove;1;Logt chef comptable;Chef comptable;;image/rechaud a gaz logt chef compta.jpeg
+ML/189;ML;Bouteille à gaz;Vitogaz 12kgs;1;Logt superviseur;Superviseur;;image/bouteille a gaz logt spv.jpeg
+ML/190;ML;Ventilateur vertical;Vista;1;Logt superviseur;Superviseur;;image/ventilateur logt spv.jpeg
+ML/191;ML;Réchaud à gaz 2 feux;Akita;1;Logt superviseur;Superviseur;;image/rechaud a gaz logt spv.jpeg
+ML/192;ML;Lampe veilleuse;Electrique;1;Logt chef d'agence;Directeur d'agence;;image/lampe veilleuse logt da.jpeg
+ML/193;ML;Mixeur robot;Electrique;1;Logt chef d'agence;Directeur d'agence;;image/robot mixeur logt da.jpeg
+ML/194;ML;Cuisinière à gaz;Vista;1;Logt chef d'agence;Directeur d'agence;;image/rechaud a gaz logt da.jpeg
+ML/195;ML;Chauffe à eau;Blanc;1;Magasin 6;Rewmn;hu;
+ML/196;ML;Réfrigérateur;Blanc;1;Magasin 6;Rewmn;hu;
+MO/198;MO;Machine calibreur girofle;Site re;1;Magasin 4;Re wmn;;image/machine calibreur girofle.jpeg
+MO/199;MO;Machine calibreur café;Site re;1;Magasin 6;Re wmn;;image/machine calibreur café .jpeg
+MO/200;MO;Marmite en aluminium;Alminium;2;Magasin 3;Re wmn;;image/marmite vanille.jpeg
+MB/202;MO;Table de bureau;En bois;2;Magasin 1;Re wmn;;image/table bureau magasin1.jpeg
+MO/203;MO;Balance à bascule force 1000;1000kg;1;Magasin 6;Re wmn;hu;
+MO/205;MO;Extincteur;Gm rouge;1;Magasin 6;Re wmn;;image/extincteur 6kg.jpeg
+MO/207;MO;Casque  moto;Rouge;1;Guerrite;Coursier;hu;
+MO/208;MO;Bouteille à gaz aligal;Aligal;2;Magasin 1;Re wmn;;image/bouteille aligal.jpeg
+MO/209;MO;Caisse de stockage vanille;En bois;737;Magasin 2;Re wmn;;image/caissette vanille.jpeg
+MO/210;MO;Claies;En bois;1639;Magasin 2;Re wmn;;image/claie vanille.jpeg
+MO/211;MO;Paniers en osier;Osier;0;Magasin 6;Re wmn;;image/panier échaudage.jpeg
+MO/212;MO;Baches gm;Gm;8;Magasin 6;Re wmn;;image/la bâche gm.jpeg
+MO/213;MO;Baches pm;Pm;18;Magasin 6;Re wmn;;image/la bâche gm.jpeg
+MO/214;MO;Banc en bois vanille;En bois;39;Magasin 6;Re wmn;;image/bancs vanille.jpeg
+MO/215;MO;Fardage en bois gm;En bois;7;Veranda sud bureau re;Re wmn;;image/fardage en bois.jpeg
+MO/216;MO;Scie;Métallique;3;Magasin 1;Re wmn;;image/la scie a bois.jpeg
+MO/217;MO;Pince;Métallique;1;Magasin 1;Re wmn;;image/pince métallique.jpeg
+MO/218;MO;Hâche;Métallique;1;Magasin 1;Re wmn;;image/haché .jpeg
+MO/219;MO;Bêche;Métallique;3;Magasin 1;Re wmn;;image/bêche.jpeg
+MO/220;MO;Marteau;Fer;1;Magasin 1;Re wmn;;image/marteau.jpeg
+MO/221;MO;Brouette;Métallique;1;Site re;Jardinier;;image/brouette.jpeg
+MO/222;MO;Balance électronique force 1,5 tonne;Métallique;2;Magasin 1;Re wmn;;image/balance élect 1tonne.jpeg
+MO/223;MO;Jauge de mesure vanille;En bois;21;Magasin 1;Re wmn;;image/jauge de mesure.jpeg
+MO/224;MO;Ciseau à gazon;Métallique;1;Magasin 1;Jardinier;;image/sciseau a gazon.jpeg
+MO/226;MO;Tondeuse a gazon;Manuelle;1;Magasin mada airlines;Re wmn;hu;image/tondeuse techtools ,anuelle.jpeg
+MO/227;MO;Moto pompe;Honda;1;Cabine moto pompe;Re wmn;;image/motopompe honda.jpeg
+MO/228;MO;Four d'étuvage;Électrique;1;Magasin 4;Re wmn;;image/four étuvages .jpeg
+MO/229;MO;Chaise de bureau;En bois;3;Magasin 1;Re wmn;;image/chaise bureau magasin.jpeg
+MO/230;MO;Débroussaillage à moteur;Electrique;1;Magasin 1;Re wmn;;image/débroussalleuse.jpeg
+MO/231;MO;Table vanille gm;En bois;23;Magasin 4;Re wmn;;image/table vanille en bois.jpeg
+MO/232;MO;Perceuse;Electrique;1;Magasin 1;Re wmn;hu;image/perceuse électrique.jpeg
+MO/233;MO;Meule gm;Electrique;1;Magasin 1;Re wmn;mauvaise état;image/meule gm.jpeg
+MO/234;MO;Meule pm;Electrique;1;Magasin 1;Re wmn;hu;image/meule pm.jpeg
+MO/235;MO;Etagère;En bois;9;Magasin 1;Re wmn;;image/étagère magasin1.jpeg
+MO/236;MB;Etagère en bois;En bois;3;Bureau assistant;Re wmn;;image/étagère assit pro.jpeg
+MO/237;MO;Détecteur de metaux;Aimant;14;Magasin 1;Re wmn;;image/détecteur de métaux .jpeg
+MO/238;MO;Cable gm en rouleau 150m;Noir;1;Magasin 6;Re wmn;;image/rouleaux de cable.jpeg
+MO/239;MO;Extincteur 6kg;Rouge;7;Magasin 1;Re wmn;;image/extincteur magasin 6kg.jpeg
+MO/241;MO;Extincteur 2kg et 500 ml;Rouge;4;Magasin 1;Re wmn;;image/extincteur magasin 2kg.jpeg
+MO/242;MO;Groupe électrogène;Vista;1;Cabine moto pompe;Re wmn;;image/groupe élect vista.jpeg
+MO/243;MO;Machine sous gaz;Multivac;1;Magasin 4;Re wmn;;image/machine sous gaz multivac.jpeg
+MO/244;MO;Plaque solaire;Nan;1;Toit du bureau;Re wmn;hu;
+MO/245;MO;Chargeur batterie;Leader;1;Magasin 1;Re wmn;;image/chargeur batterie.jpeg
+MO/247;MO;Serre joint;Métallique;1;Magasin 1;Re wmn;;image/serre joint.jpeg
+MO/248;MO;Palette;En bois;162;Magasin 6;Re wmn;;image/palette en bois.jpeg
+MO/249;MO;Caisson pour échaudage vanille gm;En bois;20;Magasin 6;Re wmn;;image/caisson vanille.jpeg
+MO/250;MO;Boîte à clé contenant des clés différents dont 01 jeu complet de clé alène;Bois;1;Magasin 1;Re wmn;;image/boite a clé bleu.jpeg
+MO/251;MO;Boîte matrice;Métallique;1;Magasin 1;Re wmn;;image/boîte matrice bleu.jpeg
+MO/252;MO;Tournevis;Métallique;2;Magasin 1;Re wmn;;image/tournevis .jpeg
+MO/253;MO;Guil;Métallique;1;Magasin 1;Re wmn;;image/guil .jpeg
+ME/255;ME;Couverture;Somaco;2080;Magasin 4;Re wmn;;image/couverture vanille somacou.jpeg
+MO/256;MO;Etau;Metallique;1;Magasin 1;Re wmn;;image/étau .jpeg
+MO/257;MO;Batterie 24v;24v;2;Magasin 1;Re wmn;hu;image/batterie hu.jpeg
+MO/258;MO;Diables métalliques;Métallique;8;Magasin mada airlines;Re wmn;;image/diable métallique.jpeg
+MO/259;MO;Fourche;Métallique;3;Magasin 1;Re wmn;;image/fourche.jpeg
+MO/260;MO;Pulverisateur;Plastique;1;Magasin 1;Mada airlines;;image/pulvérisateur .jpeg
+MO/261;MO;Accroche;Plastique;0;Certification;Re wmn;;image/accroche plastique.jpeg
+MO/262;MO;Arrosoire;Plastique;2;Magasin mada airlines;Re wmn;;image/arrosoirs bleu.jpeg
+MO/263;MO;Aspirateu d'eau;Eléctrique;1;Re site nord;Re wmn;hu;
+MO/264;MO;Balance 100kg;Nan;1;Magasin mada airlines;Re wmn;hu;
+MO/265;MO;Balance aiguille 150kg;Nan;4;Magasin mada airlines;Re wmn;hu;
+MO/266;MO;Balance 300kg;Honest;0;Transferé à des coopératives;Coopératives;;
+MO/267;MO;Balance éléctronique 150kg;150kg;2;Magasin 1;Re wmn;;
+MO/268;MO;Balance 500kg;Nan;4;Magasin mada airlines;Re wmn;hu;
+MO/269;MO;Balance 500kg;500kg;1;Magasin 6;Re wmn;hu;
+MO/270;MO;Balance électronique mht force 60kg;60kg;1;Magasin 1;Re wmn;hu;image/balance élect f60kg mht.jpeg
+MO/271;MO;Banc 3m;En bois;12;Reffectoire;Re wmn;;image/banc 3m a bois.jpeg
+MO/272;MO;Batterie panneau solaire;Nan;1;Veranda sud bureau re;Re wmn;hu;
+MO/273;MO;Boîte témoin batterie;Plastique;1;Veranda sud bureau re;Re wmn;hu;
+MO/274;MO;Brouette;Métallique;2;Magasin mada airlines;Re wmn;;
+MO/275;MO;Disjoncteur de dérivation;Plastique;1;Veranda sud bureau re;Re wmn;;image/disjoncteur de dérivation .jpeg
+MO/276;MO;Extincteur;Rouge;1;Magasin 1;Re wmn;;image/extincteur 6kg.jpeg
+MO/277;MO;Extincteur;Rouge pm;1;Toyota 1407ad;Re wmn;;image/extincteur toyota.jpeg
+MO/278;MO;Masse  de 100kg;Acier;8;Magasin mada airlines;Re wmn;hu;
+MO/279;MO;Masse de 10 kgs;Acier;1;Magasin mada airlines;Re wmn;hu;
+MO/280;MO;Masse de 1kg;Acier;1;Magasin mada airlines;Re wmn;hu;
+MO/281;MO;Masse de 200kg;Acier;4;Magasin mada airlines;Re wmn;hu;
+MO/282;MO;Masse de 25 kgs;Acier;4;Magasin mada airlines;Re wmn;hu;
+MO/283;MO;Masse de 50 kg;Acier;6;Magasin mada airlines;Re wmn;hu;
+MO/284;MO;Masse de 5kgs;Acier;2;Magasin mada airlines;Re wmn;hu;
+MO/285;MO;Megaphone;Plastique;4;Magasin 1;Re wmn;;
+MO/286;MO;Decamètre 7,5m;Jaune;1;Magasin 1;Re wmn;hu;
+MO/287;MO;Micro avec câble;Noir;0;Magasin 2;Re wmn;;
+MP/288;MP;Panneau de signalisation;En bois;7;Re site nord;Re wmn;;image/panneau de signalisation métal.jpeg
+MO/289;MO;Projecteur avec panneau solaire;Led;1;Re site nord;Re wmn;;image/projeteur solaire site nord.jpeg
+MO/290;MO;Rallonge de 25m;Honest noir;1;Magasin 1;Re wmn;;image/rallonge 25m magasin.jpeg
+MO/291;MO;Rame;Fibre;1;Magasin 1;Re wmn;;image/rame fibre coq.jpeg
+MB/292;MB;Tableau d'affichage;En bois;7;Veranda sud bureau re;Re wmn;;image/tableau d'affichage site.jpeg
+MO/293;MO;Extincteur;Rouge;1;Mercedes 0119 ab;Re wmn;;image/extincteur mercedes-benz .jpeg
+MO/294;MO;Extincteur;Rouge;0;Peugeot 504;Re wmn;;
+MO/295;MO;Extincteur;Rouge 9kg;3;Veranda sud bureau re;Re wmn;;image/extincteur 9kg.jpeg
+MO/296;MO;Extincteur;Rouge;1;Sadko 6998 tbl;Re wmn;;image/extincteur sadko.jpeg
+MO/297;MO;Extincteur;Rouge;1;Stockage carburant;Re wmn;;image/extincteur 6kg.jpeg
+MO/298;MO;Balance bascule force 1000kg;1000kg;2;Magasin 3;Re wmn;;image/balance bascule 1000kg.jpeg
+MO/299;MO;Roue de secours;Nan;1;Toyota 1407ad;Re wmn;;
+MO/300;MO;Clé de roue;Nan;1;Toyota 1407ad;Re wmn;;image/clé de roue toyota.jpeg
+MO/301;MO;Crique;Nan;1;Toyota 1407ad;Re wmn;;image/criquet pyota.jpeg
+MO/634;MO;La bache;Nan;1;Toyota 1407ad;Re wmn;;
+MO/635;MO;Parasoleil;Nan;1;Toyota 1407ad;Re wmn;;image/par soleil toyota.jpeg
+MO/636;MO;Papier complet;Nan;1;Toyota 1407ad;Re wmn;;
+MO/637;MO;Trousse de secours;Trousse;1;Toyota 1407ad;Re wmn;;
+MO/638;MO;Extincteur;500ml;1;Toyota 1407ad;Re wmn;;image/extincteur toyota.jpeg
+MO/302;MO;Roue de secours;Mercedes 0119 ab;1;Mercedes 0119 ab;Re wmn;;image/roue de secours mercedes-benz .jpeg
+MO/303;MO;Clé de roue;Nan;1;Mercedes 0119 ab;Re wmn;;image/clé de roue mercedes.jpeg
+MO/304;MO;Démonte pneu;Nan;1;Mercedes 0119 ab;Re wmn;;image/démonte pneus mercedes.jpeg
+MO/638;MO;Papier complet;Mercedes 0119 ab;1;Cabine caisse;Re wmn;;
+MO/639;MO;Trousse de secours;Trousse;1;Mercedes 0119 ab;Re wmn;;
+MO/305;MO;Clé de roue;Nan;0;Peugeot 504;Re wmn;;
+MO/306;MO;Auto-radio 1407 ad;Nan;1;Toyota 1407ad;Re wmn;;image/auto radio toyota.jpeg
+MO/307;MO;Roue de secours;Nan;1;Sadko 6998 tbl;Re wmn;;image/roue de secours sadko.jpeg
+MO/639;MO;Papier complet;Nan;1;Sadko 6998 tbl;Re wmn;;
+MO/640;MO;Trusse de secours;Trousse;1;Sadko 6998 tbl;Re wmn;;
+MO/641;MO;Roue de secours;Nan;1;Ford 1807 tah;Re wmn;;
+MO/642;MO;Parasoleil;Nan;1;Ford 1807 tah;Re wmn;;
+MO/643;MO;Crique;Nan;1;Ford 1807 tah;Re wmn;;
+MO/644;MO;Cle de roue+manivel augmente crique et diminut° roue de secour;Nan;1;Ford 1807 tah;Re wmn;;
+MT/308;MT;Pirogue en fibre de verre;Fibre;1;Magasin 1;Re wmn;;image/coq fibre.jpeg
+MO/309;MO;Moteur hors bord hfbf40a;Mariner;1;Magasin 1;Re wmn;;image/moteur mariner.jpeg
+MO/310;MO;Batterie 12v 150ah;Acide;1;Mercedes 0119 ab;Re wmn;;image/batterie  mercedes.jpeg
+MO/311;MO;Moteur hors bord 9,9ch;Seahorse;1;Magasin 1;Re wmn;;image/moteur seahors.jpeg
+MO/312;MO;Moteur hors bord 15 ch;Yamaha;1;Magasin 1;Re wmn;;image/moteur yamaha.jpeg
+MO/313;MO;Reservoir hors bord;Rouge;3;Magasin 1;Re wmn;;image/revervoirs hors bords.jpeg
+MO/314;MO;Extincteur rouge avec chariot;Rouge;0;Magasin 1;Mada airlines;;image/extincteur 6kg.jpeg
+MO/315;MO;Bouteille à gaz vitogaz gm/vanille 39 kg;Verte;9;Magasin 1;Re wmn;;image/bouteille vitogaz 49kg.jpeg
+MO/316;MO;Bouteille à gaz vitogaz 12kg et 9kg;Verte;2;Magasin 1;Re wmn;;image/bouteille vitogaz 9kg.jpeg
+MO/317;MO;Casque  moto;Blanc;1;Certification;Superviseur;hu;
+MO/318;MO;Casque  moto;Bleu;1;Site re;Visiteur;hu;
+FB/321;FB;Montre murale;Nan;1;Aeroport;Mada airlines;;image/montre murale aéroport.jpeg
+FB/322;FB;Montre murale;Noir;1;Guerrite;Gardien;;image/montre murale aéroport.jpeg
+MB/323;MB;Ventilateur à pied;Blanc;1;Bureau assistant;Assitant produit;mauvaise état;image/ventilateur assit.jpeg
+MG/348;MG;Good look sp;048-067;0;Magasin 2;Re wmn;;
+MG/349;MG;Good look menthole;048-068;0;Magasin 2;Re wmn;;
+MG/350;MG;Melia blonde;048-410;0;Magasin 2;Re wmn;;
+MG/351;MG;News;048-411;0;Magasin 2;Re wmn;;
+MG/352;MG;Bostone bleu;048-412;0;Magasin 2;Re wmn;;
+MG/353;MG;Bostone menthole;048-411;0;Magasin 2;Re wmn;;
+PL/354;PL;Girofle (cg3);Produit local;0;Magasin 5;Re wmn;;
+PL/355;PL;Girofle en vrac;Produit local;0;Magasin 5;Re wmn;;
+PL/356;PL;Griffe de girofle;Produit local;0;Magasin 5;Re wmn;;
+PL/357;PL;Petit clous;Produit local;0;Magasin 5;Re wmn;;
+PL/358;PL;Poudre de girofle;Produit local;0;Magasin 5;Re wmn;;
+PL/359;PL;Clous san tete;Produit local;0;Magasin 5;Re wmn;;
+PL/360;PL;Vanille verte;Produit local;0;Magasin 5;Re wmn;;
+PL/361;PL;Vanille en vrac;Produit local;0;Magasin 5;Re wmn;;
+PL/362;PL;Vanille prepare;Produit local;0;Magasin 5;Re wmn;;
+CB/364;CB;Essence;Carburants;43.5;Stockage carburant;Re wmn;;
+CB/365;CB;Gaz-oil;Carburants;0;Stockage carburant;Re wmn;;
+ML/464;ML;Fatana misitsy;Edes;1;Magasin 1;Re wmn;;image/fatana ades.jpeg
+ME/366;ME;Sachet sous vide;Emballages;823;Magasin 1;Re wmn;;image/sachet sous vide.jpeg
+ME/367;ME;Papier paraphine;Emballages;129,72;Magasin 1;Re wmn;;
+ME/368;ME;Sacs a94;Emballages;230;Magasin 1;Re wmn;;image/sac a94.jpeg
+ME/369;ME;Sacs b120;Emballages;0;Magasin 1;Re wmn;;image/sac b120.jpeg
+ME/371;ME;Sacs de collectes projet;Emballages;32;Magasin 1;Re wmn;;image/sac collect projet1.jpeg
+ME/372;ME;Sacs de collectes jr/gm;Emballages;0;Magasin 1;Re wmn;;image/sac collect projet2.jpeg
+MO/373;MO;Extincteur;Rouge;1;Magasin 2;Re wmn;;image/extincteur 6kg.jpeg
+ME/374;ME;Scelles de conditionnement;Emballages;251;Magasin 1;Re wmn;;
+ME/375;ME;Sacs de collectes bande rouge;Emballages;0;Magasin 1;Re wmn;;image/sac collect bande rouge.jpeg
+ME/646;ME;Sacs de collectes blancs;Emballages;0;Magasin 1;Re wmn;;image/sac collect blanc.jpeg
+MO/395;MO;Balance 1kg;Electrique;1;Magasin 1;Re wmn;;image/balance precision1.jpeg
+MO/410;MO;Groupe électrogène;Diesel;1;Abri groupe;Re-wmn;;image/groupe électrogène diesel.jpeg
+MB/413;MB;Tableau d'affichage;Palissandre;1;Magasin 1;Certification;;image/tableau en bois certification.jpeg
+ML/421;ML;Chaise à manger;Bois dur;5;Logt chef comptable;Chef comptable;;image/chaise logt chef comptable .jpeg
+ML/422;ML;Sceaux 15l;15 plastique;2;Logt chef comptable;Chef comptable;;image/seau logt chef comptable .jpeg
+ML/424;ML;Lit bateau 02 place;Palissandre;1;Logt chef comptable;Chef comptable;;image/lit 2place logt chef comptable .jpeg
+ML/618;ML;Lit  01 place;Palissandre;1;Logt chef comptable;Chef comptable;;image/lit 1place logt chef comptable .jpeg
+ML/426;ML;Poêlon  gm;Gm;1;Logt chef comptable;Chef comptable;;image/poêlon logt chef comptable.jpeg
+ML/427;ML;Soupiere;Gm;2;Logt chef comptable;Chef comptable;;image/soupière logt chef comptable .jpeg
+ML/428;ML;Cuillère inox;Inox;29;Logt chef comptable;Chef comptable;;image/cuillère logt chef comptable .jpeg
+ML/650;ML;Cuillère à café;Inox;6;Logt chef comptable;Chef comptable;;image/cuillère a café logtchef comptable .jpeg
+ML/651;ML;Tasse à café;Métallique;12;Logt chef comptable;Chef comptable;;image/tasse a café logt chef comptable .jpeg
+ML/653;ML;Rideau;Tissu;6;Logt chef comptable;Chef comptable;;image/rideaux logt chef comptable .jpeg
+ML/429;ML;Fourchettes;Inox;15;Logt chef comptable;Chef comptable;;image/fourchettes logt chef comptable .jpeg
+ML/430;ML;Verre;Verre;5;Logt chef comptable;Chef comptable;;image/verres logt chef comptable .jpeg
+ML/431;ML;Cuvette gm;Gm;2;Logt chef comptable;Chef comptable;;image/cuvettes gmlogt chef comptable .jpeg
+ML/432;ML;Cuvette pm;Pm;1;Logt chef comptable;Chef comptable;;image/cuvette pm logt chef comptable .jpeg
+ML/433;ML;Fatana misitsy;Pm;1;Logt chef comptable;Chef comptable;;image/fatana logt chef comptable.jpeg
+ML/434;ML;Zinga;1l;2;Logt chef comptable;Chef comptable;;image/zinga logt chef comptable .jpeg
+ML/436;ML;Couteau de table;Inox;6;Logt chef comptable;Chef comptable;;image/couteaux de table logt chef comptable .jpeg
+ML/435;ML;Bol pm;Ceramique;2;Logt chef comptable;Chef comptable;;image/bols logt chef comptable .jpeg
+ML/437;ML;Assiette;Ceramique;5;Logt chef comptable;Chef comptable;;image/assiettes ceram logt chef comptable .jpeg
+ML/438;ML;Assiette arcopal;Arcopal;5;Logt chef comptable;Chef comptable;;image/assiettes acrop logt chef comptable .jpeg
+ML/439;ML;Marmitte gm;Cocotte;1;Logt chef comptable;Chef comptable;;image/marmite gm logt chef comptable .jpeg
+ML/440;ML;Marmitte pm;Cocotte;1;Logt chef comptable;Chef comptable;;image/marmite pm logt chef comptable .jpeg
+ML/445;ML;Couteau;Inox;1;Logt chef comptable;Chef comptable;;image/couteau inox logt chef comptable.jpeg
+ML/446;ML;Soupiere;Inox;1;Logt chef comptable;Chef comptable;;image/soupière inox logt chef comptable.jpeg
+ML/447;ML;Bol;Ceramique;1;Logt chef comptable;Chef comptable;;image/bol ceram logt chef comptable.jpeg
+ML/439;ML;Marmite;Allu;1;Logt chef comptable;Chef comptable;;image/marmite allu logt chef comptable.jpeg
+ML/449;ML;Tasse a cafe;Ceramique;5;Logt chef comptable;Chef comptable;;image/tasse a café cerm logt chef comptable.jpeg
+ML/450;ML;Porte-assiette;Plastique;1;Logt chef comptable;Chef comptable;;image/porte assiette logt chef comptable.jpeg
+ML/451;ML;Fer a repasse;Electrique;1;Logt chef comptable;Chef comptable;;image/fer a repasser logt chef comptable.jpeg
+ML/452;ML;Ventilateur verticale;Electrique;1;Logt chef comptable;Chef comptable;;image/ventilateur logt chef comptable.jpeg
+ML/454;ML;Planche a decouper;En bois;1;Logt chef comptable;Chef comptable;;image/planche acouper logt chef comptable.jpeg
+ML/455;ML;Marmite complet(1 poêlon et trois marmites);Nan;1;Logt superviseur;Superviseur;;
+ML/456;ML;Fourchette;Inox;6;Logt superviseur;Superviseur;;
+ML/457;ML;Cuillere;Inox;6;Logt superviseur;Superviseur;;
+ML/458;ML;Assiette;Ceramique;6;Logt superviseur;Superviseur;;
+ML/459;ML;Tasse a cafe;Ceramique;3;Logt superviseur;Superviseur;;
+ML/460;ML;Porte-assiette;Plastique;1;Logt superviseur;Superviseur;;
+ML/461;ML;Fer a repasse;Electrique;1;Logt superviseur;Superviseur;;
+ML/462;ML;Boulloir;Electrique;1;Logt superviseur;Superviseur;;
+ML/465;ML;Nappe de table;Anti-tache;2;Logt superviseur;Superviseur;;
+ML/466;ML;Planche a decouper;En bois;1;Logt superviseur;Superviseur;;
+ML/467;ML;Ecumoir complet;Inox;1;Logt superviseur;Superviseur;;
+ML/469;ML;Armoire a deux portes;Palissandre;1;Logt superviseur;Superviseur;;
+ML/470;ML;Lit deux places +matelas;Vitafoam 14cm;1;Logt superviseur;Superviseur;;
+ML/469;ML;Armoire a deux portes;Palissandre;1;Logt superviseur;Superviseur;;
+ML/471;ML;Draps gm;Gm;2;Logt chef d'agence;Da;;image/drap pm logt da.jpeg
+ML/472;ML;Parapluie 08 mars;Jr;30;Logt chef d'agence;Da;;image/parpluies ram logt da.jpeg
+ML/473;ML;Serviette;En coton;2;Logt chef d'agence;Da;;image/serviette coton logt da.jpeg
+ML/477;ML;Draps pm+housse;Tissu;5;Logt chef d'agence;Da;;image/drap pm housse logt da.jpeg
+ML/478;ML;Oreillette;Tissu;2;Logt chef d'agence;Da;;image/oreillettes logt da.jpeg
+ML/479;ML;Nappe de table;Anti-tache;2;Logt chef d'agence;Da;;image/nappe de table logt da.jpeg
+ML/482;ML;Plateau;Plastique;2;Logt chef d'agence;Da;;image/plateau plastique logt da.jpeg
+ML/483;ML;Porte-assiette;Inox;2;Logt chef d'agence;Da;;image/porte assiettes logt da.jpeg
+ML/484;ML;Bocale;En verre;2;Logt chef d'agence;Da;;image/bocal en verres logt da.jpeg
+ML/485;ML;Fer a repasser;Elctrique;1;Logt chef d'agence;Da;;image/fer à repasser élect logt da.jpeg
+ML/487;ML;Plateau a fruit;Verre;2;Logt chef d'agence;Da;;image/plateau a fruitslogt da.jpeg
+ML/488;ML;Porte-serviette;Inox;2;Logt chef d'agence;Da;;image/porte serviette logt da.jpeg
+"ML/489;ML;""BOCALE(SUCRE,SEL";"LAIT,""MIEL)""""";En verre;4;Logt chef d'agence;Da;Nan;"image/bocal pm logt da.jpeg""";
+ML/490;ML;Bôl pm;Porcelaine;17;Logt chef d'agence;Da;;image/bols pm logt da.jpeg
+ML/491;ML;Assiette gm;Porcelaine;14;Logt chef d'agence;Da;;image/assiettes gm logt da.jpeg
+ML/493;ML;Bôl a soupe;Porcelaine;2;Logt chef d'agence;Da;;image/bol a soupe logt da.jpeg
+ML/494;ML;Saladier;Porcelaine;2;Logt chef d'agence;Da;;
+ML/495;ML;Assiette pm;Porcelaine;17;Logt chef d'agence;Da;;image/assiettes pm logt da.jpeg
+ML/496;ML;Grille de brochette;Inox;1;Logt chef d'agence;Da;;
+ML/497;ML;Assiette vapeur;Plastique;1;Logt chef d'agence;Da;;image/assiettes a vapeur logt da.jpeg
+ML/499;ML;Couteau de table;Inox;18;Logt chef d'agence;Da;;image/couteaux de tables logt da.jpeg
+ML/500;ML;Cuilleur gm;Inox;15;Logt chef d'agence;Da;;image/cuillère gm logt da.jpeg
+ML/501;ML;Fourchette;Inox;18;Logt chef d'agence;Da;;image/fourchettes logt da.jpeg
+ML/502;ML;Cuilleur a cafe;Inox;17;Logt chef d'agence;Da;;image/cuillère à café logt da.jpeg
+ML/503;ML;Jog;En verre;3;Logt chef d'agence;Da;;image/jog logt da.jpeg
+ML/504;ML;Viole d'œuf;Nan;1;Logt chef d'agence;Da;;image/viole d'oeuf logt da.jpeg
+ML/505;ML;Rappe gm/pm;Inox;2;Logt chef d'agence;Da;;image/rappe pm gm logt da.jpeg
+ML/506;ML;Passoir;Plastique;1;Logt chef d'agence;Da;;image/passoire plasti logt da.jpeg
+ML/507;ML;Tasse a cafe;Porcelaine;20;Logt chef d'agence;Da;;image/tasses a café logt da.jpeg
+ML/508;ML;Carton de couteau complet;En carton;1;Logt chef d'agence;Da;;image/carton de couteaux logt da.jpeg
+ML/509;ML;Sous assiette;Plastique;24;Logt chef d'agence;Da;;image/sous assiettes logt da.jpeg
+ML/510;ML;Cuvette gm;En plastique;4;Logt chef d'agence;Da;;image/cuvettes gm logt da.jpeg
+ML/511;ML;Planche a decouper;En bois;2;Logt chef d'agence;Da;;image/planche a découper logt da.jpeg
+ML/512;ML;Cuvette pm;En plastique;5;Logt chef d'agence;Da;;image/cuvettes pm logt da.jpeg
+ML/513;ML;Seau gm;En plastique;3;Logt chef d'agence;Da;;image/sceaux gm logt da.jpeg
+ML/516;ML;La lousse gm;Inox;3;Logt chef d'agence;Da;;image/lousses gm logt da.jpeg
+ML/517;ML;Plat pm;Nan;3;Logt chef d'agence;Da;;image/plat pm logt da.jpeg
+ML/518;ML;Pelle avec brosse;Plastique;1;Logt chef d'agence;Da;;image/pelle plastique logt da.jpeg
+ML/519;ML;Coupe a glace;Verre;18;Logt chef d'agence;Da;;image/coupe a glace logt da.jpeg
+ML/525;ML;Matelas 02 placbs;Vitafoam;2;Logt chef d'agence;Da;;image/matelas 2place logt dr.jpeg
+ML/530;ML;Placart+étagere (dans la cuisine);En palissandre;1;Logt chef d'agence;Da;;image/placard étagère logt da.jpeg
+ML/531;ML;Porte rideau;Palissandre;20;Logt chef d'agence;Da;;image/portes rideaux logt da.jpeg
+ML/532;ML;Recheau;Electrique;1;Logt chef d'agence;Da;hu;image/rechaud élect logt da.jpeg
+ML/533;ML;Cafétière;Ceramique;1;Logt chef d'agence;Da;;image/cafetière logt da.jpeg
+ML/534;ML;Sous tasse;Ceramique;13;Logt chef d'agence;Da;;image/sous tasses logt da.jpeg
+ML/535;ML;Tasse;Ceramique;14;Logt chef d'agence;Da;;image/tasses logt da.jpeg
+ML/536;ML;Sucrier;Ceramique;1;Logt chef d'agence;Da;;image/sucrierlogt da.jpeg
+ML/537;ML;Pot à lait;Ceramique;1;Logt chef d'agence;Da;;image/pot a lait logt da.jpeg
+ML/538;ML;Saucière;Ceramique;1;Logt chef d'agence;Da;;image/sucrière logt da.jpeg
+ML/539;ML;Assiète plate;Ceramique;17;Logt chef d'agence;Da;;image/assiettes plates logt da.jpeg
+ML/540;ML;Assiète à dessert;Ceramique;8;Logt chef d'agence;Da;;image/assiettes a désert logt da.jpeg
+ML/541;ML;Assiète creuse;Ceramique;8;Logt chef d'agence;Da;;image/assiettes creuses logt da.jpeg
+ML/542;ML;Soupière;Ceramique;1;Logt chef d'agence;Da;;image/soupière logt da.jpeg
+ML/543;ML;Saladier;Ceramique;1;Logt chef d'agence;Da;;image/saladiers logt da.jpeg
+ML/544;ML;Raviers;Ceramique;2;Logt chef d'agence;Da;;image/raviers logt da.jpeg
+ML/545;ML;Plat ovale;Ceramique;1;Logt chef d'agence;Da;;image/plats ovales logt da.jpeg
+ML/546;ML;Plat rond grand;Ceramique;2;Logt chef d'agence;Da;;image/plat rond gm logt da.jpeg
+ML/547;ML;Plat rond moyenne;Ceramique;1;Logt chef d'agence;Da;;image/plat rond moyen logt da.jpeg
+ML/548;ML;Bahut;En bois;1;Logt chef d'agence;Da;;image/bahu en bois logt da.jpeg
+ML/554;ML;Table basse en palissandre;En bois;1;Logt chef d'agence;Da;;image/table basse paliss logt da .jpeg
+ML/556;ML;Verre;Verre;17;Logt chef d'agence;Da;;image/verres logt da.jpeg
+ML/557;ML;Plateau plastique;Plastique;2;Logt chef d'agence;Da;;image/plateau plastique logt da.jpeg
+ML/558;ML;Plateau inox;Inox;3;Logt chef d'agence;Da;;image/plateau ino logt da.jpeg
+ML/559;ML;Verrine;Verre;14;Logt chef d'agence;Da;;image/verrine logt da.jpeg
+ML/560;ML;Placard2;En bois;1;Logt chef d'agence;Da;;image/placard2 logt da.jpeg
+ML/561;ML;Makiplast;Plastique;1;Logt chef d'agence;Da;;image/citerne da.jpeg
+ML/565;ML;Cadre moustiquaire;Palissandre;1;Logt chef d'agence;Da;;image/cadre mustiquaire logt da.jpeg
+ML/566;ML;Couteau;Inox;2;Logt chef d'agence;Da;;image/couteaux inox logt da.jpeg
+ML/568;ML;Gobelet 01l;Plastique;2;Logt chef d'agence;Da;;image/zinga logt chef comptable .jpeg
+ML/569;ML;Gobelet 01l;Inox;1;Logt chef d'agence;Da;;image/gobelet inox logt da.jpeg
+ML/570;ML;Bouloire;Plastique;1;Logt chef d'agence;Da;;image/bouloir logt da.jpeg
+ML/571;ML;Sucrier;Plastique;2;Logt chef d'agence;Da;;image/sucrier plast logt da.jpeg
+ML/572;ML;Paire de marmite;Aluminium;1;Logt chef d'agence;Da;;image/paire marmite logt da.jpeg
+ML/573;ML;Poellon;Aluminium;1;Logt chef d'agence;Da;;image/poelon logt da.jpeg
+ML/574;ML;Bidon de stockage riz;Plastique;1;Logt chef d'agence;Da;;
+ML/575;ML;Carton de couteau complet;Carton;1;Logt chef d'agence;Da;;
+ML/576;ML;Pause marmite;Metalique;4;Logt chef d'agence;Da;;image/pause marmite logt da.jpeg
+ML/580;ML;Paquet pot yaourt;Plastique;1;Logt chef d'agence;Da;;image/paquet pot yaourt logt da.jpeg
+ML/582;ML;Bouteille gaz 12kg;Vitogaz;1;Logt chef d'agence;Da;;image/bouteillea gaz logt da.jpeg
+ML/583;ML;Boite (congelateur);Plastique;3;Logt chef d'agence;Da;;image/boite plast congelateur logt da.jpeg
+ML/585;ML;Couvert complet;Inox;2;Logt chef d'agence;Da;;image/couvert complet logt da.jpeg
+ML/586;ML;Rallonge;Plastique;1;Logt chef d'agence;Da;;image/rallonge logt da.jpeg
+ML/587;ML;Cuvette gm;Plastique;3;Logt aqdd;Adjoint produit;;image/bouteille a gaz logt aqdd.jpeg
+ML/588;ML;Seau gm;Plastique;3;Logt aqdd;Adjoint produit;;image/sceaux gm logt da.jpeg
+ML/589;ML;Kopy 1,5l;Plastique;3;Logt aqdd;Adjoint produit;;image/zinga logt chef comptable .jpeg
+ML/594;ML;Couteau pm;Semi plastique;3;Logt comptable;Comptable;;image/couteaux pm logt comptable.jpeg
+ML/595;ML;Poellon;Aluminium;1;Logt comptable;Comptable;;image/poelon logt comptable.jpeg
+ML/596;ML;Eplucheur;Plastique;1;Logt comptable;Comptable;;
+ML/597;ML;Marmite;Inox;2;Logt comptable;Comptable;;image/marmites logt comptable.jpeg
+ML/598;ML;Cuilleure;Inox;6;Logt comptable;Comptable;;
+ML/599;ML;Verre;Verre;1;Logt comptable;Comptable;;image/verres logt comptable.jpeg
+ML/600;ML;Soupiere;Nan;3;Logt comptable;Comptable;;image/soupière logt comptable.jpeg
+ML/601;ML;Jog;Verre;1;Logt comptable;Comptable;;
+ML/602;ML;Porte assiette;Inox;1;Logt comptable;Comptable;;image/porte assiettes logt comptable.jpeg
+ML/603;ML;Bocal;Plastique;2;Logt comptable;Comptable;;image/bocal plast logt comptable.jpeg
+;ML;Boite sucriere;Plastique;2;Logt comptable;Comptable;;image/sucriere logt comptable.jpeg
+ML/604;ML;Louche;Inox;1;Logt comptable;Comptable;;image/louche logt comptable.jpeg
+ML/605;ML;Tasse complet;Ceramique;5;Logt comptable;Comptable;;image/tasses logt comptable.jpeg
+ML/606;ML;Filtre eau;Plastique;1;Logt comptable;Comptable;;image/filtre a eau logt comptable.jpeg
+ML/607;ML;Bouiloire;Inox;1;Logt comptable;Comptable;;image/bouloir inox logt comptable.jpeg
+ML/608;ML;Rice cooker 1,8l;Vista;1;Logt comptable;Comptable;;image/rice cocker logt comptable.jpeg
+ML/609;ML;Couteau mm;Rambo;1;Logt comptable;Comptable;;image/couteau logt comptable.jpeg
+ML/610;ML;Matela 01 place 12cm;Vitafoam 3;4;Magasin 1;Re-wmn;;image/matelas collecte.jpeg
+ML/611;ML;Matela 02 place 14cm;Nan;1;Magasin 1;Re-wmn;;image/matelas collecte.jpeg
+ML/612;ML;Matela 01 place 14cm;Vitafoam;1;Magasin 1;Re-wmn;;image/matelas collecte.jpeg
+ML/613;ML;Matela 01 place 16cm;Nan;1;Magasin 1;Re-wmn;;image/matelas collecte.jpeg
+MB/622;MB;Chaise roulante;Cuire;1;Grande salle;Secretaire;hu;
+ML/652;ML;Armoire;Palissandre;1;Logt chef comptable;Chef comptable;;image/armoire logt chef comptable .jpeg
+FB/660;FB;Prise multiple;Noire et blanc;1;Bureau comptabilité;Vente mg;;image/prise mult 662.jpeg
+FB/661;FB;Prise multiple;Blanc;1;Bureau comptabilité;Comptable;;image/prise multi assit pro.jpeg
+FB/662;FB;Prise multiple;Noire et blanc;1;Cabine caisse;Caissier;;image/prise mutip caisse.jpeg
+FB/663;FB;Porte papillon;Bleu;1;Bureau comptabilité;Chef comptable;;image/cube porte papier compt1.jpeg
+MB/664;MB;Ventilateur mural;Blanc;1;Mada airlines;Vente tz;;image/ventilateur rv tz.jpeg
+MB/665;MB;Ventilateur mural;Noire;1;Bureau comptabilité;Comptable;;image/ventilateur comptable 1.jpeg
+MI/666;MI;Routeur réseau starlink;Starlink;1;Site re;Re/wmn;;image/routeur starlink.jpeg
+MI/667;MI;Répetiteur wifi;Blanc;1;Bureau assistant;Re/wmn;;image/répétiteur wifi.jpeg
+MI/668;MI;Ordinateur portable;Lenovo;1;Grande salle;Aqdd;;image/ordi portable aqdd.jpeg
+MB/669;MB;Ventilateur verticale;Vista;1;Certification;Personnels;;image/ventilateur aqdd.jpeg
+MO/670;MO;Casque  moto;Noir;1;Bureau ral;Ral;;image/casque moto ral.jpeg
+MO/671;MO;Casque  moto;Noir;1;Certification;Aqdd;;image/casque moto aqdd.jpeg
+MO/672;MO;Casque  moto;Noir;1;Bureau directeur d'agence;Da;;image/casque moto da.jpeg
+MO/673;MO;Casque  moto;Bleu;1;Cabine caisse;Mora;;image/casque moto caisse.jpeg
+MO/674;MO;Casque  moto;Grena;1;Certification;Francky;hu;
+MO/675;MO;Casque  moto;Grena;1;Certification;Jacques;hu;
+MO/676;MO;Casque  moto;Grena;1;Certification;Bruni;hu;
+MO/677;MO;Casque  moto;Grena;1;Certification;Edlin;hu;
+MO/678;MO;Casque  moto;Grena;1;Certification;Seheno;hu;
+MO/679;MO;Casque  moto;Grena;1;Certification;Petera;hu;
+ML/680;ML;Moustiqueur;Tissu;2;Logt chef comptable;Chef comptable;;image/moustiquaire logt chef comptable.jpeg
+ML/681;ML;Draps pm+housse;Tissu;3;Logt chef comptable;Chef comptable;;image/drap housse logt chef comptable.jpeg
+ML/682;ML;Oreillette;Tissu;2;Logt chef comptable;Chef comptable;;image/oreillettes logt chef comptable.jpeg
+ML/683;ML;Mixeur robot;Eléctrique;1;Logt chef comptable;Chef comptable;;image/robot mixeur logt chef comptable.jpeg
+MP/684;MP;Terrain campagne manohisoa iii;Site re;1;Site re;Re wmn;;image/terrain campagne manohisoa iii.jpeg
+MP/685;MP;Terrain manohisoa iv;Externe;1;Ankiakalava i;Ral;;image/terrain manohisoa iv.jpeg
+MP/686;MP;Bâtiment (bureau, magasins pl/mg,logt da);Site re;3;Site re;Re wmn;;image/batiment grande.jpeg
+MP/687;MP;Bâtiment bureau ral;Site re;1;Site re;Gardiens;;image/batiment bureau ral.jpeg
+MP/688;MP;Bâtiment logement du  ral;Externe;1;Ankiakalava i;Ral;;image/maison logt ral.jpeg
+MP/689;MP;Château d'eau;Site re;1;Re site nord;Re wmn;;image/chateau eau site nord.jpeg
+MP/690;MP;Maison moteur;Site re;1;Re site sud;Re wmn;;image/abri groupe.jpeg
+MP/691;MP;Wc et pissoire;Site re;1;Re site sud;Re wmn;;image/douce personnel.jpeg
+MP/692;MP;Echaudoire;Site re;2;Re site nord;Re wmn;;image/échaudoir.jpeg
+MP/693;MP;Douche et wc ouvriers vanille;Site re;1;Re site nord;Re wmn;;image/douce wc ouvriers.jpeg
+MP/694;MP;Chateau d'eau;Site re;1;Logt chef d'agence;Da;;image/château d'eau logt.jpeg
+MP/695;MP;Bac a ordure;Site re;1;Re site nord;Re wmn;;image/bac ordure ciment.jpeg
+MP/696;MP;Wc et pissoir;Site re;1;Grande salle;Re wmn;;image/wc pissoir grande salle.jpeg
+MP/697;MP;Abri camion;Site re;1;Site re;Re wmn;;image/abri camion.jpeg
+MP/698;MP;Lave main et lave pieds;Site re;2;Re site nord;Re wmn;;image/lave main site nord.jpeg
+MP/699;MP;Lave main;Site re;1;Re site sud;Re wmn;;image/lave main site sud.jpeg
+MP/700;MP;Abri cannoe;Site re;1;Re site sud;Re wmn;;image/abri canoë.jpeg
+MP/701;MP;Bassin d'eau;Site re;1;Re site sud;Re wmn;;image/bassin d'eau.jpeg
+MP/702;MP;Cabine caisse;Site re;1;Grande salle;Caissiere;;image/cabine caisse.jpeg
+MP/703;MP;Cabine de bouteille a gaz;Site re;1;Re site nord;Re wmn;;image/cabine bouteille gaz.jpeg
+MP/704;MP;Cabine moto pompe;Site re;1;Re site sud;Re wmn;;image/cabine motopompe.jpeg
+MP/705;MP;Cabine stockage carburant;Site re;1;Re site sud;Re wmn;;image/dépôt carburant.jpeg
+MT/706;MT;Camionnette toyota;Matricule n°1407 ad;1;Site re;Erixon;;image/toyota.jpeg
+MT/707;MT;Camion mercedes benz;Matricule n°0119 ab;1;Site re;Mony eddy;;image/merceded.jpeg
+MT/708;MT;Camionnette peugeot 504;Matricule n° 8907 ab;0;Site re;Lisse;;
+MT/709;MT;Motocyclette  honda xr 125 avec casque;Matricule n°9707 tae;1;Site re;Francki;;image/moto francki.jpeg
+MT/710;MT;Motocyclette honda acb 125 noire avec casque;Matricule n°9165 wwt;1;Site re;Bruni;;image/moto bruni.jpeg
+MT/711;MT;Motocyclette honda xr 125 avec casque;Matricule n°42755 wwt;1;Site re;Jacque;;image/moto jacques.jpeg
+MT/712;MT;Motocyclette honda xr-125;Matricule n°42756 wwt;1;Site re;Aqdd;;image/moto aqdd.jpeg
+MT/713;MT;Motocyclette honda xr-125 rouge avec casque;Matricule n°37697 wwt;1;Site re;Edlin;;image/moto edlin.jpeg
+MT/714;MT;Canoe metallique;Rouge;1;Abri canoe;Re wmn;;image/canoë 1.jpeg
+MT/715;MT;Cannoe metallique avec cerseau;Rouge;1;Abri canoe;Re wmn;;image/canoë 2.jpeg
+MT/716;MT;Motocyclette  honda acb cb-125 noire avec casque;Matricule n°9307 tbg;1;Site re;Coursier;;image/moto courser .jpeg
+MT/717;MT;Motocyclette  honda acb  tuf rouge avec casque;Matricule n°37696wwt;1;Site re;Seheno;;image/moto seheno.jpeg
+MT/718;MT;Motocyclette honda acb 125  bleu avec casque;Matricule n°7691wwt;1;Site re;Vero;;image/moto spvr.jpeg
+MT/719;MT;Motocyclette  honda acb 125 rouge avec casque;Matricule  n°7692 wwt;1;Site re;Rewmn;;image/moto eraldo.jpeg
+MT/720;MT;Motocyclette  honda acb 125 rouge avec casque;Matricule  n°7693 wwt;1;Site re;Petera;;image/moto petera.jpeg
+MT/721;MT;Motocyclette honda xr mijajy;Nan;1;Site re;Re wmn;;image/moto xr mikajy.jpeg
+MT/722;MT;Motocyclette  honda bleu(mikajy);Matricule  n°42757 wwt;1;Site re;Re wmn;;image/moto 42757.jpeg
+MT/723;MT;Motocyclette  honda bleu(mikajy);Matricule  n°42759 wwt;1;Site re;Re wmn;;image/moto 42759.jpeg
+MT/724;MT;Motocyclette  honda xr-200;Rouge;1;Site re;Re wmn;;image/moto xr rouge.jpeg
+MT/725;MT;Camionnette 4x4 ford blanche;Matricule n° 1807 tah;1;Site re;Mony eddy;;image/ford.jpeg
+MT/726;MT;Sadko;Matricule n° 6998 tbl;1;Site re;Erixon;;image/sadko.jpeg
+MO/727;MO;Pompe à graisse;Météllique;1;Magasin 1;Re wmn;;image/pompe a graisse.jpeg
+MO/728;MO;Lampe de poche;Noire;3;Guerrite;Gardien;;image/lampe de poche.jpeg
+MO/730;MO;Thermos;Bleu;1;Guerrite;Gardien;;image/thermos.jpeg
+MO/731;MO;Thermomètre;Verre;2;Magasin 1;Re wmn;;image/thermomètre .jpeg
+MO/732;MO;Fus plastique  lave main;Plastique;3;Magasin 1;Ouvriers;;image/fus lave main.jpeg
+ML/733;ML;Sallon complet 3chaise et 1 tablette;Palissandre;1;Logt chef comptable;Chef comptable;;image/meuble logt chef compta.jpeg
+MO/734;MO;Clés mix (un10-deux12-deux13-deux14-deux17-deux19-un24-un30);Inox;13;Magasin 1;Re wmn;;image/clés mix complet.jpeg
+MO/735;MO;Clés pipe (un8-un10-un12-un13-un14-un17-dun19-un22-un24);Inox;9;Magasin 1;Re wmn;;image/clés pipes complet.jpeg
+MO/736;MO;Pince standar;Orange;1;Magasin 1;Re wmn;;image/pince standard orange.jpeg
+MO/737;MO;Pince etau;Inox;1;Magasin 1;Re wmn;;image/pince étaux.jpeg
+MO/738;MO;Pince serre eclip;Météllique;1;Magasin 1;Re wmn;;image/pince serre éclipse .jpeg
+MO/739;MO;Masse;Météllique;1;Magasin 1;Re wmn;;image/la masse.jpeg
+MO/740;MO;Fer à souder;Gm;1;Magasin 1;Re wmn;;image/fer a soude gm.jpeg
+MO/741;MO;Clés en cartouche de douille;Inox;12;Magasin 1;Re wmn;;image/clés doux.jpeg
+MO/742;MO;Fausse septique;Plastique;1;Magasin 6;Re wmn;;image/fausse septique noire.jpeg
+FB/743;FB;Montre murale;Blanc;1;Grande salle;Personnels;;image/montre murale gs.jpeg
+MO/744;MO;Caisse porte vanille;Bois;1;Magasin 6;Re wmn;;image/caisse porte vanille.jpeg
+MB/745;MB;Porte rideau+rideau;Bois;1;Bureau comptabilité;Re wmn;;image/porte rideau.jpeg
+MB/746;MB;Porte rideau+rideau;Bois;2;Bureau directeur d'agence;Re wmn;;image/porte rideau.jpeg
+MB/747;MB;Porte rideau+rideau;Bois;4;Grande salle;Re wmn;;image/porte rideau.jpeg
+MI/748;MI;Disque dur extene;Noir;1;Bureau comptabilité;Comptabilite;;image/rack de disque dur.jpeg
+MI/749;MI;Capteur wifi;Noir;2;Bureau assistant;Hse/assistant  produit/ral;;image/capteur wifi.jpeg
+MO/750;MO;Blouse noire +7calottes;Tissu;11;Magasin 1;Ouvriers;;image/blouse noire.jpeg
+MO/751;MO;Blouse blanche;Tissu;23;Magasin 1;Ouvriers;;image/blouse blanche.jpeg
+MO/752;MO;Tablier homme;Tissu;76;Magasin 1;Ouvriers;;
+MO/753;MO;Tablier femme;Tissu;303;Magasin 1;Ouvriers;;
+MO/754;MO;Tablier vert;Tissu;62;Magasin 1;Ouvriers;;
+MO/755;MO;Tabblier bleu;Tissu;130;Magasin 1;Ouvriers;;
+MO/756;MO;Calotte vert;Tissu;66;Magasin 1;Ouvriers;;
+MO/757;MO;Kapa;Scoobidou;41;Magasin 1;Ouvriers;;image/savate de pied.jpeg
+MO758;MO;Crock;Plastique;6;Magasin 1;Ouvriers;;image/crocks.jpeg
+MO/759;MO;Botte;Plastique;22;Magasin 1;Ouvriers;;image/botte de chantier noir.jpeg
+MO/760;MO;Calotte bleu;Tissu;357;Magasin 1;Ouvriers;;
+MO/761;MO;Blouse bleu;Tissu;44;Magasin 1;Ouvriers;;
+MO/762;MO;Ciseaux pm;Inox;30;Magasin 1;Ouvriers;;image/ciseau pm.jpeg
+MO/763;MO;Fil à coudre;Blanc;20;Magasin 1;Re wmn;;image/fil a coudre.jpeg
+MO/764;MO;Machine à coudre;Gris;4;Magasin 1;Re wmn;;image/machine a coudre gris.jpeg
+MB/765;MB;Chaise de bureau;Bois;2;Bureau assistant;Assitant produit&logistique;;image/chaise de bureau assit.jpeg
+FB/766;FB;Prise multiple;Blanc;2;Bureau assistant;Assistant produit;;image/prise mult blanc .jpeg
+MI/767;MI;Power bank 50000mah;Bagule;1;Certification;Aqdd;;image/power bank bagule.jpeg
+MI/768;MI;Power bank 50000mah;Bagule;1;Certification;Edlin;;image/power bank bagule.jpeg
+MI/769;MI;Power bank 50000mah;Bagule;1;Certification;Bruni;;image/power bank bagule.jpeg
+MO/770;MO;Paire de rideau blanc;Tissu;12;Magasin 1;Re wmn;;image/paire de rideau blanc.jpeg
+MO/771;MO;Filtre à eau;Plastique;1;Grande salle;Personnels;;image/filtre eau gs.jpeg
+MO/772;MO;Filtre à eau;Plastique;1;Bureau ral;Personnels;;image/filtre a eau.jpeg
+MO/773;MO;Filtre à eau;Plastique;1;Certification;Personnels;;image/filtre a eau1.jpeg
+FB/774;FB;Prise multiple;Plastique;1;Grande salle;Aqdd;;image/rallonge noire blanc.jpeg
+MO/775;MO;Pistolet à peindre;Plastique;1;Magasin 1;Rewmn;;image/pistolet a peindre.jpeg
+MB/776;MB;Chaise de bureau;Noire;1;Grande salle;Aqdd;;image/chaise roulante aqdd.jpeg
+MP/777;MP;Panneau de signalisation;Métallique;9;Re site sud;Re wmn;;image/panneau de signalisation métal.jpeg
+MP/778;MP;Poubelles plastiques;Bidon jaune;5;Re site nord;Re wmn;;image/poubelle bidon jaune.jpeg
+MP/779;MP;Poubelles plastiques;Bidon jaune;3;Re site sud;Re wmn;;image/poubelle bidon jaune.jpeg
+FB/780;FB;Clé usb 32 go;Kioxia;1;Mada airlines;Mr fredéric;;image/clé usb tz.jpeg
+MO/781;MO;Extincteur;6kg rouge;1;Aeroport;Mada airlines;;image/extincteur 6kg.jpeg
+MO/782;MO;Extincteur;500ml rouge;1;Ford 1807 tah;Alain;;image/extincteur 2kg.jpeg
+MO/783;MO;Trousse de secours;Trousse;1;Ford 1807 tah;Alain;;
+MO/784;MO;Papier complet;Papier;1;Ford 1807 tah;Alain;;
+MO/785;MO;Blouse vert;Tissu;15;Magasin 1;Ouvriers;;
+MI/786;MI;Tablette android;Android;1;Certification;Vero;;image/tablette android.jpeg
+MI/787;MI;Tablette android;Android;1;Certification;Francki;;image/tablette android.jpeg
+MI/788;MI;Tablette android;Android;1;Certification;Seheno;;image/tablette android.jpeg
+MO/790;MO;Pompe éléctrique;Riflex;1;Re site sud;Re wmn;hu;image/supresseur ouvriers.jpeg
+MO/790;MO;Supresseur éléctrique;Brassimpeller;1;Magasin 1;Re wmn;;image/supresseur orange.jpeg
+ML/791;ML;Table à manger +2 tabourets;Bois;1;Magasin 1;Vérificateur vanille;;
+MI/792;MI;Télépone android:0320777407;Redmi;1;Grande salle;Aqdd;;image/tele redmi qadd.jpeg
+MO/793;MO;Marmite n°60;Cocotte;1;Magasin 1;Re wmn;;image/marmite 60.jpeg
+MI/794;MI;Telephon touche yas:0340279537;Yas;1;Guerrite;Gardiens;;image/telephone touch yas.jpeg
+MO/795;MO;Supresseur éléctrique;Electrique;1;Site re;Rewmn;;image/supresseur bleu.jpeg
+MI/796;MI;Tablette android;Android;1;Certification;Bruni;;image/tablette android.jpeg
+MI/797;MI;Tablette android;Android;1;Certification;Edlin;;image/tablette android.jpeg
+MI/798;MI;Tablette android;Android;1;Certification;Jacque;;image/tablette android.jpeg
+MI/799;MI;Tablette android;Android;1;Certification;Petera;;image/tablette android.jpeg
+MI/780;MI;Clavier flexible;Clavier;1;Certification;Rbdd;;image/clavier flexible.jpeg
+MI/781;MI;Imprimante epson l3250;Epson l3250;1;Bureau comptabilité;Comptabilite;;image/imprimante ipson compta.jpeg
+MB/782;MB;Ventilateur mural;Trust;1;Certification;Personnels;;image/ventilateur ral.jpeg
+MI/783;MI;Telephon touche yas:0341798955;Yas;1;Mada airlines;Mesmin;;image/telephone touch yas.jpeg
+FB/784;FB;Perforateur;Bleu;1;Grande salle;Mathilda;;image/perforateur bleu.jpeg
+MI/785;MI;Telephone touche yas:0340326880;Yas;1;Guerrite;Gardiens;;image/telephone touch yas.jpeg
+MO/786;MO;Table vanille;Inox;4;Magasin 5;Rewmn;;image/table vanille inoxidable.jpeg
+MI/787;MI;Moniteur;Hp;1;Bureau assistant;Assistant produit;;image/moniteur asst produit.jpeg
+MO/788;MO;Balance f150kg;Eletronique;1;Magasin 5;Rewmn;;image/balance élect150kg.jpeg
+FB/789;FB;Prise multiple;Blanc/noir;1;Grande salle;Secretaire;;image/rallonge noire blanc.jpeg
+MO/790;MO;Banc vanille;Palissandre;8;Magasin 5;Rewmn;;image/banc vanille pallissandre.jpeg
+ML/791;ML;Bac à linge;Plastique;2;Logt chef d'agence;Directeur d'agence;;image/bac alinge bleu.jpeg
+MO/792;MO;Casque  moto;Noir;1;Certification;Edlin;;image/casque moto noir.jpeg
+MO/793;MO;Casque  moto;Noir;1;Certification;Petera;;image/casque moto noir.jpeg
+MO/794;MO;Casque  moto;Noir;1;Certification;Bruni;;image/casque moto noir.jpeg
+MO/795;MO;Casque  moto;Noir;1;Certification;Seheno;;image/casque moto noir.jpeg
+MO/796;MO;Casque  moto;Noir;1;Certification;Francki;;image/casque moto noir.jpeg
+MO/797;MO;Casque  moto;Noir;1;Certification;Jacques;;image/casque moto noir.jpeg
+MO/798;MO;Casque  moto;Blanc;1;Certification;Vero;;image/casque moto blanc spv.jpeg
+MO/799;MO;Trousse de secours;Rouge;6;Magasin 1;Rewmn;;
+MB/800;MB;Ventilateur verticale;Vistat;1;Grande salle;Aqdd;;image/ventilateur aqdd.jpeg
+MB/801;MB;Ventilateur verticale;Akita;1;Aeroport;Rewmn;;image/ventilateur tz.jpeg
+MI/802;MI;Onduleur;Prolink;1;Grande salle;Responsable vente;;image/onduleur prolink.jpeg
+MI/803;MI;Onduleur;Prolink;1;Bureau comptabilité;Chef comptable;;image/onduleur prolink.jpeg
+MI/804;MI;Onduleur;Anc;1;Bureau assistant;Assistant produit;;image/onduleur assit produit.jpeg
+MI/805;MI;Onduleur;Prolink;1;Bureau comptabilité;Comptable 1;;image/onduleur prolink.jpeg
+MI/806;MI;Moniteur;Oxeo;1;Bureau comptabilité;Chef comptable;;image/moniteur oxeo.jpeg
+FB/807;FB;Rallonge;Plastique;1;Certification;Rbdd;;image/rallonge noire blanc.jpeg
+MO/808;MO;Tonfa;Bois;6;Guerrite;Gardiens;;image/tonfa.jpeg
+MO/809;MO;Chaise anglaise;Ceramique;1;Magasin 1;Wmn;;image/chaise anglaise.jpeg
+MI/810;MI;Cle usb 64go;Kioxia;1;Certification;Rbdd;neuf;image/clé usb certification.jpeg
+MB/811;MB;Chaise de bureau;Bois;3;Bureau directeur d'agence;Directeur d'agence;ok;image/chaise bureau da.jpeg
+MP/812;MP;Guérite;Bois;1;Site re;Wmn;ok;image/guérite.jpeg
+MP/813;MP;Batiment magasin 1;Béton;1;Site re;Wmn;ok;image/magasin1.jpeg
